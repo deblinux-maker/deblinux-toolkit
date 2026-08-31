@@ -2036,7 +2036,7 @@ End
 ' --- FUNZIONE DI CONTROLLO (Da richiamare all'avvio) ---
 Public Sub ControllaAggiornamentiSito()
   Dim sVersioneRemota As String
-  Dim sVersioneLocale As String = "0.0.56"
+  Dim sVersioneLocale As String = "0.0.55"
   Dim sFileTemp As String = Temp() ' Usa Temp() per un percorso sicuro
 
   ' 1. Scarichiamo il file - CORRETTO LO SPAZIO E LE VIRGOLETTE

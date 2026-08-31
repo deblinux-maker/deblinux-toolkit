@@ -1,0 +1,24 @@
+' Gambas module file
+
+
+Public Function EseguiConSudo(sComando As String) As String
+  Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
+  Dim sPassword As String
+  Dim sOutput As String
+  
+  ' Controlliamo se esiste il file della password
+  If Exist(sConfFile) Then
+    Try sPassword = FromBase64$(File.Load(sConfFile))
+  Endif
+  
+  ' Se la password non è configurata, avvisiamo l'utente e usciamo
+  If sPassword = "" Then
+    Message.Warning("Questa funzione richiede i privilegi di amministratore.\n\nPer motivi di sicurezza e stabilità, è necessario salvare prima la password di root nelle impostazioni generali del programma.")
+    Return ""
+  Endif
+  
+  ' Esecuzione automatica sfruttando la password salvata (tramite sudo -S)
+  Shell "echo " & Shell(sPassword) & " | sudo -S " & sComando & " 2>&1" To sOutput
+  
+  Return sOutput
+End

@@ -1,0 +1,1904 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deblinux_toolkit 3.22.1\n"
+"POT-Creation-Date: 2026-08-27 05:46 UTC\n"
+"PO-Revision-Date: 2026-08-27 05:50 UTC\n"
+"Last-Translator: linux <linux@linux-systemproductname>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Deblinux Toolkit"
+msgstr "Debian 工具包"
+
+#: .project:2
+msgid "Strumento di diagnostica e manutenzione per sistemi Linux. Include analisi dischi, monitoraggio risorse e gestione processi."
+msgstr "Linux 系统的诊断和维护工具。包括磁盘分析、资源监控和进程管理。"
+
+#: FMain.class:50
+msgid "Manutenzione e pulizia"
+msgstr "维修和清洁"
+
+#: FMain.class:54
+msgid "Servizi di sistema"
+msgstr "系统服务"
+
+#: FMain.class:57
+msgid "Sistema e Hardware"
+msgstr "系统与硬件"
+
+#: FMain.class:62
+msgid "Ottimizza Ram"
+msgstr "优化内存"
+
+#: FMain.class:63
+msgid "Monitor temperature"
+msgstr "监控温度"
+
+#: FMain.class:68
+msgid "Amministratore e Modifiche"
+msgstr "管理员和修改"
+
+#: FMain.class:71
+msgid "Startup (Gestione avvio)"
+msgstr "启动项（启动管理）"
+
+#: FMain.class:72
+msgid "Fixer (Riparazione problemi)"
+msgstr "修复工具（问题修复）"
+
+#: FMain.class:73
+msgid "Gestione permessi utente"
+msgstr "用户权限管理"
+
+#: FMain.class:76
+msgid "Sicurezza, Backup e Log"
+msgstr "安全、备份和日志"
+
+#: FMain.class:77
+msgid "Sicurezza & firewall"
+msgstr "安全与防火墙"
+
+#: FMain.class:86
+msgid "Guida Utente"
+msgstr "用户指南"
+
+#: FMain.class:140
+msgid "Nome Applicazione"
+msgstr "应用名称"
+
+#: FMain.class:141
+msgid "Stato"
+msgstr "状态"
+
+#: FMain.class:161
+msgid "Attivo"
+msgstr "积极的"
+
+#: FMain.class:174
+msgid "Disabilitato"
+msgstr "残疾人"
+
+#: FMain.class:282
+msgid "Procedura di riparazione terminata!"
+msgstr "修复程序完成！"
+
+#: FMain.class:287
+msgid "Attenzione: Procedura di riparazione interrotta o fallita."
+msgstr "注意：修复过程中断或失败。"
+
+#: FMain.class:338
+msgid "Operazione completata. Chiavi aggiornate."
+msgstr "操作完成。更新了按键。"
+
+#: FMain.class:339
+msgid "Chiavi GPG aggiornate con successo!"
+msgstr "GPG 密钥更新成功！"
+
+#: FMain.class:341
+msgid "[ERRORE] Manutenzione chiavi fallita o annullata."
+msgstr "[错误] 密钥维护失败或取消。"
+
+#: FMain.class:342
+msgid "L'aggiornamento delle chiavi è stato interrotto."
+msgstr "密钥更新已停止。"
+
+#: FMain.class:353
+msgid "--- INFORMAZIONI DI SISTEMA ---"
+msgstr "--- 系统信息 ---"
+
+#: FMain.class:358
+msgid "Kernel: "
+msgstr "核心："
+
+#: FMain.class:364
+msgid "Memoria RAM:\n"
+msgstr "内存：\n"
+
+#: FMain.class:415
+msgid "[FIXER] Riconfigurazione completata con successo."
+msgstr "[修复程序] 重新配置已成功完成。"
+
+#: FMain.class:416
+msgid "Riconfigurazione terminata."
+msgstr "重新配置完成。"
+
+#: FMain.class:418
+msgid "[FIXER] Attenzione: La riconfigurazione è fallita o annullata."
+msgstr "[FIXER] 警告：重新配置失败或被取消。"
+
+#: FMain.class:419
+msgid "La riconfigurazione non è stata completata correttamente."
+msgstr "重新配置未成功完成。"
+
+#: FMain.class:471
+msgid "[FIXER] Pulizia degli orfani completata."
+msgstr "[修复程序] 孤立清理已完成。"
+
+#: FMain.class:472
+msgid "Rimozione pacchetti orfani terminata."
+msgstr "删除孤立包已完成。"
+
+#: FMain.class:475
+msgid "[FIXER] Attenzione: La pulizia è fallita o annullata."
+msgstr "[FIXER] 警告：清洁失败或被取消。"
+
+#: FMain.class:476
+msgid "Operazione interrotta."
+msgstr "操作中止。"
+
+#: FMain.class:761
+msgid "Interrogazione sistema in corso..."
+msgstr "查询系统..."
+
+#: FMain.class:773
+msgid "Errore: Accesso ai log negato dal sistema (Polkit/Group error)."
+msgstr "错误：系统拒绝日志访问（Polkit/组错误）。"
+
+#: FMain.class:785
+msgid "--- Log puliti correttamente ---"
+msgstr "--- 日志清理成功 ---"
+
+#: FMain.class:794
+msgid "Log in Pausa"
+msgstr "登录 暂停"
+
+#: FMain.class:798
+msgid "Pausa Log"
+msgstr "暂停日志"
+
+#: FMain.class:817
+msgid "Nessun disco rilevato"
+msgstr "未检测到磁盘"
+
+#: FMain.class:823
+msgid "Stato Rete:\n"
+msgstr "网络状态：\n"
+
+#: FMain.class:825
+msgid "Nessuna interfaccia attiva"
+msgstr "无活动界面"
+
+#: FMain.class:828
+msgid "Gateway non trovato"
+msgstr "找不到网关"
+
+#: FMain.class:923
+msgid "Nessun repository trovato o file inaccessibile."
+msgstr "未找到存储库或无法访问文件。"
+
+#: FMain.class:985
+msgid "--- Processo terminato. ---"
+msgstr "---过程完成。 ---"
+
+#: FMain.class:1143
+msgid "[CLEANER] Avvio pulizia sicura...\n"
+msgstr "[清洁工] 开始安全清洁...\n"
+
+#: FMain.class:1609
+msgid "ATTENZIONE: Procedere con la riparazione profonda?"
+msgstr "注意：继续深度修复吗？"
+
+#: FMain.class:1609
+msgid "Sì"
+msgstr "是的"
+
+#: FMain.class:1616
+msgid "=== AVVIO RIPARAZIONE PROFONDA ==="
+msgstr "===开始深度修复==="
+
+#: FMain.class:1617
+msgid "Seguendo protocollo di sicurezza standard..."
+msgstr "遵循标准安全协议..."
+
+#: FMain.class:1625
+msgid "Errore critico nell'avvio della riparazione: "
+msgstr "开始修复严重错误："
+
+#: FMain.class:1644
+msgid "=== RIPARAZIONE COMPLETATA ==="
+msgstr "===修复完成==="
+
+#: FMain.class:1645
+msgid "Riparazione terminata con successo!"
+msgstr "修复成功完成！"
+
+#: FMain.class:1647
+msgid "[ERRORE] Riparazione profonda fallita o annullata."
+msgstr "[错误] 深度修复失败或已取消。"
+
+#: FMain.class:1648
+msgid "L'operazione di riparazione non è stata completata."
+msgstr "修复操作尚未完成。"
+
+#: FMain.class:1927
+msgid "No"
+msgstr "不"
+
+#: FMain.class:1927
+msgid "Vuoi chiudere Deblinux Toolkit?"
+msgstr "您想关闭 Deblinux Toolkit 吗？"
+
+#: FMain.class:2303
+msgid "Utilizzo: "
+msgstr "用法："
+
+#: FMain.class:2310
+msgid "Disattiva zRAM"
+msgstr "禁用 zRAM"
+
+#: FMain.class:2579
+msgid "Kernel in uso: "
+msgstr "使用的内核："
+
+#: FMain.class:2633
+msgid "Il sistema"
+msgstr "系统"
+
+#: FMain.class:2890
+msgid "⚠️ MOTORE MANCANTE"
+msgstr "⚠️ 缺少引擎"
+
+#: FMain.class:2916
+msgid "✅ PROTEZIONE ATTIVA"
+msgstr "✅ 主动保护"
+
+#: FMain.class:2918
+msgid "Il Firewall è configurato correttamente e ti sta proteggendo."
+msgstr "防火墙配置正确并且正在保护您。"
+
+#: FMain.class:2922
+msgid "⚠️ PROTEZIONE DISATTIVATA"
+msgstr "⚠️ 保护已停用"
+
+#: FMain.class:2924
+msgid "ATTENZIONE: Lo scudo è abbassato. Clicca su 'Attiva protezione'."
+msgstr "警告：防护罩已降低。单击“激活保护”。"
+
+#: FMain.class:3284
+msgid "Nessun servizio rilevato o errore nell'analisi."
+msgstr "未检测到服务或解析错误。"
+
+#: FMain.class:3286
+msgid ""
+"--- TOP 5 SERVIZI PIU' LENTI ---\n"
+"\n"
+msgstr "--- 前 5 个最慢的服务 ---\n"
+
+#: FMain.class:3294
+msgid "Analisi processi in corso..."
+msgstr "流程分析正在进行中..."
+
+#: FMain.class:3298
+msgid ""
+"Processi più pesanti (PID, CPU%, RAM%, Nome):\n"
+"\n"
+msgstr "最重的进程（PID、CPU%、RAM%、名称）：\n"
+
+#: FMain.class:3359
+msgid ", che è quello ideale per il tuo PC."
+msgstr "，这是您 PC 的理想选择。"
+
+#: FMain.class:3359
+msgid "Chiudi"
+msgstr "关闭"
+
+#: FMain.class:3359
+msgid "Il sistema è già ottimizzato correttamente!"
+msgstr "系统已经正确优化了！"
+
+#: FMain.class:3359
+msgid "Il valore corrente è "
+msgstr "当前值为"
+
+#: FMain.class:3382
+msgid "Errore: Operazione fallita o permessi negati."
+msgstr "错误：操作失败或权限被拒绝。"
+
+#: FMain.class:3385
+msgid "Operazione annullata dall'utente."
+msgstr "操作被用户取消。"
+
+#: FMain.class:3930
+msgid "Nome Cartella"
+msgstr "文件夹名称"
+
+#: FMain.class:3932
+msgid "Dimensione Base"
+msgstr "底座尺寸"
+
+#: FMain.class:3934
+msgid "Ultima Modifica"
+msgstr "最后编辑"
+
+#: FMain.class:4613
+msgid "Ottimizza"
+msgstr "优化"
+
+#: FMain.class:5104
+msgid "Spazio cache APT: "
+msgstr "APT缓存空间："
+
+#: FMain.class:5105
+msgid "Spazio Cestino: "
+msgstr "垃圾空间："
+
+#: FMain.class:5140
+msgid "Uptime: "
+msgstr "正常运行时间："
+
+#: FMain.class:5209
+msgid "Database Pacchetti"
+msgstr "包数据库"
+
+#: FMain.class:5210
+msgid "✅ Integro"
+msgstr "✅ 完好无损"
+
+#: FMain.class:5212
+msgid "⚠️ Problemi trovati (Clicca per riparare)"
+msgstr "⚠️发现问题（点击修复）"
+
+#: FMain.class:5229
+msgid "Connessione Internet"
+msgstr "互联网连接"
+
+#: FMain.class:5230
+msgid "✅ Attiva"
+msgstr "✅ 激活"
+
+#: FMain.class:5230
+msgid "❌ Offline"
+msgstr "❌ 离线"
+
+#: FMain.class:5235
+msgid "Stato Servizi"
+msgstr "服务状态"
+
+#: FMain.class:5257
+msgid "Uso Disco (Root)"
+msgstr "磁盘使用情况（根）"
+
+#: FMain.class:5279
+msgid "Errori Kernel"
+msgstr "内核错误"
+
+#: FMain.class:5280
+msgid " avvisi"
+msgstr "警报"
+
+#: FMain.class:5280
+msgid "✅ Nessuno"
+msgstr "✅ 没有人"
+
+#: FMain.class:5301
+msgid "● Sistema richiede attenzione"
+msgstr "● 系统需要注意"
+
+#: FMain.class:5304
+msgid "● Sistema in ottima salute"
+msgstr "● 系统状况良好"
+
+#: FMain.class:5389
+msgid "Salva il log di sistema"
+msgstr "保存系统日志"
+
+#: FMain.class:5405
+msgid "Salva elenco pacchetti"
+msgstr "保存包裹清单"
+
+#: FMain.class:5406
+msgid "File di testo"
+msgstr "文本文件"
+
+#: FMain.class:5416
+msgid "[ERRORE] Impossibile salvare il file: "
+msgstr "[错误] 无法保存文件："
+
+#: FMain.class:5418
+msgid "[SUCCESSO] Elenco pacchetti salvato in: "
+msgstr "[成功] 包裹列表保存在："
+
+#: FMain.class:5428
+msgid "Seleziona il file di backup dei pacchetti"
+msgstr "选择包备份文件"
+
+#: FMain.class:5437
+msgid "[AVVISO] Aggiornamento delle selezioni pacchetti in corso...\n"
+msgstr "[注意] 正在更新软件包选择...\n"
+
+#: FMain.class:5453
+msgid "[ERRORE] Qualcosa è andato storto durante il ripristino: "
+msgstr "[错误] 恢复期间出现问题："
+
+#: FMain.class:5455
+msgid "[SUCCESSO] Ripristino pacchetti completato con successo!\n"
+msgstr "[成功] 包恢复成功完成！\n"
+
+#: FMain.class:5477
+msgid "[AVVISO] Avvio creazione backup per: "
+msgstr "[注意] 开始为以下对象创建备份："
+
+#: FMain.class:5496
+msgid "[SUCCESSO] Backup completato con successo in: "
+msgstr "[成功] 备份已成功完成："
+
+#: FMain.class:5499
+msgid "[ERRORE] Il file non è stato creato correttamente o operazione annullata.\n"
+msgstr "[错误] 文件未正确创建或操作已取消。\n"
+
+#: FMain.class:5520
+msgid "Seleziona il file di backup dei repository"
+msgstr "选择存储库备份文件"
+
+#: FMain.class:5529
+msgid "[AVVISO] In attesa dell'esecuzione e ripristino in corso...\n"
+msgstr "[警告] 正在等待执行和恢复...\n"
+
+#: FMain.class:5539
+msgid "[SUCCESSO] Ripristino dei repository e aggiornamento completati con successo!\n"
+msgstr "[成功] 存储库恢复和升级成功完成！\n"
+
+#: FMain.class:5542
+msgid "[ERRORE] Il ripristino è fallito o è stato annullato.\n"
+msgstr "[错误] 恢复失败或被取消。\n"
+
+#: FMain.class:5622
+msgid "Nome File"
+msgstr "文件名"
+
+#: FMain.class:5623
+msgid "Percorso"
+msgstr "小路"
+
+#: FMain.class:5624
+msgid "Dimensione (MB)"
+msgstr "大小（MB）"
+
+#: FMain.class:5625
+msgid "Ultimo Accesso (Giorni)"
+msgstr "上次访问（天）"
+
+#: FMain.class:5755
+msgid "📂 Nome Cartella"
+msgstr "📂 文件夹名称"
+
+#: FMain.class:5756
+msgid "📊 Dimensione Base"
+msgstr "📊 基础尺寸"
+
+#: FMain.class:5757
+msgid "📅 Ultima Modifica"
+msgstr "📅 最后编辑"
+
+#: FMain.class:5857
+msgid "Peso Reale Cartella"
+msgstr "实际文件夹重量"
+
+#: FMain.class:6091
+msgid "CPU"
+msgstr "中央处理器"
+
+#: FMain.class:6179
+msgid "SWAP"
+msgstr "交换"
+
+#: FMain.class:6215
+msgid "DISCO"
+msgstr "光盘"
+
+#: FMain.class:6251
+msgid "RAM"
+msgstr "内存"
+
+#: FMain.class:6311
+msgid "Valore attuale: "
+msgstr "当前值："
+
+#: FMain.class:6365
+msgid "Valore attuale: 60 (Consigliato: 60)"
+msgstr "当前值：60（推荐：60）"
+
+#: FMain.class:7583
+msgid "Conferma Eliminazione"
+msgstr "确认删除"
+
+#: FMain.class:7600
+msgid "Seleziona la cartella da analizzare (solo all'interno della tua Home)"
+msgstr "选择要分析的文件夹（仅限你的主目录内）"
+
+#: FMain.class:7622
+msgid "Percorso Elemento Vuoto"
+msgstr "空元素路径"
+
+#: FMain.form:383
+msgid "Deblinux toolkit"
+msgstr "Debian 工具包"
+
+#: FMain.form:405
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: FMain.form:415
+msgid "zRam"
+msgstr "拉姆"
+
+#: FMain.form:425
+msgid "Disco"
+msgstr "迪斯科"
+
+#: FMain.form:435
+msgid "Sistema processi"
+msgstr "工艺系统"
+
+#: FMain.form:445
+msgid "Controllo e ottimizzazione"
+msgstr "控制与优化"
+
+#: FMain.form:455
+msgid "Gestione repository e driver"
+msgstr "存储库和驱动程序管理"
+
+#: FMain.form:465
+msgid "Impostazioni"
+msgstr "设置"
+
+#: FMain.form:475
+msgid "Log debug"
+msgstr "调试日志"
+
+#: FMain.form:485
+msgid "Info hardware"
+msgstr "硬件信息"
+
+#: FMain.form:495
+msgid "Startup"
+msgstr "初创公司"
+
+#: FMain.form:505
+msgid "Fixer"
+msgstr "修理工"
+
+#: FMain.form:515
+msgid "Pulizia"
+msgstr "清洁"
+
+#: FMain.form:525
+msgid "Kernel manager, grub, recovery"
+msgstr "内核管理器、grub、恢复"
+
+#: FMain.form:535
+msgid "Gestione Permessi Utente"
+msgstr "用户权限管理"
+
+#: FMain.form:545
+msgid "App installate"
+msgstr "已安装的应用程序"
+
+#: FMain.form:555
+msgid "Sicurezza & Firewall"
+msgstr "安全与防火墙"
+
+#: FMain.form:565
+msgid "Gestione backup"
+msgstr "备份管理"
+
+#: FMain.form:575
+msgid "Risparmio energetico"
+msgstr "节能"
+
+#: FMain.form:585
+msgid "Servizi di Sistema"
+msgstr "系统服务"
+
+#: FMain.form:595
+msgid "Svuota Log"
+msgstr "空日志"
+
+#: FMain.form:612
+msgid "Cleaner"
+msgstr "清洁工"
+
+#: FMain.form:625
+msgid "                                                                                                                                                                          Pulizia                                                                                                                                                                          "
+msgstr "清洁"
+
+#: FMain.form:638
+msgid "Rimuove file temporanei, cache obsolete e pacchetti residui. I log recenti e le cache di sistema essenziali vengono preservati per garantire stabilità e prestazioni ottimali del desktop."
+msgstr "删除临时文件、过时的缓存和残留包。保留最近的日志和重要的系统缓存，以确保最佳的桌面稳定性和性能。"
+
+#: FMain.form:660
+msgid "Applicazioni e cache"
+msgstr "应用程序和缓存"
+
+#: FMain.form:672
+msgid "Pulisci runtime Flatpak / Snap obsoleti"
+msgstr "清理过时的 Flatpak/Snap 运行时"
+
+#: FMain.form:678
+msgid "Pulisci cache delle anteprime"
+msgstr "清除预览缓存"
+
+#: FMain.form:691
+msgid "Cestino e registri"
+msgstr "垃圾和日志"
+
+#: FMain.form:703
+msgid "Svuota cestino"
+msgstr "清空垃圾箱"
+
+#: FMain.form:709
+msgid "Registri delle applicazioni"
+msgstr "应用程序日志"
+
+#: FMain.form:722
+msgid "Sistema e temporanei"
+msgstr "系统和临时"
+
+#: FMain.form:734
+msgid "Elimina file temporanei"
+msgstr "删除临时文件"
+
+#: FMain.form:740
+msgid "Pulisci Log di sistema"
+msgstr "清理系统日志"
+
+#: FMain.form:753
+msgid "Pacchetti e APT"
+msgstr "软件包和 APT"
+
+#: FMain.form:765
+msgid "Pulisci cache APT"
+msgstr "清除 APT 缓存"
+
+#: FMain.form:771
+msgid "Autoremove"
+msgstr "自动删除"
+
+#: FMain.form:778
+msgid "Analizza"
+msgstr "分析"
+
+#: FMain.form:786
+msgid "Pulisci"
+msgstr "干净的"
+
+#: FMain.form:796
+msgid "Disattiva i servizi non essenziali all'avvio (ModemManager, Smartmontools, NetworkManager-wait-online) per velocizzare il boot."
+msgstr "在启动时禁用非必要服务（ModemManager、Smartmontools、NetworkManager-wait-online）以加快启动速度。"
+
+#: FMain.form:797
+msgid "Ottimizza avvio (Velocità)"
+msgstr "优化启动（速度）"
+
+#: FMain.form:804
+msgid "Ripristina servizi"
+msgstr "恢复服务"
+
+#: FMain.form:809
+msgid "Pulizia avanzata"
+msgstr "高级清洁"
+
+#: FMain.form:813
+msgid "Cerca ed elimina cartelle vuote"
+msgstr "搜索并删除空文件夹"
+
+#: FMain.form:818
+msgid "Cerca ed elimina file a 0 byte"
+msgstr "搜索并删除 0 字节文件"
+
+#: FMain.form:840
+msgid "Azzera"
+msgstr "重置"
+
+#: FMain.form:847
+msgid "Seleziona le opzioni desiderate per scansionare il disco alla ricerca di elementi superflui. Questa operazione rimuoverà definitivamente file vuoti e cartelle non più utilizzate."
+msgstr "选择所需的选项以扫描磁盘查找多余的项目。此操作将永久删除空文件和不再使用的文件夹。"
+
+#: FMain.form:862
+msgid "Ripara Database APT"
+msgstr "修复 APT 数据库"
+
+#: FMain.form:870
+msgid "Ripara Dipendenze Rotte"
+msgstr "修复损坏的依赖关系"
+
+#: FMain.form:878
+msgid "Manutenzione chiavi"
+msgstr "按键维护"
+
+#: FMain.form:885
+msgid "Verifica Integrità"
+msgstr "检查完整性"
+
+#: FMain.form:893
+msgid "Pulisci Orfani"
+msgstr "清洁孤儿"
+
+#: FMain.form:900
+msgid "Riconfigura Pacchetti"
+msgstr "重新配置包"
+
+#: FMain.form:907
+msgid "Aggiorna Stato"
+msgstr "更新状态"
+
+#: FMain.form:923
+msgid "Utility di diagnostica avanzata per risolvere errori comuni di sistema. Include procedure per riparare i pacchetti danneggiati, pulire i blocchi del gestore aggiornamenti (APT) e ripristinare le configurazioni di rete predefinite."
+msgstr "高级诊断实用程序可解决常见的系统错误。包括修复损坏的软件包、清理更新管理器 (APT) 块和恢复默认网络配置的过程。"
+
+#: FMain.form:934
+msgid "Riparazione profonda"
+msgstr "深度修复"
+
+#: FMain.form:942
+msgid "Sincronizza repository"
+msgstr "同步存储库"
+
+#: FMain.form:950
+msgid "Analizza sistema"
+msgstr "分析系统"
+
+#: FMain.form:958
+msgid "Correggi"
+msgstr "正确的"
+
+#: FMain.form:972
+msgid "Ripristina"
+msgstr "恢复"
+
+#: FMain.form:986
+msgid "Disabilita"
+msgstr "禁用"
+
+#: FMain.form:1002
+msgid "Gestisci i processi e i servizi che vengono avviati automaticamente all'accesso al sistema. Disabilita le applicazioni non necessarie per ridurre i tempi di avvio e liberare risorse di sistema."
+msgstr "管理登录系统时自动启动的进程和服务。禁用不必要的应用程序以减少启动时间并释放系统资源。"
+
+#: FMain.form:1008
+msgid "Info"
+msgstr "信息"
+
+#: FMain.form:1021
+msgid "Analisi in tempo reale della configurazione hardware e software. Questa sezione visualizza le specifiche principali del processore, il quantitativo di memoria RAM, lo stato delle partizioni disco e i parametri di rete correnti. Strumento utile per diagnosticare rapidamente le risorse disponibili e la versione del kernel in uso."
+msgstr "实时分析硬件和软件配置。此部分显示处理器的主要规格、RAM 内存量、磁盘分区的状态以及当前的网络参数。用于快速诊断可用资源和正在使用的内核版本的有用工具。"
+
+#: FMain.form:1035
+msgid "Hardware"
+msgstr "硬件"
+
+#: FMain.form:1056
+msgid "Network"
+msgstr "网络"
+
+#: FMain.form:1077
+msgid "Sistema"
+msgstr "系统"
+
+#: FMain.form:1107
+msgid "Ram e Disco"
+msgstr "拉姆和迪斯科"
+
+#: FMain.form:1121
+msgid "Hardware network"
+msgstr "网络硬件"
+
+#: FMain.form:1141
+msgid "Panoramica completa delle componenti hardware e stato della connessione di rete. Monitora le specifiche di CPU, RAM e disco, e verifica lo stato degli indirizzi IP, la velocità di connessione e le interfacce attive."
+msgstr "硬件组件和网络连接状态的完整概述。监控 CPU、RAM 和磁盘规格，并检查 IP 地址、连接速度和活动接口的状态。"
+
+#: FMain.form:1169
+msgid "Pausa log"
+msgstr "暂停日志"
+
+#: FMain.form:1183
+msgid "Pulisci Log"
+msgstr "清洁日志"
+
+#: FMain.form:1199
+msgid "Monitoraggio in tempo reale degli eventi di sistema. Questa sezione registra le operazioni del Toolkit e gli errori tecnici, permettendoti di analizzare il comportamento del software e risolvere eventuali malfunzionamenti tramite la lettura dei log."
+msgstr "实时监控系统事件。此部分记录 Toolkit 操作和技术错误，使您可以通过阅读日志来分析软件行为并解决任何故障。"
+
+#: FMain.form:1220
+msgid "Password amministratore"
+msgstr "管理员密码"
+
+#: FMain.form:1226
+msgid ""
+"Memorizza la password di root per eseguire le operazioni di sistema in modo istantaneo, senza \n"
+"dover reinserire ogni volta le credenziali."
+msgstr ""
+"存储您的root密码以便立即执行系统操作，无需 \n"
+"每次都必须重新输入您的凭据。"
+
+#: FMain.form:1231
+msgid "Inserisci password amministratore"
+msgstr "输入管理员密码"
+
+#: FMain.form:1244
+msgid "Salva password"
+msgstr "保存密码"
+
+#: FMain.form:1252
+msgid "Rimuovi password salvata"
+msgstr "删除保存的密码"
+
+#: FMain.form:1278
+msgid "Esegui una pulizia rapida della cache all'avvio"
+msgstr "启动时执行快速缓存清理"
+
+#: FMain.form:1290
+msgid "Reset Configurazione"
+msgstr "重置配置"
+
+#: FMain.form:1304
+msgid "App repository"
+msgstr "应用程序存储库"
+
+#: FMain.form:1330
+msgid "Gestione completa dei repository. Qui puoi aggiungere PPA, abilitare o disabilitare le sorgenti software ufficiali e aggiornare il database dei pacchetti per garantire l'accesso alle versioni più recenti delle applicazioni."
+msgstr "完整的存储库管理。您可以在此处添加 PPA、启用或禁用官方软件源以及更新软件包数据库以确保访问最新版本的应用程序。"
+
+#: FMain.form:1355
+msgid "Aggiorna liste"
+msgstr "更新列表"
+
+#: FMain.form:1362
+msgid "Cerca aggiornamenti"
+msgstr "检查更新"
+
+#: FMain.form:1370
+msgid "Salva"
+msgstr "节省"
+
+#: FMain.form:1375
+msgid "Nuovi sorgenti"
+msgstr "新来源"
+
+#: FMain.form:1378
+msgid "Repository Manager"
+msgstr "存储库管理器"
+
+#: FMain.form:1396
+msgid "Gestisci le fonti software del sistema. Aggiungi, rimuovi o modifica i repository per controllare da dove provengono gli aggiornamenti e le applicazioni installate sul tuo computer."
+msgstr "管理系统软件源。添加、删除或更改存储库以控制更新的来源以及计算机上安装的应用程序。"
+
+#: FMain.form:1406
+msgid "Aggiorna lista"
+msgstr "更新列表"
+
+#: FMain.form:1413
+msgid "Abilita Debian Backports"
+msgstr "启用 Debian 向后移植"
+
+#: FMain.form:1420
+msgid "Salva modifiche"
+msgstr "保存更改"
+
+#: FMain.form:1423
+msgid "Driver manager"
+msgstr "司机经理"
+
+#: FMain.form:1429
+msgid "Gestione e installazione automatica di firmware e driver per Debian"
+msgstr "Debian 固件和驱动程序的管理和自动安装"
+
+#: FMain.form:1439
+msgid "Installa driver"
+msgstr "安装驱动程序"
+
+#: FMain.form:1444
+msgid "Ottimizzazione con un click"
+msgstr "一键优化"
+
+#: FMain.form:1450
+msgid ""
+"Stato: In attesa di comando\" (che cambierà dinamicamente in \"Analisi in corso...\", \n"
+"\"Ottimizzazione in corso...\", ecc.)."
+msgstr ""
+"状态：等待命令”（将动态更改为“正在分析...”， \n"
+"“正在进行优化......”等）。"
+
+#: FMain.form:1464
+msgid "Avvia analisi sistema"
+msgstr "开始系统分析"
+
+#: FMain.form:1486
+msgid "Stato del sistema: In attesa di analisi"
+msgstr "系统状态：等待分析"
+
+#: FMain.form:1500
+msgid "• Ottimizzazione Memoria RAM"
+msgstr "• RAM 内存优化"
+
+#: FMain.form:1507
+msgid "• Pulizia File Temporanei"
+msgstr "• 清理临时文件"
+
+#: FMain.form:1514
+msgid "• Verifica Integrità Pacchetti"
+msgstr "• 检查包装完整性"
+
+#: FMain.form:1521
+msgid "• Pulizia Cache di sistema"
+msgstr "• 系统缓存清理"
+
+#: FMain.form:1524
+msgid "System check"
+msgstr "系统检查"
+
+#: FMain.form:1530
+msgid "Dettaglio servizi"
+msgstr "服务详情"
+
+#: FMain.form:1537
+msgid "Pulisci servizi"
+msgstr "清洁服务"
+
+#: FMain.form:1560
+msgid "In attesa di analisi"
+msgstr "等待分析"
+
+#: FMain.form:1605
+msgid "Gestione dei processi attivi. Controlla quali programmi stanno consumando le risorse del tuo sistema e interrompi istantaneamente le applicazioni che non rispondono."
+msgstr "活动流程的管理。检查哪些程序正在消耗您的系统资源并立即停止无响应的应用程序。"
+
+#: FMain.form:1611
+msgid "About"
+msgstr "关于"
+
+#: FMain.form:1643
+msgid "www.andrealinux.it"
+msgstr "www.andrealinux.it"
+
+#: FMain.form:1663
+msgid "Pulizia sistema"
+msgstr "系统清理"
+
+#: FMain.form:1670
+msgid "Stato sistema"
+msgstr "系统状态"
+
+#: FMain.form:1720
+msgid "Analisi disco"
+msgstr "磁盘分析"
+
+#: FMain.form:1734
+msgid "Identifica disco"
+msgstr "识别磁盘"
+
+#: FMain.form:1746
+msgid "Analisi profonda dello stato operativo del dispositivo. Il sistema esegue un test automatico per rilevare anomalie meccaniche o elettroniche, garantendo che i tuoi file siano al sicuro e che il supporto di memoria sia integro."
+msgstr "深度分析设备的运行状态。系统运行自动测试来检测机械或电子异常，确保您的文件安全且存储介质完好无损。"
+
+#: FMain.form:1768
+msgid "Test rapido"
+msgstr "快速测试"
+
+#: FMain.form:1776
+msgid "Test esteso"
+msgstr "扩展测试"
+
+#: FMain.form:1784
+msgid "Log errori"
+msgstr "错误日志"
+
+#: FMain.form:1787
+msgid "Gestione File e Spazio"
+msgstr "文件和空间管理"
+
+#: FMain.form:1800
+msgid "Aggiungi"
+msgstr "添加"
+
+#: FMain.form:1807
+msgid "Dimensione minima (MB):"
+msgstr "最小大小（MB）："
+
+#: FMain.form:1812
+msgid "100"
+msgstr "100"
+
+#: FMain.form:1817
+msgid "180"
+msgstr "180"
+
+#: FMain.form:1824
+msgid "Giorni di inutilizzo: "
+msgstr "不使用天数："
+
+#: FMain.form:1837
+msgid "Sposta nel cestino"
+msgstr "移至垃圾箱"
+
+#: FMain.form:1844
+msgid "Scansiona"
+msgstr "扫描"
+
+#: FMain.form:1851
+msgid "Individua ed elimina i file grandi e inutilizzati per recuperare spazio prezioso sul disco."
+msgstr "找到并删除大型、未使用的文件以回收宝贵的磁盘空间。"
+
+#: FMain.form:1854
+msgid "Spazio disco"
+msgstr "磁盘空间"
+
+#: FMain.form:1881
+msgid "Fai doppio clic su una riga qualsiasi della tabella per calcolare immediatamente il peso reale della cartella."
+msgstr "双击表中任意行即可立即计算文件夹的实际重量。"
+
+#: FMain.form:1888
+msgid "Spazio disco: Qui puoi vedere le cartelle principali e la loro dimensione. Fai doppio clic su una riga per calcolare all'istante il peso reale e dettagliato della cartella selezionata."
+msgstr "磁盘空间：在这里您可以看到主要文件夹及其大小。双击一行即可立即计算所选文件夹的真实、详细重量。"
+
+#: FMain.form:1894
+msgid "Stress test"
+msgstr "压力测试"
+
+#: FMain.form:1900
+msgid ""
+"Test di Stabilità e Diagnostica Hardware\n"
+"\n"
+"Questa sezione ti permette di mettere alla prova i componenti principali del tuo computer (processore e memoria RAM). I test servono a verificare che l'hardware funzioni correttamente sotto carico, aiutando a prevenire blocchi improvvisi, instabilità del sistema o a individuare eventuali componenti difettosi in modo sicuro."
+msgstr ""
+"稳定性测试和硬件诊断\n"
+"\n"
+"本部分允许您测试计算机的主要组件（处理器和 RAM 内存）。这些测试用于验证硬件在负载下是否正常运行，有助于防止意外冻结、系统不稳定或以安全的方式识别任何故障组件。"
+
+#: FMain.form:1910
+msgid "Stress Test CPU"
+msgstr "CPU压力测试"
+
+#: FMain.form:1917
+msgid "Test Memoria RAM"
+msgstr "内存测试"
+
+#: FMain.form:1931
+msgid "Interrompi test"
+msgstr "停止测试"
+
+#: FMain.form:1948
+msgid "Zram"
+msgstr "兹拉姆"
+
+#: FMain.form:1969
+msgid "Attiva zRAM"
+msgstr "启用 zRAM"
+
+#: FMain.form:1987
+msgid "256"
+msgstr "256"
+
+#: FMain.form:2002
+msgid "Ottimizza ram"
+msgstr "优化内存"
+
+#: FMain.form:2017
+msgid ""
+"Il modulo zRAM non è installato sul tuo sistema.\n"
+"Per usarlo, installalo con: sudo apt install zramzram-tools"
+msgstr ""
+"您的系统上未安装 zRAM 模块。\n"
+"要使用它，请使用以下命令安装它： sudo apt install zramzram-tools"
+
+#: FMain.form:2024
+msgid "La zRAM crea una memoria compressa virtuale nella RAM fisica per migliorare le prestazioni del sistema e prevenire blocchi quando la memoria scarseggia. Usa il cursore per scegliere la dimensione e clicca su \"Ottimizza RAM\" per attivarla."
+msgstr "ZRAM 在物理 RAM 中创建虚拟压缩内存，以提高系统性能并防止内存不足时挂起。使用滑块选择大小，然后单击“优化 RAM”将其激活。"
+
+#: FMain.form:2030
+msgid "Kernel manager"
+msgstr "内核管理器"
+
+#: FMain.form:2059
+msgid "Rimuovi kernel"
+msgstr "删除内核"
+
+#: FMain.form:2066
+msgid "Gestione Kernel: Rimuovi le versioni obsolete per liberare spazio in sicurezza. Il sistema protegge automaticamente il kernel attualmente in uso."
+msgstr "内核管理：删除过时的版本以安全地释放空间。系统自动保护当前使用的内核。"
+
+#: FMain.form:2082
+msgid "Dettagli"
+msgstr "细节"
+
+#: FMain.form:2089
+msgid "Predefinito"
+msgstr "默认"
+
+#: FMain.form:2092
+msgid "Kernel e prestazioni"
+msgstr "内核与性能"
+
+#: FMain.form:2104
+msgid "Governor CPU"
+msgstr "调速器CPU"
+
+#: FMain.form:2114
+msgid "Seleziona la modalità di prestazioni del processore."
+msgstr "选择处理器性能模式。"
+
+#: FMain.form:2119
+msgid "Regola la velocità e i consumi del processore"
+msgstr "调整处理器速度和功耗"
+
+#: FMain.form:2124
+msgid "Modalità attiva :"
+msgstr "主动模式："
+
+#: FMain.form:2149
+msgid "Uso della Memoria Virtuale (Swap)"
+msgstr "虚拟内存（交换）的使用"
+
+#: FMain.form:2154
+msgid "Valore basso = usa meno possibile il disco. Valore alto = libera prima la RAM."
+msgstr "低值=尽可能少地使用磁盘。高值 = 首先释放 RAM。"
+
+#: FMain.form:2159
+msgid "0"
+msgstr "0"
+
+#: FMain.form:2178
+msgid "alva e applica immediatamente le modifiche al sistema"
+msgstr "并立即将更改应用到系统"
+
+#: FMain.form:2179
+msgid "Applica impostazioni"
+msgstr "应用设置"
+
+#: FMain.form:2186
+msgid "Come procedere: Seleziona il governor desiderato o sposta il cursore della memoria virtuale, quindi clicca su \"Applica impostazioni\" per renderle attive."
+msgstr "如何继续：选择所需的调节器或移动虚拟内存滑块，然后单击“应用设置”以激活它们。"
+
+#: FMain.form:2197
+msgid "Ripristina consigliati"
+msgstr "建议重置"
+
+#: FMain.form:2201
+msgid "Grub"
+msgstr "幼虫"
+
+#: FMain.form:2206
+msgid "Riavvia i servizi audio per risolvere i problemi di blocco."
+msgstr "重新启动音频服务以解决冻结问题。"
+
+#: FMain.form:2219
+msgid "Suggerimenti GRUB basati su Hardware"
+msgstr "基于硬件的 GRUB 建议"
+
+#: FMain.form:2226
+msgid "Ricarica"
+msgstr "重新加载"
+
+#: FMain.form:2233
+msgid "Salva e Aggiorna GRUB"
+msgstr "保存并更新 GRUB"
+
+#: FMain.form:2240
+msgid "Ripristina backup"
+msgstr "恢复备份"
+
+#: FMain.form:2247
+msgid "Guida rapida GRUB: Questa sezione gestisce i parametri di avvio del computer. Usa il pulsante \"Suggerimenti GRUB\" per rilevare automaticamente le ottimizzazioni per la tua CPU, oppure modifica i campi con cautela prima di cliccare su \"Salva e Aggiorna GRUB\"."
+msgstr "GRUB 快速入门指南：此部分管理计算机的启动参数。使用“GRUB 提示”按钮自动检测 CPU 的优化，或在单击“保存并更新 GRUB”之前仔细更改字段。"
+
+#: FMain.form:2257
+msgid "Anteprima"
+msgstr "预览"
+
+#: FMain.form:2264
+msgid "Test"
+msgstr "测试"
+
+#: FMain.form:2267
+msgid "Recovery"
+msgstr "恢复"
+
+#: FMain.form:2272
+msgid "Riavvia i servizi di rete per ripristinare la connessione."
+msgstr "重新启动网络服务以恢复连接。"
+
+#: FMain.form:2285
+msgid "Ricostruisci il Grub, aggiorna il bootloader e crea un backup automatico."
+msgstr "重建 Grub、更新引导加载程序并创建自动备份。"
+
+#: FMain.form:2292
+msgid "Esegui"
+msgstr "跑步"
+
+#: FMain.form:2298
+msgid "Aggiunge o ripristina il repository Flathub per Flatpak"
+msgstr "添加或恢复 Flatpak 的 Flathub 存储库"
+
+#: FMain.form:2314
+msgid "  Attenzione: Usa questi strumenti di recovery solo in caso di effettivo bisogno."
+msgstr "警告：仅在绝对必要时才使用这些恢复工具。"
+
+#: FMain.form:2321
+msgid "Riavvia"
+msgstr "重新启动"
+
+#: FMain.form:2332
+msgid "User & Group Manager"
+msgstr "用户和组经理"
+
+#: FMain.form:2338
+msgid ""
+"Qui puoi abilitare l'accesso del tuo utente a funzioni speciali (come USB, VirtualBox o Docker).\n"
+"\n"
+"⚠️ IMPORTANTE: Dopo aver salvato, devi fare Logout o Riavviare per rendere attive le modifiche."
+msgstr ""
+"您可以在此处允许用户访问特殊功能（例如 USB、VirtualBox 或 Docker）。\n"
+"\n"
+"⚠️ 重要提示：保存后，您必须注销或重新启动才能使更改生效。"
+
+#: FMain.form:2356
+msgid "Amministratore (Sudo)"
+msgstr "管理员（须藤）"
+
+#: FMain.form:2362
+msgid "Porte Seriali (Arduino/USB)"
+msgstr "串口（Arduino/USB）"
+
+#: FMain.form:2368
+msgid "VirtualBox (Accesso USB)"
+msgstr "VirtualBox（USB 访问）"
+
+#: FMain.form:2374
+msgid "Docker (Gestione Container)"
+msgstr "Docker（容器管理）"
+
+#: FMain.form:2381
+msgid "Applica Modifiche"
+msgstr "应用更改"
+
+#: FMain.form:2390
+msgid "Gestisci e rimuovi i pacchetti di sistema APT e le applicazioni Flatpak installate nel sistema."
+msgstr "管理和删除系统上安装的 APT 系统包和 Flatpak 应用程序。"
+
+#: FMain.form:2410
+msgid "Ping: --- ms"
+msgstr "平： --- 女士"
+
+#: FMain.form:2417
+msgid "Download: --- Mbps"
+msgstr "下载： --- Mbps"
+
+#: FMain.form:2424
+msgid "Upload: --- Mbps"
+msgstr "上传： --- Mbps"
+
+#: FMain.form:2431
+msgid "Disinstalla"
+msgstr "卸载"
+
+#: FMain.form:2447
+msgid "Pacchetti APT"
+msgstr "APT 包"
+
+#: FMain.form:2463
+msgid "Cerca"
+msgstr "靠近"
+
+#: FMain.form:2466
+msgid "Pacchetti Flatpak"
+msgstr "Flatpak 封装"
+
+#: FMain.form:2487
+msgid "Firewall"
+msgstr "防火墙"
+
+#: FMain.form:2508
+msgid ""
+"Il Firewall (UFW) è il guardiano del tuo computer. Monitora il traffico internet e blocca i tentativi di accesso non autorizzati dall'esterno.\n"
+"\n"
+"Stato Attivo: Il tuo PC è invisibile ai malintenzionati sulla rete.\n"
+"\n"
+"Stato Disattivato: Il tuo sistema è esposto a scansioni di porte e potenziali intrusioni."
+msgstr ""
+"防火墙 (UFW) 是您计算机的守护者。监控互联网流量并阻止来自外部的未经授权的访问尝试。\n"
+"\n"
+"活动状态：网络上的攻击者看不到您的 PC。\n"
+"\n"
+"禁用状态：您的系统容易受到端口扫描和潜在的入侵。"
+
+#: FMain.form:2522
+msgid "Verifica stato"
+msgstr "检查状态"
+
+#: FMain.form:2536
+msgid "Attiva protezione"
+msgstr "启用保护"
+
+#: FMain.form:2543
+msgid "Disattiva"
+msgstr "停用"
+
+#: FMain.form:2546
+msgid "Sicurezza avanzata"
+msgstr "先进的安全性"
+
+#: FMain.form:2558
+msgid "Scansione porte"
+msgstr "端口扫描"
+
+#: FMain.form:2565
+msgid "Questa lista mostra i servizi del tuo computer pronti a comunicare con la rete. Se vedi programmi noti (come il tuo browser), è del tutto normale."
+msgstr "此列表显示计算机上准备与网络通信的服务。如果您看到熟悉的程序（例如浏览器），这是完全正常的。"
+
+#: FMain.form:2575
+msgid "Gestisci Protezione"
+msgstr "管理保护"
+
+#: FMain.form:2588
+msgid "Mostra log"
+msgstr "显示日志"
+
+#: FMain.form:2595
+msgid "Disattiva protezione"
+msgstr "禁用保护"
+
+#: FMain.form:2600
+msgid "Backup"
+msgstr "备份"
+
+#: FMain.form:2607
+msgid "File e cartelle"
+msgstr "文件和文件夹"
+
+#: FMain.form:2613
+msgid ""
+"Strumento per la salvaguardia dei dati personali e di sistema. Permette di creare copie di sicurezza di file e cartelle selezionando una sorgente e una destinazione specifica. Ideale per prevenire la perdita di dati in caso di guasti hardware o errori software.\n"
+"Assicurarsi che l'unità di destinazione abbia spazio sufficiente prima di avviare."
+msgstr ""
+"用于保护个人和系统数据的工具。它允许您通过选择特定的源和目标来创建文件和文件夹的备份副本。非常适合在硬件故障或软件错误时防止数据丢失。\n"
+"启动前确保目标驱动器有足够的空间。"
+
+#: FMain.form:2623
+msgid "Sorgente"
+msgstr "来源"
+
+#: FMain.form:2630
+msgid "Destinazione"
+msgstr "目的地"
+
+#: FMain.form:2642
+msgid "Avvia backup"
+msgstr "开始备份"
+
+#: FMain.form:2650
+msgid "Pacchetti di sistema"
+msgstr "系统包"
+
+#: FMain.form:2656
+msgid "Salva Elenco Pacchetti (Backup)"
+msgstr "保存包裹清单（备份）"
+
+#: FMain.form:2663
+msgid "Ripristina Pacchetti da File"
+msgstr "从文件恢复包"
+
+#: FMain.form:2670
+msgid "Salva l'elenco dei pacchetti installati sul sistema o ripristinali dopo una nuova installazione."
+msgstr "保存系统上安装的软件包列表或在全新安装后恢复它们。"
+
+#: FMain.form:2680
+msgid "Nessun file selezionato"
+msgstr "未选择文件"
+
+#: FMain.form:2689
+msgid "Salva backup repository"
+msgstr "保存存储库备份"
+
+#: FMain.form:2696
+msgid "Ripristina backup repository"
+msgstr "恢复存储库备份"
+
+#: FMain.form:2699
+msgid "Punti di Ripristino"
+msgstr "恢复点"
+
+#: FMain.form:2706
+msgid "Annulla"
+msgstr "取消"
+
+#: FMain.form:2713
+msgid "Crea un punto di salvataggio dell'intero sistema o ripristina una copia precedente in caso di problemi."
+msgstr "创建整个系统的保存点或在出现问题时恢复以前的副本。"
+
+#: FMain.form:2723
+msgid "Crea Punto di Ripristino"
+msgstr "创建还原点"
+
+#: FMain.form:2730
+msgid "Gestisci / Ripristina"
+msgstr "管理/恢复"
+
+#: FMain.form:2744
+msgid "Energia"
+msgstr "活力"
+
+#: FMain.form:2752
+msgid "Gestione Risparmio Energetico CPU"
+msgstr "CPU节能管理"
+
+#: FMain.form:2759
+msgid "Seleziona il profilo desiderato per ottimizzare le prestazioni o prolungare la durata della batteria:"
+msgstr "选择所需的配置文件以优化性能或延长电池寿命："
+
+#: FMain.form:2770
+msgid "Bilanciato Standard (Predefinito)"
+msgstr "标准平衡（默认）"
+
+#: FMain.form:2770
+msgid "Massime Prestazioni (Performance)"
+msgstr "最大性能（性能）"
+
+#: FMain.form:2770
+msgid "Predefinito (Origine)"
+msgstr "默认（来源）"
+
+#: FMain.form:2770
+msgid "Risparmio Batteria (Powersave)"
+msgstr "省电模式（省电）"
+
+#: FMain.form:2777
+msgid "Applica Profilo Energetico"
+msgstr "应用能量配置文件"
+
+#: FMain.form:2803
+msgid "Gestione servizi"
+msgstr "服务管理"
+
+#: FMain.form:2815
+msgid "Avvia Servizio"
+msgstr "启动服务"
+
+#: FMain.form:2822
+msgid "Arresta Servizio"
+msgstr "停止服务"
+
+#: FMain.form:2829
+msgid "Verifica Stato"
+msgstr "检查状态"
+
+#: FMain.form:2836
+msgid "Configura Avvio"
+msgstr "配置启动"
+
+#: FMain.form:2843
+msgid ""
+"I servizi (o \"demoni\") sono programmi che girano costantemente in background per gestire funzionalità chiave di Deblinux (come la rete, il server SSH, il Bluetooth o il Firewall).\n"
+"\n"
+"• Verifica Stato: Controlla se il servizio selezionato è attivo (running) o fermo (dead) senza apportare modifiche.\n"
+"• Avvia Servizio: Attiva immediatamente il servizio per la sessione corrente (richiede privilegi di root).\n"
+"• Arresta Servizio: Ferma il servizio in tempo reale per liberare memoria o interrompere una funzionalità (richiede privilegi di root).\n"
+"\n"
+"Attenzione: Arrestare servizi critici come networking o network-manager potrebbe disconnettere temporaneamente il PC da Internet."
+msgstr ""
+"服务（或“守护进程”）是在后台持续运行的程序，用于管理 Deblinux 的关键功能（例如网络、SSH 服务器、蓝牙或防火墙）。\n"
+"\n"
+"• 检查状态：检查所选服务是否处于活动状态（正在运行）或已停止（停止），而不进行任何更改。\n"
+"• 启动服务：立即激活当前会话的服务（需要root 权限）。\n"
+"• 停止服务：实时停止服务以释放内存或停止功能（需要root 权限）。\n"
+"\n"
+"警告：停止关键服务（例如网络或网络管理器）可能会暂时断开您的 PC 与 Internet 的连接。"
+
+#: FMain.form:2849
+msgid "Ottimizzazione performance"
+msgstr "性能优化"
+
+#: FMain.form:2855
+msgid "Analizza avvio"
+msgstr "分析启动"
+
+#: FMain.form:2862
+msgid "Gestione Swap"
+msgstr "掉期管理"
+
+#: FMain.form:2869
+msgid "Manutenzione disco"
+msgstr "磁盘维护"
+
+#: FMain.form:2876
+msgid "Trova processi pesanti"
+msgstr "查找繁重的流程"
+
+#: FMain.form:2883
+msgid "Ottimizza tutto"
+msgstr "优化一切"
+
+#: FMain.form:2899
+msgid ""
+"Questo modulo analizza i punti critici che possono rallentare il tuo sistema DebLinux. Utilizza i pulsanti sottostanti per diagnosticare e intervenire sulle prestazioni:\n"
+"\n"
+"- Analisi Avvio: Identifica i servizi di sistema che impiegano più tempo a caricarsi durante l'accensione.\n"
+"\n"
+"- Gestione Swap: Regola la 'swappiness' per ottimizzare l'uso della memoria RAM rispetto al disco.\n"
+"\n"
+"- Manutenzione Disco: Esegue il comando TRIM (per SSD) per mantenere alte le velocità di lettura/scrittura.\n"
+"\n"
+"- Trova processi pesanti: Identifica in tempo reale le applicazioni e i processi che consumano più risorse di sistema (CPU e RAM).\n"
+"\n"
+"- Ottimizza Tutto: Esegue una procedura automatizzata di manutenzione completa (TRIM, pulizia cache e tuning della memoria).\n"
+"\n"
+"Attenzione: alcune operazioni richiedono privilegi di amministratore."
+msgstr ""
+"该模块分析可能减慢 DebLinux 系统速度的关键点。使用下面的按钮来诊断性能并采取措施：\n"
+"\n"
+"- 启动分析：识别启动期间加载时间最长的系统服务。\n"
+"\n"
+"- 交换管理：调整“交换性”以优化 RAM 内存相对于磁盘的使用。\n"
+"\n"
+"- 磁盘维护：运行 TRIM 命令（适用于 SSD）以保持较高的读/写速度。\n"
+"\n"
+"- 查找繁重进程：实时识别消耗最多系统资源（CPU 和 RAM）的应用程序和进程。\n"
+"\n"
+"- 优化一切：执行完整的自动化维护过程（TRIM、缓存清理和内存调整）。\n"
+"\n"
+"注意：部分操作需要管理员权限。"
+
+#: FMain.form:2905
+msgid "Log di sistema"
+msgstr "系统日志"
+
+#: FMain.form:2918
+msgid "Aggiorna"
+msgstr "更新"
+
+#: FMain.form:2925
+msgid "Esporta log"
+msgstr "导出日志"
+
+#: FMain.form:2932
+msgid "Visualizza gli ultimi eventi e messaggi di sistema registrati da journalctl. Utile per diagnosticare eventuali problemi."
+msgstr "查看journalctl 记录的最新系统事件和消息。对于诊断任何问题很有用。"
+
+#: FMain.form:2940
+msgid "Distruggi documenti"
+msgstr "销毁文件"
+
+#: FMain.form:2951
+msgid "Sfoglia"
+msgstr "浏览"
+
+#: FMain.form:2960
+msgid "Distruggi documento"
+msgstr "销毁文件"
+
+#: FMain.form:2969
+msgid "Distruggi file sicuro"
+msgstr "安全删除文件"
+
+#: FMain.form:2976
+msgid ""
+"🔒 Distruzione Sicura dei File (File Shredder)\n"
+"Quando elimini un file normalmente o lo mandi nel cestino, i dati rimangono fisicamente sul disco fisso finché non vengono sovrascritti, e possono essere recuperati con appositi programmi.\n"
+"Questo strumento sovrascrive i dati del documento più volte con sequenze casuali e zeri, rendendolo totalmente irrecuperabile anche con software forensi avanzati."
+msgstr "🔒 文件安全销毁（文件粉碎机）\\n当你正常删除文件或将其移动到回收站时，数据仍然物理存在于硬盘上，直到被覆盖，并且可以通过特定程序恢复。\\n此工具会用随机序列和零多次覆盖文件数据，即使使用高级取证软件，也无法恢复。"
+
+#: FMain.form:2989
+msgid "Guida"
+msgstr "指南"
+
+#: FMain.form:3000
+msgid ""
+"==================================================\n"
+"       DEBLINUX TOOLKIT - GUIDA UTENTE\n"
+"==================================================\n"
+"\n"
+"1. MANUTENZIONE E PULIZIA\n"
+"--------------------------------------------------\n"
+"\n"
+"• Pulizia cache\n"
+"  Elimina file temporanei, cache di sistema, log obsoleti e pacchetti residui per liberare spazio prezioso su disco e mantenere il sistema snello.\n"
+"• Pulizia browser\n"
+"  Rimuove la cronologia, i cookie, la cache e i dati di navigazione accumulati dai browser installati per proteggere la privacy e recuperare spazio.\n"
+"• Pulizia pacchetti\n"
+"  Pulisce la cache del gestore pacchetti APT rimuovendo i pacchetti .deb scaricati e non più necessari o orfani.\n"
+"• Pulizia RAM\n"
+"  Svuota la cache della memoria RAM e i buffer temporanei per liberare risorse e ottimizzare le prestazioni immediate del sistema.\n"
+"• Pulizia log\n"
+"  Elimina i registri di sistema più vecchi e i file di log di debug accumulati nel tempo per liberare spazio di archiviazione.\n"
+"\n"
+"--------------------------------------------------\n"
+"\n"
+"2. SISTEMA E HARDWARE\n"
+"--------------------------------------------------\n"
+"\n"
+"• Info hardware\n"
+"  Fornisce un'analisi in tempo reale della configurazione hardware e software del computer. \n"
+"  - Scheda Info: Mostra i parametri di sistema (Nome Host, Kernel, Distribuzione, Architettura, Uptime, Scheda Madre), lo stato della RAM e dei dischi, la temperatura della CPU, lo stato di ZRAM e le informazioni di rete (Interfaccia, IP, Stato Online).\n"
+"  - Scheda Hardware network: Offre una panoramica completa dei componenti hardware installati (CPU, RAM, Modelli dei dischi sda/sdb/sdc, zram0) e lo stato dettagliato della connessione di rete con IP e Gateway.\n"
+"  - Scheda About: Presenta la descrizione di Deblinux Toolkit, i suoi obiettivi principali, la licenza Open Source e l'avviso di sicurezza sull'importanza del backup.\n"
+"\n"
+"• Disco\n"
+"  Esegue un'analisi approfondita dello stato operativo dei dispositivi di memorizzazione per prevenire guasti e rilevare anomalie meccaniche o elettroniche.\n"
+"  - Analisi disco: Permette di selezionare un disco e verificarne l'integrità tramite identificazione, test rapido, test esteso o lettura dei log di errore.\n"
+"  - Gestione File e Spazio: Individua ed elimina i file grandi e inutilizzati basandosi su una dimensione minima (MB) e giorni di inutilizzo specificati dall'utente.\n"
+"  - Spazio disco: Mostra le cartelle principali e la loro dimensione, consentendo di calcolare all'istante il peso reale e dettagliato tramite doppio clic sulla riga.\n"
+"  - Stress test: Mette alla prova i componenti principali del computer (processore e memoria RAM) con test di stabilità per prevenire blocchi o instabilità.\n"
+"\n"
+"• Sistema processi\n"
+"  Gestisce i processi attivi sul sistema. Permette di controllare l'utilizzo di CPU e Memoria (%CPU, %MEM, PID, Comando) da parte dei programmi in esecuzione e di interrompere istantaneamente quelli che non rispondono.\n"
+"\n"
+"• App installate\n"
+"  Consente di gestire e rimuovere i pacchetti presenti nel sistema.\n"
+"  - Pacchetti APT: Elenca e permette la disinstallazione dei pacchetti di sistema tradizionali di Debian.\n"
+"  - Pacchetti Flatpak: Gestisce e rimuove le applicazioni in formato containerizzato installate sul sistema (es. VokoscreenNG, SMPlayer, Audacity, ecc.).\n"
+"\n"
+"• Ottimizza RAM\n"
+"  Crea una memoria compressa virtuale (zRAM) nella RAM fisica per migliorare le prestazioni generali e prevenire blocchi quando la memoria scarseggia.\n"
+"  - Configurazione: Tramite un cursore intuitivo è possibile scegliere la dimensione desiderata (da un minimo di 256 MB fino al totale della memoria disponibile).\n"
+"  - Gestione: Mostra in tempo reale l'utilizzo attuale, la percentuale di occupazione e l'algoritmo di compressione utilizzato (es. zstd).\n"
+"  - Azioni: Consente di attivare/modificare la zRAM con il pulsante \"Ottimizza ram\" o di disattivarla all'occorrenza tramite l'apposito controllo.\n"
+"\n"
+"• Monitor temperature\n"
+"  Monitora in tempo reale le temperature dei componenti critici del computer (come CPU e GPU), permettendo di tenere sotto controllo il riscaldamento del sistema durante l'uso intensivo o sotto sforzo.\n"
+"\n"
+"• Rete\n"
+"  Verifica e ripristina lo stato della connettività di rete in modo rapido.\n"
+"  - Diagnosi in tempo reale: Mostra spie di stato immediate per il controllo del Gateway locale (Router), del servizio DNS e della connessione Internet globale.\n"
+"  - Test diagnostico: Esegue verifiche di connettività automatizzate tramite il pulsante dedicato.\n"
+"  - Ripristino Rete & Wi-Fi: Riavvia i servizi di rete di sistema (NetworkManager) per risolvere al volo problemi di connessione utilizzando la password di amministrazione salvata.\n"
+"\n"
+"--------------------------------------------------\n"
+"\n"
+"3. AMMINISTRATORE E MODIFICHE\n"
+"--------------------------------------------------\n"
+"\n"
+"• Kernel manager, grub, recovery\n"
+"  - Kernel manager: Consente di rimuovere i kernel obsoleti per liberare spazio in sicurezza, proteggendo automaticamente quello attualmente in uso.\n"
+"  - Kernel e prestazioni: Gestisce il Governor CPU per regolare velocità e consumo del processore (es. schedutil) e la Memoria Virtuale (Swap) tramite cursore interattivo.\n"
+"  - Grub: Gestisce i parametri di avvio del computer, offrendo suggerimenti basati sull'hardware e la possibilità di salvare o aggiornare la configurazione.\n"
+"  - Recovery: Offre strumenti di emergenza per riavviare i servizi audio o di rete, ricostruire il Grub o ripristinare il repository Flathub.\n"
+"\n"
+"• Gestione repository e driver\n"
+"  - App repository: Gestisce le sorgenti software ufficiali presenti in /etc/apt/sources.list e permette di aggiungere nuovi repository.\n"
+"  - Repository Manager: Visualizza e modifica le fonti software avanzate e consente di abilitare rapidamente i Debian Backports.\n"
+"  - Driver manager: Gestisce l'installazione automatica di firmware e driver per Debian.\n"
+"\n"
+"• Startup (Gestione avvio)\n"
+"  Permette di controllare i processi e i servizi avviati automaticamente all'accesso, consentendo di disabilitarli o ripristinarli per ridurre i tempi di avvio.\n"
+"\n"
+"• Fixer (Riparazione problemi)\n"
+"  Utility di diagnostica avanzata per risolvere errori comuni di sistema. Include funzioni per riparare il database APT, correggere dipendenze rotte, riconfigurare pacchetti, pulire pacchetti orfani, gestire le chiavi e verificare l'integrità.\n"
+"\n"
+"• Gestione permessi utente\n"
+"  Abilita o disabilita l'accesso del proprio utente a funzioni speciali (es. Amministratore Sudo, Porte Seriali Arduino/USB, VirtualBox, Docker). Richiede un Logout o Riavvio per rendere attive le modifiche.\n"
+"\n"
+"--------------------------------------------------\n"
+"\n"
+"4. SICUREZZA, BACKUP E LOG\n"
+"--------------------------------------------------\n"
+"\n"
+"• Sicurezza & firewall\n"
+"  - Firewall: Gestisce il Firewall UFW per monitorare il traffico internet e bloccare tentativi di accesso non autorizzati dall'esterno, rendendo il PC invisibile sulla rete. Permette di attivare o disattivare la protezione con un semplice clic.\n"
+"  - Sicurezza avanzata: Mostra la lista dei servizi pronti a comunicare con la rete e offre strumenti per la scansione delle porte, la gestione della protezione e la visualizzazione dei log dedicati.\n"
+"\n"
+"• Gestione backup\n"
+"  - File e cartelle: Strumento per la salvaguardia dei dati personali tramite la selezione di una sorgente e di una destinazione specifica, ideale per prevenire la perdita di dati.\n"
+"  - Pacchetti di sistema: Permette di salvare l'elenco dei pacchetti installati su file, ripristinarli dopo una nuova installazione e gestire il backup dei repository.\n"
+"  - Punti di Ripristino: Consente di creare un punto di salvataggio dell'intero sistema o di ripristinare una copia precedente in caso di problemi.\n"
+"\n"
+"• Log debug\n"
+"  Monitoraggio in tempo reale degli eventi di sistema. Registra le operazioni del Toolkit e gli errori tecnici, permettendo di analizzare il comportamento del software e risolvere malfunzionamenti tramite la lettura, la pulizia o la messa in pausa dei log.\n"
+"\n"
+"• Impostazioni\n"
+"  - Password amministratore: Memorizza la password di root per eseguire le operazioni di sistema in modo istantaneo, senza doverla reinserire ogni volta. Include opzioni per salvarla, rimuoverla o resettare la configurazione.\n"
+"  - Opzioni generali: Consente di abilitare la pulizia rapida della cache all'avvio.\n"
+"\n"
+"• Distruggi file sicuro (File Shredder)\n"
+"  Sovrascrive i file eliminati più volte con sequenze casuali e zeri, rendendoli totalmente irrecuperabili anche con software forensi avanzati per garantire la massima privacy.\n"
+"\n"
+"--------------------------------------------------\n"
+"Creato con Gambas per la community Linux."
+msgstr ""
+"DEBLINUX TOOLKIT - 用户指南\n"
+"维护与清理\n"
+"\n"
+"• 缓存清理\n"
+"清除临时文件、系统缓存、过时日志和残留软件包，以释放宝贵的磁盘空间并保持系统轻量高效。\n"
+"• 浏览器清理\n"
+"移除已安装浏览器累积的历史记录、Cookie、缓存和浏览数据，以保护隐私并回收空间。\n"
+"• 软件包清理\n"
+"清理 APT 软件包管理器的缓存，移除已下载且不再需要的或孤立的 .deb 软件包。\n"
+"• RAM 清理\n"
+"清空物理内存缓存和临时缓冲区，以释放资源并优化系统的即时性能。\n"
+"• 日志清理\n"
+"删除随时间累积的旧系统日志和调试日志文件，以释放存储空间。\n"
+"\n"
+"系统与硬件\n"
+"\n"
+"• 硬件信息\n"
+"提供计算机硬件和软件配置的实时分析。\n"
+"\n"
+"信息标签页：显示系统参数（主机名、内核、发行版、架构、运行时间、主板）、RAM 和磁盘状态、CPU 温度、ZRAM 状态以及网络信息（接口、IP、在线状态）。\n"
+"\n"
+"硬件网络标签页：全面概览已安装的硬件组件（CPU、RAM、磁盘型号 sda/sdb/sdc、zram0）以及包含 IP 和网关的网络连接详细状态。\n"
+"\n"
+"关于标签页：介绍 Deblinux Toolkit 的描述、核心目标、开源许可证以及关于备份重要性的安全警告。\n"
+"\n"
+"• 磁盘\n"
+"对存储设备的运行状态进行深入分析，以预防故障并检测机械或电子异常。\n"
+"\n"
+"磁盘分析：允许选择磁盘并通过标识、快速测试、扩展测试或读取错误日志来验证其完整性。\n"
+"\n"
+"文件与空间管理：根据用户指定的最小大小（MB）和未使用天数，查找并删除大型且未使用的文件。\n"
+"\n"
+"磁盘空间：显示主要文件夹及其大小，通过双击行即可实时计算出真实且详细的占用大小。\n"
+"\n"
+"压力测试：通过稳定性测试对计算机的主要组件（处理器和内存）进行压力测试，以防止死机或不稳定。\n"
+"\n"
+"• 系统进程\n"
+"管理系统上的活动进程。允许检查运行程序对 CPU 和内存的使用情况（%CPU、%MEM、PID、命令），并可立即终止无响应的程序。\n"
+"\n"
+"• 已安装应用\n"
+"允许管理和移除系统中的软件包。\n"
+"\n"
+"APT 软件包：列出并允许卸载传统的 Debian 系统软件包。\n"
+"• Flatpak 软件包：管理和移除系统中安装的容器化格式应用程序（例如 VokoscreenNG、SMPlayer、Audacity 等）。\n"
+"\n"
+"• 优化 RAM\n"
+"在物理内存中创建一个虚拟压缩内存（zRAM），以提升整体性能并在内存不足时防止死机。\n"
+"\n"
+"配置：通过直观的滑块可以选择所需的大小（从最小 256 MB 到可用内存的总量）。\n"
+"\n"
+"管理：实时显示当前使用率、占用百分比以及所使用的压缩算法（例如 zstd）。\n"
+"\n"
+"操作：允许通过“优化内存”按钮激活/修改 zRAM，或根据需要通过专用控件将其停用。\n"
+"\n"
+"• 温度监视器\n"
+"实时监视计算机关键组件（如 CPU 和 GPU）的温度，以便在密集使用或高负载情况下控制系统的发热情况。\n"
+"\n"
+"• 网络\n"
+"快速检查并恢复网络连接状态。\n"
+"\n"
+"实时诊断：显示用于检查本地网关（路由器）、DNS 服务和全局互联网连接的即时状态指示灯。\n"
+"\n"
+"诊断测试：通过专用按钮执行自动连接检查。\n"
+"\n"
+"重置网络与 Wi-Fi：重新启动系统网络服务（NetworkManager），以便使用保存的管理员密码快速解决连接问题。\n"
+"\n"
+"管理员与修改\n"
+"\n"
+"• 内核管理器、GRUB、恢复\n"
+"\n"
+"内核管理器：允许安全移除过时的内核以释放空间，同时自动保护当前正在使用的内核。\n"
+"\n"
+"内核与性能：管理 CPU 调速器（Governor）以调节处理器速度和功耗（例如 schedutil），并通过交互式滑块管理虚拟内存（Swap）。\n"
+"\n"
+"GRUB：管理计算机的启动参数，提供基于硬件的建议以及保存或更新配置的功能。\n"
+"\n"
+"恢复：提供紧急工具以重启音频或网络服务、重建 GRUB 或恢复 Flathub 软件源。\n"
+"\n"
+"• 软件源与驱动程序管理\n"
+"\n"
+"应用软件源：管理 /etc/apt/sources.list 中存在的官方软件源，并允许添加新软件源。\n"
+"\n"
+"软件源管理器：查看和修改高级软件源，并允许快速启用 Debian Backports。\n"
+"\n"
+"驱动管理器：管理 Debian 固件和驱动程序的自动安装。\n"
+"\n"
+"• 启动项（启动管理）\n"
+"允许控制在登录时自动启动的进程和服务，从而能够禁用或恢复它们以缩短启动时间。\n"
+"\n"
+"• 修复工具（问题修复）\n"
+"用于解决常见系统错误的高级诊断工具。包括修复 APT 数据库、修复损坏的依赖关系、重新配置软件包、清理孤立软件包、管理密钥以及验证完整性的功能。\n"
+"\n"
+"• 用户权限管理\n"
+"启用或禁用用户对特殊功能的访问权限（例如 Sudo 管理员、Arduino/USB 串口、VirtualBox、Docker）。需要注销或重启才能使更改生效。\n"
+"\n"
+"安全、备份与日志\n"
+"\n"
+"• 安全与防火墙\n"
+"\n"
+"防火墙：管理 UFW 防火墙以监视互联网流量并阻止来自外部的未经授权的访问尝试，使电脑在网络上隐形。只需轻轻点击即可激活或停用保护。\n"
+"\n"
+"高级安全：显示准备与网络通信的服务列表，并提供用于端口扫描、保护管理以及查看专用日志的工具。\n"
+"\n"
+"• 备份管理\n"
+"\n"
+"文件与文件夹：通过选择源和特定目标来保护个人数据的工具，是防止数据丢失的理想选择。\n"
+"• 系统软件包：允许将已安装的软件包列表保存到文件中，在全新安装后恢复它们，并管理软件源备份。\n"
+"\n"
+"还原点：允许创建整个系统的保存点，或在出现问题时恢复先前的副本。\n"
+"\n"
+"• 调试日志\n"
+"实时监视系统事件。记录工具包的操作和技术错误，通过读取、清理或暂停日志来分析软件行为并解决故障。\n"
+"\n"
+"• 设置\n"
+"\n"
+"管理员密码：存储 root 密码以便即时执行系统操作，无需每次重新输入。包括保存、移除或重置配置的选项。\n"
+"\n"
+"通用选项：允许在启动时启用快速清理缓存。\n"
+"\n"
+"• 安全销毁文件（文件粉碎机）\n"
+"使用随机序列和零多次覆写已删除的文件，即使使用高级取证软件也完全无法恢复，从而确保最高级别的隐私。\n"
+"\n"
+"使用 Gambas 为 Linux 社区创建。"
+
+#: FMain.form:3006
+msgid "Tab 22"
+msgstr "标签 22"
+
+#: FMain.form:3022
+msgid ""
+"Descrizione:\n"
+"Un'utility di sistema open-source progettata per semplificare la gestione e la manutenzione di distribuzioni basate su Debian. L'interfaccia offre un accesso rapido a strumenti avanzati di pulizia, gestione processi, configurazione repository e diagnostica hardware.\n"
+"\n"
+"Obiettivi del progetto:\n"
+"\n"
+"Ottimizzare le performance di sistema tramite la pulizia intelligente dei file di cache.\n"
+"\n"
+"Facilitare la risoluzione di errori comuni tramite procedure di ripristino guidate.\n"
+"\n"
+"Monitorare le risorse hardware e i servizi di sistema in tempo reale.\n"
+"\n"
+"Sviluppato con: Gambas 3\n"
+"Licenza: Open Source\n"
+"\n"
+"Deblinux Toolkit non garantisce la protezione dei dati utente; si consiglia di eseguire un backup prima di operazioni critiche di manutenzione."
+msgstr "描述：\\n一个开源的系统实用程序，旨在简化基于 Debian 的发行版的管理和维护。界面提供快速访问高级清理工具、进程管理、仓库配置和硬件诊断。\\n\\n项目目标：\\n\\n通过智能清理缓存文件来优化系统性能。\\n\\n通过引导恢复程序帮助解决常见错误。\\n\\n实时监控硬件资源和系统服务。\\n\\n开发工具：Gambas 3\\n许可证：开源\\n\\nDeblinux Toolkit 不保证用户数据的保护；建议在执行关键维护操作前进行备份。"
+
+#: FMain.form:3035
+msgid "Monitor termico"
+msgstr "热监测器"
+
+#: FMain.form:3052
+msgid "Raffredda"
+msgstr "冷却"
+
+#: FMain.form:3065
+msgid "Questo modulo legge in tempo reale la temperatura dei sensori di sistema. Se la temperatura supera i 75°C, viene attivato un avviso visivo. Puoi utilizzare il pulsante sottostante per forzare il profilo di risparmio energetico (powersave) e ridurre il carico termico."
+msgstr "该模块实时读取系统传感器的温度。如果温度超过75°C，将触发视觉警告。你可以使用下面的按钮强制启用节能模式（powersave）以降低热负荷。"
+
+#: FMain.form:3077
+msgid "Monitor temperatura CPU"
+msgstr "CPU温度监控"
+
+#: FMain.form:3084
+msgid "Temperatura CPU:"
+msgstr "CPU温度："
+
+#: FMain.form:3087
+msgid "Rete"
+msgstr "网络"
+
+#: FMain.form:3102
+msgid "Ripristina Rete & Wi-Fi"
+msgstr "重置网络和Wi-Fi"
+
+#: FMain.form:3109
+msgid "Esegui test diagnostico"
+msgstr "执行诊断测试"
+
+#: FMain.form:3135
+msgid "Questo modulo verifica lo stato della connessione Internet, del DNS e del router locale (Gateway). In caso di problemi, puoi utilizzare il pulsante di ripristino per riavviare i servizi di rete di sistema."
+msgstr "此模块可检查互联网连接、DNS 和本地路由器（网关）的状态。如果出现问题，你可以使用重置按钮重新启动系统的网络服务。"
+
+#: FMain.form:3149
+msgid "Esporta Log"
+msgstr "导出日志"

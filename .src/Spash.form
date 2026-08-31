@@ -1,0 +1,41 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,81,55)
+  Background = &H1B252F
+  Border = False
+  { PictureBox1 PictureBox
+    MoveScaled(25,2,30,29)
+    Picture = Picture.Load("splash.png")
+    Stretch = True
+  }
+  { Label1 Label
+    MoveScaled(12,30,54,10)
+    #Translate = False
+    Font = Font["Bold,+13"]
+    Foreground = &HFFFFFF
+    Alignment = Align.Center
+    Text = "Toolkit"
+  }
+  { Label2 Label
+    MoveScaled(4,49,26,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Background = &H1B252F
+    Foreground = &HFFFFFF
+    Text = "Andrea linux"
+  }
+  { Label3 Label
+    MoveScaled(57,49,21,4)
+    #Translate = False
+    Font = Font["Bold"]
+    Background = &H1B252F
+    Foreground = &HFFFFFF
+    Text = "www.andrealinux.it"
+  }
+  { Timer1 #Timer
+    #MoveScaled(13,23)
+    Enabled = True
+    Delay = 2000
+  }
+}

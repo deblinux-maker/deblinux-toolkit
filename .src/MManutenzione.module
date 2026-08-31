@@ -1,0 +1,101 @@
+' Gambas module file
+
+' MManutenzione.module
+
+Public Sub EseguiPuliziaDisco(logView As TextArea)
+  Dim sComando As String = "apt-get clean && apt-get autoremove -y && journalctl --vacuum-size=50M"
+  
+  logView.Text &= "--- Inizio pulizia ---" & "\n"
+  
+  ' pkexec è il metodo standard moderno per chiedere la password graficamente
+  Try Shell "pkexec bash -c '" & sComando & "'" Wait To logView.Text
+  
+  If Error Then
+    logView.Text &= "\n⚠️ ERRORE: Pulizia annullata o non autorizzata." & "\n"
+  Else
+    logView.Text &= "\n✅ Pulizia terminata!" & "\n"
+  Endif
+End
+
+Public Sub AnalizzaDoveSiaLoSpazio(logView As TextArea)
+  Dim sOutput As String
+  
+  logView.Clear
+  logView.Text = "Analisi in corso, attendi..."
+  
+  ' Eseguiamo il comando e catturiamo l'output direttamente in una variabile stringa
+  ' Usiamo sudo, se il sistema lo richiede, apparirà il popup
+  Try sOutput = Shell("sudo du -xah / 2>/dev/null | sort -rh | head -n 10")
+  
+  If Error Then
+    logView.Text = "Errore: " & Error.Text
+  Else
+    logView.Text = sOutput
+  Endif
+End
+
+Public Sub DiagnosticaSpazio(logView As TextArea)
+  logView.Clear
+  logView.Text = "--- Analisi in corso... attendi il popup della password ---\n"
+  
+  ' Rimuoviamo 'Wait' e usiamo lo stream di lettura
+  ' Questo lancerà il comando in background
+  Dim hProc As Process
+  
+  ' Usiamo pkexec per l'interfaccia grafica.
+  ' Aggiungiamo '2>&1' per catturare anche eventuali errori
+  hProc = Exec ["pkexec", "bash", "-c", "du -xah / 2>/dev/null | sort -rh | head -n 10"] For Read
+  
+  ' Colleghiamo l'evento di lettura al modulo (se necessario)
+  ' Ma per semplicità, useremo un timer o un ciclo rapido
+End
+
+Public Sub ElencaServiziRunning(logView As TextArea)
+  logView.Text &= "\n--- Servizi attualmente in esecuzione ---\n"
+  ' Usiamo --type=service --state=running per filtrare solo i servizi attivi
+  Dim sOutput As String = Shell("systemctl list-units --type=service --state=running --no-pager")
+  logView.Text &= sOutput & "\n"
+End
+Public Sub MostraErroriKernel(logView As TextArea)
+  logView.Text &= "\n--- Ultimi errori segnalati dal Kernel ---\n"
+  ' 'dmesg -l err' filtra solo i messaggi di livello 'errore'
+  ' Usiamo sudo perché dmesg potrebbe essere limitato
+  Dim sOutput As String = Shell("sudo dmesg -l err | tail -n 20")
+  
+  If sOutput == "" Then
+    logView.Text &= "Nessun errore critico rilevato dal kernel.\n"
+  Else
+    logView.Text &= sOutput & "\n"
+  Endif
+End
+Public Sub VerificaDatabase(logView As TextArea, sPercorso As String)
+
+  logView.Text &= "\n--- Verifica Database ---\n"
+
+  ' Controllo esistenza file
+  If Not Exist(sPercorso) Then
+    logView.Text &= "❌ Database non trovato: " & sPercorso & "\n"
+    Return
+  Endif
+
+  logView.Text &= "Database trovato: " & sPercorso & "\n"
+  logView.Text &= "Esecuzione PRAGMA integrity_check...\n"
+
+  Dim sOutput As String
+
+  ' Verifica integrità SQLite
+  Try Shell "sqlite3 " & Quote(sPercorso) & " 'PRAGMA integrity_check;'" To sOutput
+
+  If Error Then
+    logView.Text &= "❌ Errore durante la verifica: " & Error.Text & "\n"
+    Return
+  Endif
+
+  If Trim(sOutput) = "ok" Then
+    logView.Text &= "✅ Integrità OK\n"
+  Else
+    logView.Text &= "⚠️ Problemi rilevati nel database:\n" & sOutput & "\n"
+  Endif
+
+End
+

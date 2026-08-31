@@ -1,0 +1,71 @@
+' Gambas class file
+
+Public Sub Form_Initialize()
+  ' Forza la lingua prima ancora che i controlli grafici vengano creati
+  System.Language = Settings["General/Lingua", "it_IT.UTF-8"]
+End Sub
+
+Public Sub Form_Open()
+  ' Creiamo un percorso sicuro e blindato nella Home dell'utente
+  Dim sDir As String = User.Home &/ ".config/deblinux_toolkit"
+  Dim sLockFile As String = sDir &/ "deblinux_toolkit.lock"
+  Dim sPid As String
+  Dim iPid As Integer
+If Not (Exist("/run/systemd/system") Or Exist("/bin/systemctl")) Then
+    Message.Error("Questo sistema operativo non utilizza systemd (rilevato sistema non compatibile, es. antiX).\n\nDeblinux Toolkit richiede systemd per gestire i servizi e le ottimizzazioni di sistema. L'applicazione verrà chiusa.")
+    Quit
+    Return
+  Endif
+System.Language = Left$(System.Language, 2)
+  ' Assicuriamoci che la cartella esista
+  If Not Exist(sDir) Then
+    Try Mkdir sDir
+  Endif
+
+  ' 1. Verifica se il file di lock esiste già
+  If Exist(sLockFile) Then
+    sPid = Trim(File.Load(sLockFile))
+    iPid = Val(sPid)
+    
+    If iPid > 0 Then
+      If Exist("/proc/" & iPid) Then
+        Message.Warning("Deblinux è già attivo a guardia del sistema!")
+        Quit
+      Else
+        Try Kill sLockFile
+      Endif
+    Else
+      Try Kill sLockFile
+    Endif
+  Endif
+
+  ' 2. Crea il nuovo file di lock con il PID attuale
+  Try File.Save(sLockFile, CStr(Application.Id))
+  
+  If Error Then
+    Message.Error("Impossibile creare il file di blocco!")
+    Quit
+  Endif
+  
+  ' --- CONTROLLO PULIZIA RAPIDA ALL'AVVIO ---
+  If Settings["Avvio/PuliziaRapida", False] Then
+    ' Chiamata alla tua funzione di pulizia reale
+    Shell "rm -rf " & Shell$(User.Home &/ ".cache/*") Wait
+  Endif
+
+  ' 3. Avvia il Timer della Splash Screen (2 secondi)
+  Timer1.Delay = 2000
+  Timer1.Enabled = True
+  Timer1.Start
+
+End
+
+Public Sub Timer1_Timer()
+  
+  Timer1.Enabled = False 
+  
+
+  
+  FMain.Show() 
+  Me.Close()
+End Sub

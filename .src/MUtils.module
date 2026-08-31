@@ -1,0 +1,83 @@
+' Gambas module file
+
+' Modulo di utility per Deblinux Toolkit
+
+' Funzione universale per eseguire comandi come root
+' sCmd: il comando che vuoi eseguire (es: "apt clean")
+' sLog: (Opzionale) La TextArea dove scrivere il log dell'operazione
+Public Sub EseguiRoot(sCmd As String, Optional sLog As TextArea)
+  Dim sComandoCompleto As String
+  
+  ' Prepariamo il comando incapsulandolo in pkexec
+  ' Usiamo 'sh -c' per assicurarci che il comando sia interpretato correttamente
+  sComandoCompleto = "pkexec sh -c " & Shell(sCmd)
+  
+  ' Scriviamo nel log se è stato passato un oggetto TextArea
+  If sLog Then sLog.Insert("\n[ROOT] Esecuzione: " & sCmd)
+  
+  ' Eseguiamo il comando e attendiamo la fine (Wait)
+  Try Shell sComandoCompleto Wait
+  
+  ' Gestione dell'esito
+  If Error Then
+    ' Se c'è un errore (es. password annullata o comando errato)
+    If sLog Then sLog.Insert("\n[ERRORE] Comando fallito: " & Error.Text)
+    Message.Error("Errore nell'esecuzione: " & Error.Text)
+  Else
+    ' Se tutto è andato a buon fine
+    If sLog Then sLog.Insert("\n[OK] Comando completato con successo.")
+  Endif
+End
+' Modulo: MUtils.module
+
+Public Sub ApplicaTemaGlobale(HContainer As Container, SfondoSorgente As Integer, TestoSorgente As Integer, SfondoPulsante As Integer, TestoPulsante As Integer)
+  Dim hControl As Control
+  
+  ' 1. Imposta lo sfondo del contenitore principale o pannello corrente
+  Try HContainer.Background = SfondoSorgente
+  
+  For Each hControl In HContainer.Children
+    
+    ' 2. Se il controllo è un contenitore (Panel, ScrollView, Frame, SideBar, ecc.)
+    If hControl Is Container Then
+      ' Applica lo sfondo ricorsivamente al contenitore interno
+      Try hControl.Background = SfondoSorgente
+      ApplicaTemaGlobale(hControl, SfondoSorgente, TestoSorgente, SfondoPulsante, TestoPulsante)
+      
+    Else If hControl Is TabStrip Then
+      Dim hTab As TabStrip = hControl
+      Try hTab.Background = SfondoSorgente
+      Try hTab.Foreground = TestoSorgente
+    Endif
+    
+    ' 3. Gestione dei Pulsanti (inclusi ToolButton, ToggleButton, ecc.)
+    If hControl Is Button Or hControl Is ToolButton Or hControl Is ToggleButton Then
+      Try hControl.Background = SfondoPulsante
+      Try hControl.Foreground = TestoPulsante
+      
+    ' 4. Campi di input testo e numeri
+    Else If hControl Is TextBox Or hControl Is TextArea Or hControl Is ComboBox Or hControl Is ButtonBox Or hControl Is ValueBox Or hControl Is DateBox Then
+      Try hControl.Background = Color.FieldBackground
+      Try hControl.Foreground = Color.FieldForeground
+      
+    ' 5. Tabelle, Liste, Alberi (GridView, TableView, ListBox, ListView, TreeView, ColumnView)
+    Else If hControl Is GridView Or hControl Is TableView Or hControl Is ListBox Or hControl Is ListView Or hControl Is TreeView Or hControl Is ColumnView Then
+      Try hControl.Background = Color.FieldBackground
+      Try hControl.Foreground = Color.FieldForeground
+      
+    ' 6. Barre di avanzamento o slider
+    Else If hControl Is ProgressBar Or hControl Is Slider Then
+      Try hControl.Background = SfondoSorgente
+      
+    ' 7. Etichette (Label) e testi fissi sparsi nelle schermate
+    Else If hControl Is Label Then
+      Try hControl.Foreground = TestoSorgente
+      
+    ' 8. Eventuale fallback per qualsiasi altro controllo non categorizzato
+    Else
+      Try hControl.Foreground = TestoSorgente
+    Endif
+    
+  Next
+
+End

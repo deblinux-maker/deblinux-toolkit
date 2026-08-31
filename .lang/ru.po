@@ -1,0 +1,1909 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deblinux_toolkit 3.22.1\n"
+"POT-Creation-Date: 2026-08-27 05:46 UTC\n"
+"PO-Revision-Date: 2026-08-27 05:54 UTC\n"
+"Last-Translator: linux <linux@linux-systemproductname>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Deblinux Toolkit"
+msgstr "Инструментарий Деблинукса"
+
+#: .project:2
+msgid "Strumento di diagnostica e manutenzione per sistemi Linux. Include analisi dischi, monitoraggio risorse e gestione processi."
+msgstr "Инструмент диагностики и обслуживания систем Linux. Включает анализ диска, мониторинг ресурсов и управление процессами."
+
+#: FMain.class:50
+msgid "Manutenzione e pulizia"
+msgstr "Техническое обслуживание и уборка"
+
+#: FMain.class:54
+msgid "Servizi di sistema"
+msgstr "Системные службы"
+
+#: FMain.class:57
+msgid "Sistema e Hardware"
+msgstr "Система и оборудование"
+
+#: FMain.class:62
+msgid "Ottimizza Ram"
+msgstr "Оптимизировать оперативную память"
+
+#: FMain.class:63
+msgid "Monitor temperature"
+msgstr "Мониторить температуру"
+
+#: FMain.class:68
+msgid "Amministratore e Modifiche"
+msgstr "Администратор и Изменения"
+
+#: FMain.class:71
+msgid "Startup (Gestione avvio)"
+msgstr "Запуск (Управление автозагрузкой)"
+
+#: FMain.class:72
+msgid "Fixer (Riparazione problemi)"
+msgstr "Fixer (Устранение проблем)"
+
+#: FMain.class:73
+msgid "Gestione permessi utente"
+msgstr "Управление правами пользователей"
+
+#: FMain.class:76
+msgid "Sicurezza, Backup e Log"
+msgstr "Безопасность, Резервное копирование и Журналы"
+
+#: FMain.class:77
+msgid "Sicurezza & firewall"
+msgstr "Безопасность и фаервол"
+
+#: FMain.class:86
+msgid "Guida Utente"
+msgstr "Руководство пользователя"
+
+#: FMain.class:140
+msgid "Nome Applicazione"
+msgstr "Имя приложения"
+
+#: FMain.class:141
+msgid "Stato"
+msgstr "Состояние"
+
+#: FMain.class:161
+msgid "Attivo"
+msgstr "Активный"
+
+#: FMain.class:174
+msgid "Disabilitato"
+msgstr "Неполноценный"
+
+#: FMain.class:282
+msgid "Procedura di riparazione terminata!"
+msgstr "Процедура ремонта завершена!"
+
+#: FMain.class:287
+msgid "Attenzione: Procedura di riparazione interrotta o fallita."
+msgstr "Внимание: Процедура ремонта прервана или не удалась."
+
+#: FMain.class:338
+msgid "Operazione completata. Chiavi aggiornate."
+msgstr "Операция завершена. Обновлены ключи."
+
+#: FMain.class:339
+msgid "Chiavi GPG aggiornate con successo!"
+msgstr "Ключи GPG успешно обновлены!"
+
+#: FMain.class:341
+msgid "[ERRORE] Manutenzione chiavi fallita o annullata."
+msgstr "[ОШИБКА] Обслуживание ключа не выполнено или отменено."
+
+#: FMain.class:342
+msgid "L'aggiornamento delle chiavi è stato interrotto."
+msgstr "Обновление ключей остановлено."
+
+#: FMain.class:353
+msgid "--- INFORMAZIONI DI SISTEMA ---"
+msgstr "--- ИНФОРМАЦИЯ О СИСТЕМЕ ---"
+
+#: FMain.class:358
+msgid "Kernel: "
+msgstr "Ядро:"
+
+#: FMain.class:364
+msgid "Memoria RAM:\n"
+msgstr "Оперативная память:\n"
+
+#: FMain.class:415
+msgid "[FIXER] Riconfigurazione completata con successo."
+msgstr "[FIXER] Реконфигурация успешно завершена."
+
+#: FMain.class:416
+msgid "Riconfigurazione terminata."
+msgstr "Реконфигурация завершена."
+
+#: FMain.class:418
+msgid "[FIXER] Attenzione: La riconfigurazione è fallita o annullata."
+msgstr "[ИСПРАВЛЕНИЕ] Предупреждение: реконфигурация не удалась или была отменена."
+
+#: FMain.class:419
+msgid "La riconfigurazione non è stata completata correttamente."
+msgstr "Реконфигурация не завершилась успешно."
+
+#: FMain.class:471
+msgid "[FIXER] Pulizia degli orfani completata."
+msgstr "[ИСПРАВЛЕНИЕ] Удаление потерянных файлов завершено."
+
+#: FMain.class:472
+msgid "Rimozione pacchetti orfani terminata."
+msgstr "Удаление потерянных пакетов завершено."
+
+#: FMain.class:475
+msgid "[FIXER] Attenzione: La pulizia è fallita o annullata."
+msgstr "[ИСПРАВЛЕНИЕ] Предупреждение: очистка не удалась или была отменена."
+
+#: FMain.class:476
+msgid "Operazione interrotta."
+msgstr "Операция прервана."
+
+#: FMain.class:761
+msgid "Interrogazione sistema in corso..."
+msgstr "Система запросов..."
+
+#: FMain.class:773
+msgid "Errore: Accesso ai log negato dal sistema (Polkit/Group error)."
+msgstr "Ошибка: доступ к журналу запрещен системой (ошибка Polkit/Group)."
+
+#: FMain.class:785
+msgid "--- Log puliti correttamente ---"
+msgstr "--- Журналы успешно очищены ---"
+
+#: FMain.class:794
+msgid "Log in Pausa"
+msgstr "Войти Пауза"
+
+#: FMain.class:798
+msgid "Pausa Log"
+msgstr "Пауза журнала"
+
+#: FMain.class:817
+msgid "Nessun disco rilevato"
+msgstr "Диск не обнаружен"
+
+#: FMain.class:823
+msgid "Stato Rete:\n"
+msgstr "Статус сети:\n"
+
+#: FMain.class:825
+msgid "Nessuna interfaccia attiva"
+msgstr "Нет активного интерфейса"
+
+#: FMain.class:828
+msgid "Gateway non trovato"
+msgstr "Шлюз не найден"
+
+#: FMain.class:923
+msgid "Nessun repository trovato o file inaccessibile."
+msgstr "Репозитории не найдены или недоступные файлы."
+
+#: FMain.class:985
+msgid "--- Processo terminato. ---"
+msgstr "--- Процесс завершен. ---"
+
+#: FMain.class:1143
+msgid "[CLEANER] Avvio pulizia sicura...\n"
+msgstr "[ОЧИСТИТЕЛЬ] Начинаем безопасную уборку...\n"
+
+#: FMain.class:1609
+msgid "ATTENZIONE: Procedere con la riparazione profonda?"
+msgstr "ВНИМАНИЕ: Приступить к глубокому ремонту?"
+
+#: FMain.class:1609
+msgid "Sì"
+msgstr "Да"
+
+#: FMain.class:1616
+msgid "=== AVVIO RIPARAZIONE PROFONDA ==="
+msgstr "=== НАЧАТЬ ГЛУБОКИЙ РЕМОНТ ==="
+
+#: FMain.class:1617
+msgid "Seguendo protocollo di sicurezza standard..."
+msgstr "Следуя стандартному протоколу безопасности..."
+
+#: FMain.class:1625
+msgid "Errore critico nell'avvio della riparazione: "
+msgstr "Критическая ошибка при запуске ремонта:"
+
+#: FMain.class:1644
+msgid "=== RIPARAZIONE COMPLETATA ==="
+msgstr "=== РЕМОНТ ЗАВЕРШЕН ==="
+
+#: FMain.class:1645
+msgid "Riparazione terminata con successo!"
+msgstr "Ремонт успешно завершен!"
+
+#: FMain.class:1647
+msgid "[ERRORE] Riparazione profonda fallita o annullata."
+msgstr "[ОШИБКА] Глубокий ремонт не выполнен или отменен."
+
+#: FMain.class:1648
+msgid "L'operazione di riparazione non è stata completata."
+msgstr "Ремонтная операция не была завершена."
+
+#: FMain.class:1927
+msgid "No"
+msgstr "Нет"
+
+#: FMain.class:1927
+msgid "Vuoi chiudere Deblinux Toolkit?"
+msgstr "Вы хотите закрыть Deblinux Toolkit?"
+
+#: FMain.class:2303
+msgid "Utilizzo: "
+msgstr "Использование:"
+
+#: FMain.class:2310
+msgid "Disattiva zRAM"
+msgstr "Отключить zRAM"
+
+#: FMain.class:2579
+msgid "Kernel in uso: "
+msgstr "Используемое ядро:"
+
+#: FMain.class:2633
+msgid "Il sistema"
+msgstr "Система"
+
+#: FMain.class:2890
+msgid "⚠️ MOTORE MANCANTE"
+msgstr "⚠️ОТСУТСТВУЕТ ДВИГАТЕЛЬ"
+
+#: FMain.class:2916
+msgid "✅ PROTEZIONE ATTIVA"
+msgstr "✅ АКТИВНАЯ ЗАЩИТА"
+
+#: FMain.class:2918
+msgid "Il Firewall è configurato correttamente e ti sta proteggendo."
+msgstr "Брандмауэр настроен правильно и защищает вас."
+
+#: FMain.class:2922
+msgid "⚠️ PROTEZIONE DISATTIVATA"
+msgstr "⚠️ ЗАЩИТА ОТКЛЮЧЕНА"
+
+#: FMain.class:2924
+msgid "ATTENZIONE: Lo scudo è abbassato. Clicca su 'Attiva protezione'."
+msgstr "ВНИМАНИЕ: Щит опущен. Нажмите «Активировать защиту»."
+
+#: FMain.class:3284
+msgid "Nessun servizio rilevato o errore nell'analisi."
+msgstr "Службы не обнаружены или ошибки анализа."
+
+#: FMain.class:3286
+msgid ""
+"--- TOP 5 SERVIZI PIU' LENTI ---\n"
+"\n"
+msgstr "--- ТОП-5 САМЫХ МЕДЛЕННЫХ УСЛУГ ---\n"
+
+#: FMain.class:3294
+msgid "Analisi processi in corso..."
+msgstr "Выполняется анализ процесса..."
+
+#: FMain.class:3298
+msgid ""
+"Processi più pesanti (PID, CPU%, RAM%, Nome):\n"
+"\n"
+msgstr "Самые тяжелые процессы (PID, CPU%, RAM%, имя):\n"
+
+#: FMain.class:3359
+msgid ", che è quello ideale per il tuo PC."
+msgstr ", который идеально подходит для вашего ПК."
+
+#: FMain.class:3359
+msgid "Chiudi"
+msgstr "Закрывать"
+
+#: FMain.class:3359
+msgid "Il sistema è già ottimizzato correttamente!"
+msgstr "Система уже оптимизирована правильно!"
+
+#: FMain.class:3359
+msgid "Il valore corrente è "
+msgstr "Текущее значение"
+
+#: FMain.class:3382
+msgid "Errore: Operazione fallita o permessi negati."
+msgstr "Ошибка: операция не удалась или разрешения отклонены."
+
+#: FMain.class:3385
+msgid "Operazione annullata dall'utente."
+msgstr "Операция отменена пользователем."
+
+#: FMain.class:3930
+msgid "Nome Cartella"
+msgstr "Имя папки"
+
+#: FMain.class:3932
+msgid "Dimensione Base"
+msgstr "Базовый размер"
+
+#: FMain.class:3934
+msgid "Ultima Modifica"
+msgstr "Последнее редактирование"
+
+#: FMain.class:4613
+msgid "Ottimizza"
+msgstr "Оптимизировать"
+
+#: FMain.class:5104
+msgid "Spazio cache APT: "
+msgstr "Пространство APT-кэша:"
+
+#: FMain.class:5105
+msgid "Spazio Cestino: "
+msgstr "Место для мусора:"
+
+#: FMain.class:5140
+msgid "Uptime: "
+msgstr "Время работы:"
+
+#: FMain.class:5209
+msgid "Database Pacchetti"
+msgstr "База данных пакетов"
+
+#: FMain.class:5210
+msgid "✅ Integro"
+msgstr "✅ Нетронутый"
+
+#: FMain.class:5212
+msgid "⚠️ Problemi trovati (Clicca per riparare)"
+msgstr "⚠️ Обнаружены проблемы (нажмите, чтобы исправить)"
+
+#: FMain.class:5229
+msgid "Connessione Internet"
+msgstr "Подключение к Интернету"
+
+#: FMain.class:5230
+msgid "✅ Attiva"
+msgstr "✅ Активировать"
+
+#: FMain.class:5230
+msgid "❌ Offline"
+msgstr "❌ Оффлайн"
+
+#: FMain.class:5235
+msgid "Stato Servizi"
+msgstr "Статус услуг"
+
+#: FMain.class:5257
+msgid "Uso Disco (Root)"
+msgstr "Использование диска (корневой)"
+
+#: FMain.class:5279
+msgid "Errori Kernel"
+msgstr "Ошибки ядра"
+
+#: FMain.class:5280
+msgid " avvisi"
+msgstr "Оповещения"
+
+#: FMain.class:5280
+msgid "✅ Nessuno"
+msgstr "✅ Никто"
+
+#: FMain.class:5301
+msgid "● Sistema richiede attenzione"
+msgstr "● Система требует внимания."
+
+#: FMain.class:5304
+msgid "● Sistema in ottima salute"
+msgstr "● Система в отличном состоянии."
+
+#: FMain.class:5389
+msgid "Salva il log di sistema"
+msgstr "Сохраните системный журнал"
+
+#: FMain.class:5405
+msgid "Salva elenco pacchetti"
+msgstr "Сохранить список пакетов"
+
+#: FMain.class:5406
+msgid "File di testo"
+msgstr "Текстовые файлы"
+
+#: FMain.class:5416
+msgid "[ERRORE] Impossibile salvare il file: "
+msgstr "[ОШИБКА] Невозможно сохранить файл:"
+
+#: FMain.class:5418
+msgid "[SUCCESSO] Elenco pacchetti salvato in: "
+msgstr "[УСПЕХ] Список пакетов сохранен в:"
+
+#: FMain.class:5428
+msgid "Seleziona il file di backup dei pacchetti"
+msgstr "Выберите файл резервной копии пакета"
+
+#: FMain.class:5437
+msgid "[AVVISO] Aggiornamento delle selezioni pacchetti in corso...\n"
+msgstr "[ВНИМАНИЕ] Выполняется обновление выбранных пакетов...\n"
+
+#: FMain.class:5453
+msgid "[ERRORE] Qualcosa è andato storto durante il ripristino: "
+msgstr "[ОШИБКА] Во время восстановления что-то пошло не так:"
+
+#: FMain.class:5455
+msgid "[SUCCESSO] Ripristino pacchetti completato con successo!\n"
+msgstr "[УСПЕХ] Восстановление пакета успешно завершено!\n"
+
+#: FMain.class:5477
+msgid "[AVVISO] Avvio creazione backup per: "
+msgstr "[ВНИМАНИЕ] Начинаем создание резервной копии для:"
+
+#: FMain.class:5496
+msgid "[SUCCESSO] Backup completato con successo in: "
+msgstr "[УСПЕХ] Резервное копирование успешно завершено в:"
+
+#: FMain.class:5499
+msgid "[ERRORE] Il file non è stato creato correttamente o operazione annullata.\n"
+msgstr "[ОШИБКА] Файл был создан неправильно или операция отменена.\n"
+
+#: FMain.class:5520
+msgid "Seleziona il file di backup dei repository"
+msgstr "Выберите файл резервной копии репозитория"
+
+#: FMain.class:5529
+msgid "[AVVISO] In attesa dell'esecuzione e ripristino in corso...\n"
+msgstr "[ВНИМАНИЕ] Ожидание выполнения и восстановление...\n"
+
+#: FMain.class:5539
+msgid "[SUCCESSO] Ripristino dei repository e aggiornamento completati con successo!\n"
+msgstr "[УСПЕХ] Восстановление и обновление репозитория успешно завершено!\n"
+
+#: FMain.class:5542
+msgid "[ERRORE] Il ripristino è fallito o è stato annullato.\n"
+msgstr "[ОШИБКА] Восстановление не удалось или было отменено.\n"
+
+#: FMain.class:5622
+msgid "Nome File"
+msgstr "Имя файла"
+
+#: FMain.class:5623
+msgid "Percorso"
+msgstr "Путь"
+
+#: FMain.class:5624
+msgid "Dimensione (MB)"
+msgstr "Размер (МБ)"
+
+#: FMain.class:5625
+msgid "Ultimo Accesso (Giorni)"
+msgstr "Последний доступ (дни)"
+
+#: FMain.class:5755
+msgid "📂 Nome Cartella"
+msgstr "📂 Имя папки"
+
+#: FMain.class:5756
+msgid "📊 Dimensione Base"
+msgstr "📊 Базовый размер"
+
+#: FMain.class:5757
+msgid "📅 Ultima Modifica"
+msgstr "📅 Последнее редактирование"
+
+#: FMain.class:5857
+msgid "Peso Reale Cartella"
+msgstr "Фактический вес папки"
+
+#: FMain.class:6091
+msgid "CPU"
+msgstr "Процессор"
+
+#: FMain.class:6179
+msgid "SWAP"
+msgstr "МЕНЯТЬ"
+
+#: FMain.class:6215
+msgid "DISCO"
+msgstr "ДИСК"
+
+#: FMain.class:6251
+msgid "RAM"
+msgstr "БАРАН"
+
+#: FMain.class:6311
+msgid "Valore attuale: "
+msgstr "Текущая стоимость:"
+
+#: FMain.class:6365
+msgid "Valore attuale: 60 (Consigliato: 60)"
+msgstr "Текущее значение: 60 (рекомендуется: 60)"
+
+#: FMain.class:7583
+msgid "Conferma Eliminazione"
+msgstr "Подтвердить удаление"
+
+#: FMain.class:7600
+msgid "Seleziona la cartella da analizzare (solo all'interno della tua Home)"
+msgstr "Выберите папку для анализа (только внутри вашего домашнего каталога)"
+
+#: FMain.class:7622
+msgid "Percorso Elemento Vuoto"
+msgstr "Пустой путь элемента"
+
+#: FMain.form:383
+msgid "Deblinux toolkit"
+msgstr "Инструментарий Деблинукса"
+
+#: FMain.form:405
+msgid "Dashboard"
+msgstr "Панели мониторинга"
+
+#: FMain.form:415
+msgid "zRam"
+msgstr "зРам"
+
+#: FMain.form:425
+msgid "Disco"
+msgstr "Дискотека"
+
+#: FMain.form:435
+msgid "Sistema processi"
+msgstr "Технологическая система"
+
+#: FMain.form:445
+msgid "Controllo e ottimizzazione"
+msgstr "Контроль и оптимизация"
+
+#: FMain.form:455
+msgid "Gestione repository e driver"
+msgstr "Управление репозиторием и драйверами"
+
+#: FMain.form:465
+msgid "Impostazioni"
+msgstr "Настройки"
+
+#: FMain.form:475
+msgid "Log debug"
+msgstr "Журнал отладки"
+
+#: FMain.form:485
+msgid "Info hardware"
+msgstr "Информация об оборудовании"
+
+#: FMain.form:495
+msgid "Startup"
+msgstr "Стартапы"
+
+#: FMain.form:505
+msgid "Fixer"
+msgstr "Фиксаторы"
+
+#: FMain.form:515
+msgid "Pulizia"
+msgstr "Чистка"
+
+#: FMain.form:525
+msgid "Kernel manager, grub, recovery"
+msgstr "Менеджер ядра, grub, восстановление"
+
+#: FMain.form:535
+msgid "Gestione Permessi Utente"
+msgstr "Управление разрешениями пользователей"
+
+#: FMain.form:545
+msgid "App installate"
+msgstr "Установленные приложения"
+
+#: FMain.form:555
+msgid "Sicurezza & Firewall"
+msgstr "Безопасность и брандмауэр"
+
+#: FMain.form:565
+msgid "Gestione backup"
+msgstr "Управление резервным копированием"
+
+#: FMain.form:575
+msgid "Risparmio energetico"
+msgstr "Энергосбережение"
+
+#: FMain.form:585
+msgid "Servizi di Sistema"
+msgstr "Системные службы"
+
+#: FMain.form:595
+msgid "Svuota Log"
+msgstr "Пустой журнал"
+
+#: FMain.form:612
+msgid "Cleaner"
+msgstr "Очиститель"
+
+#: FMain.form:625
+msgid "                                                                                                                                                                          Pulizia                                                                                                                                                                          "
+msgstr "Очистка"
+
+#: FMain.form:638
+msgid "Rimuove file temporanei, cache obsolete e pacchetti residui. I log recenti e le cache di sistema essenziali vengono preservati per garantire stabilità e prestazioni ottimali del desktop."
+msgstr "Удаляет временные файлы, устаревшие кеши и остаточные пакеты. Последние журналы и важные системные кэши сохраняются для обеспечения оптимальной стабильности и производительности рабочего стола."
+
+#: FMain.form:660
+msgid "Applicazioni e cache"
+msgstr "Приложения и кэш"
+
+#: FMain.form:672
+msgid "Pulisci runtime Flatpak / Snap obsoleti"
+msgstr "Очистите устаревшие среды выполнения Flatpak/Snap."
+
+#: FMain.form:678
+msgid "Pulisci cache delle anteprime"
+msgstr "Очистить кэш предварительного просмотра"
+
+#: FMain.form:691
+msgid "Cestino e registri"
+msgstr "Мусор и журналы"
+
+#: FMain.form:703
+msgid "Svuota cestino"
+msgstr "Пустой мусор"
+
+#: FMain.form:709
+msgid "Registri delle applicazioni"
+msgstr "Журналы приложений"
+
+#: FMain.form:722
+msgid "Sistema e temporanei"
+msgstr "Системные и временные"
+
+#: FMain.form:734
+msgid "Elimina file temporanei"
+msgstr "Удалить временные файлы"
+
+#: FMain.form:740
+msgid "Pulisci Log di sistema"
+msgstr "Очистить системные журналы"
+
+#: FMain.form:753
+msgid "Pacchetti e APT"
+msgstr "Пакеты и APT"
+
+#: FMain.form:765
+msgid "Pulisci cache APT"
+msgstr "Очистить APT-кеш"
+
+#: FMain.form:771
+msgid "Autoremove"
+msgstr "Автоматическое удаление"
+
+#: FMain.form:778
+msgid "Analizza"
+msgstr "Анализировать"
+
+#: FMain.form:786
+msgid "Pulisci"
+msgstr "Чистый"
+
+#: FMain.form:796
+msgid "Disattiva i servizi non essenziali all'avvio (ModemManager, Smartmontools, NetworkManager-wait-online) per velocizzare il boot."
+msgstr "Отключите ненужные службы при запуске (ModemManager, Smartmontools, NetworkManager-wait-online), чтобы ускорить загрузку."
+
+#: FMain.form:797
+msgid "Ottimizza avvio (Velocità)"
+msgstr "Оптимизация запуска (скорость)"
+
+#: FMain.form:804
+msgid "Ripristina servizi"
+msgstr "Услуги восстановления"
+
+#: FMain.form:809
+msgid "Pulizia avanzata"
+msgstr "Продвинутая очистка"
+
+#: FMain.form:813
+msgid "Cerca ed elimina cartelle vuote"
+msgstr "Искать и удалять пустые папки"
+
+#: FMain.form:818
+msgid "Cerca ed elimina file a 0 byte"
+msgstr "Ищите и удаляйте файлы размером 0 байт"
+
+#: FMain.form:840
+msgid "Azzera"
+msgstr "Сбросить"
+
+#: FMain.form:847
+msgid "Seleziona le opzioni desiderate per scansionare il disco alla ricerca di elementi superflui. Questa operazione rimuoverà definitivamente file vuoti e cartelle non più utilizzate."
+msgstr "Выберите желаемые параметры для сканирования диска на наличие ненужных элементов. Эта операция навсегда удалит пустые файлы и больше не используемые папки."
+
+#: FMain.form:862
+msgid "Ripara Database APT"
+msgstr "Восстановить базу данных APT"
+
+#: FMain.form:870
+msgid "Ripara Dipendenze Rotte"
+msgstr "Восстановить сломанные зависимости"
+
+#: FMain.form:878
+msgid "Manutenzione chiavi"
+msgstr "Ключевое обслуживание"
+
+#: FMain.form:885
+msgid "Verifica Integrità"
+msgstr "Проверьте целостность"
+
+#: FMain.form:893
+msgid "Pulisci Orfani"
+msgstr "Чистые сироты"
+
+#: FMain.form:900
+msgid "Riconfigura Pacchetti"
+msgstr "Переконфигурировать пакеты"
+
+#: FMain.form:907
+msgid "Aggiorna Stato"
+msgstr "Обновить статус"
+
+#: FMain.form:923
+msgid "Utility di diagnostica avanzata per risolvere errori comuni di sistema. Include procedure per riparare i pacchetti danneggiati, pulire i blocchi del gestore aggiornamenti (APT) e ripristinare le configurazioni di rete predefinite."
+msgstr "Расширенная диагностическая утилита для устранения распространенных системных ошибок. Включает процедуры восстановления поврежденных пакетов, очистки блоков диспетчера обновлений (APT) и восстановления сетевых конфигураций по умолчанию."
+
+#: FMain.form:934
+msgid "Riparazione profonda"
+msgstr "Глубокий ремонт"
+
+#: FMain.form:942
+msgid "Sincronizza repository"
+msgstr "Синхронизировать репозитории"
+
+#: FMain.form:950
+msgid "Analizza sistema"
+msgstr "Анализировать систему"
+
+#: FMain.form:958
+msgid "Correggi"
+msgstr "Правильный"
+
+#: FMain.form:972
+msgid "Ripristina"
+msgstr "Восстановить"
+
+#: FMain.form:986
+msgid "Disabilita"
+msgstr "Запрещать"
+
+#: FMain.form:1002
+msgid "Gestisci i processi e i servizi che vengono avviati automaticamente all'accesso al sistema. Disabilita le applicazioni non necessarie per ridurre i tempi di avvio e liberare risorse di sistema."
+msgstr "Управляйте процессами и службами, которые запускаются автоматически при входе в систему. Отключите ненужные приложения, чтобы сократить время запуска и освободить системные ресурсы."
+
+#: FMain.form:1008
+msgid "Info"
+msgstr "Информация"
+
+#: FMain.form:1021
+msgid "Analisi in tempo reale della configurazione hardware e software. Questa sezione visualizza le specifiche principali del processore, il quantitativo di memoria RAM, lo stato delle partizioni disco e i parametri di rete correnti. Strumento utile per diagnosticare rapidamente le risorse disponibili e la versione del kernel in uso."
+msgstr "Анализ конфигурации аппаратного и программного обеспечения в режиме реального времени. В этом разделе отображаются основные характеристики процессора, объем оперативной памяти, состояние разделов диска и текущие параметры сети. Полезный инструмент для быстрой диагностики доступных ресурсов и используемой версии ядра."
+
+#: FMain.form:1035
+msgid "Hardware"
+msgstr "Аппаратное обеспечение"
+
+#: FMain.form:1056
+msgid "Network"
+msgstr "Сеть"
+
+#: FMain.form:1077
+msgid "Sistema"
+msgstr "Система"
+
+#: FMain.form:1107
+msgid "Ram e Disco"
+msgstr "Рам и Дискотека"
+
+#: FMain.form:1121
+msgid "Hardware network"
+msgstr "Сетевое оборудование"
+
+#: FMain.form:1141
+msgid "Panoramica completa delle componenti hardware e stato della connessione di rete. Monitora le specifiche di CPU, RAM e disco, e verifica lo stato degli indirizzi IP, la velocità di connessione e le interfacce attive."
+msgstr "Полный обзор аппаратных компонентов и состояния сетевого подключения. Отслеживайте характеристики процессора, оперативной памяти и диска, а также проверяйте состояние IP-адресов, скорость соединения и активные интерфейсы."
+
+#: FMain.form:1169
+msgid "Pausa log"
+msgstr "Приостановить журнал"
+
+#: FMain.form:1183
+msgid "Pulisci Log"
+msgstr "Очистить журнал"
+
+#: FMain.form:1199
+msgid "Monitoraggio in tempo reale degli eventi di sistema. Questa sezione registra le operazioni del Toolkit e gli errori tecnici, permettendoti di analizzare il comportamento del software e risolvere eventuali malfunzionamenti tramite la lettura dei log."
+msgstr "Мониторинг системных событий в режиме реального времени. В этом разделе фиксируются операции Toolkit и технические ошибки, что позволяет анализировать поведение программного обеспечения и устранять любые неисправности путем чтения журналов."
+
+#: FMain.form:1220
+msgid "Password amministratore"
+msgstr "Пароль администратора"
+
+#: FMain.form:1226
+msgid ""
+"Memorizza la password di root per eseguire le operazioni di sistema in modo istantaneo, senza \n"
+"dover reinserire ogni volta le credenziali."
+msgstr ""
+"Сохраните свой пароль root для мгновенного выполнения системных операций, без \n"
+"необходимость каждый раз повторно вводить свои учетные данные."
+
+#: FMain.form:1231
+msgid "Inserisci password amministratore"
+msgstr "Введите пароль администратора"
+
+#: FMain.form:1244
+msgid "Salva password"
+msgstr "Сохранить пароль"
+
+#: FMain.form:1252
+msgid "Rimuovi password salvata"
+msgstr "Удалить сохраненный пароль"
+
+#: FMain.form:1278
+msgid "Esegui una pulizia rapida della cache all'avvio"
+msgstr "Выполните быструю очистку кэша при запуске"
+
+#: FMain.form:1290
+msgid "Reset Configurazione"
+msgstr "Сбросить конфигурацию"
+
+#: FMain.form:1304
+msgid "App repository"
+msgstr "Репозиторий приложений"
+
+#: FMain.form:1330
+msgid "Gestione completa dei repository. Qui puoi aggiungere PPA, abilitare o disabilitare le sorgenti software ufficiali e aggiornare il database dei pacchetti per garantire l'accesso alle versioni più recenti delle applicazioni."
+msgstr "Полное управление репозиторием. Здесь вы можете добавлять PPA, включать или отключать официальные источники программного обеспечения, а также обновлять базу данных пакетов, чтобы обеспечить доступ к последним версиям приложений."
+
+#: FMain.form:1355
+msgid "Aggiorna liste"
+msgstr "Обновить списки"
+
+#: FMain.form:1362
+msgid "Cerca aggiornamenti"
+msgstr "Проверьте наличие обновлений"
+
+#: FMain.form:1370
+msgid "Salva"
+msgstr "Сохранять"
+
+#: FMain.form:1375
+msgid "Nuovi sorgenti"
+msgstr "Новые источники"
+
+#: FMain.form:1378
+msgid "Repository Manager"
+msgstr "Менеджер репозитория"
+
+#: FMain.form:1396
+msgid "Gestisci le fonti software del sistema. Aggiungi, rimuovi o modifica i repository per controllare da dove provengono gli aggiornamenti e le applicazioni installate sul tuo computer."
+msgstr "Управление источниками системного программного обеспечения. Добавляйте, удаляйте или изменяйте репозитории, чтобы контролировать, откуда поступают обновления и приложения, установленные на вашем компьютере."
+
+#: FMain.form:1406
+msgid "Aggiorna lista"
+msgstr "Обновить список"
+
+#: FMain.form:1413
+msgid "Abilita Debian Backports"
+msgstr "Включить резервное копирование Debian"
+
+#: FMain.form:1420
+msgid "Salva modifiche"
+msgstr "Сохранить изменения"
+
+#: FMain.form:1423
+msgid "Driver manager"
+msgstr "Менеджер водителей"
+
+#: FMain.form:1429
+msgid "Gestione e installazione automatica di firmware e driver per Debian"
+msgstr "Управление и автоматическая установка прошивок и драйверов для Debian"
+
+#: FMain.form:1439
+msgid "Installa driver"
+msgstr "Установить драйверы"
+
+#: FMain.form:1444
+msgid "Ottimizzazione con un click"
+msgstr "Оптимизация в один клик"
+
+#: FMain.form:1450
+msgid ""
+"Stato: In attesa di comando\" (che cambierà dinamicamente in \"Analisi in corso...\", \n"
+"\"Ottimizzazione in corso...\", ecc.)."
+msgstr ""
+"Статус: Ожидание команды» (который будет динамически меняться на «Анализ...», \n"
+"«Идет оптимизация...» и т. д.)."
+
+#: FMain.form:1464
+msgid "Avvia analisi sistema"
+msgstr "Начать анализ системы"
+
+#: FMain.form:1486
+msgid "Stato del sistema: In attesa di analisi"
+msgstr "Статус системы: Ожидание анализа"
+
+#: FMain.form:1500
+msgid "• Ottimizzazione Memoria RAM"
+msgstr "• Оптимизация оперативной памяти"
+
+#: FMain.form:1507
+msgid "• Pulizia File Temporanei"
+msgstr "• Очистка временных файлов"
+
+#: FMain.form:1514
+msgid "• Verifica Integrità Pacchetti"
+msgstr "• Проверьте целостность посылки."
+
+#: FMain.form:1521
+msgid "• Pulizia Cache di sistema"
+msgstr "• Очистка системного кэша"
+
+#: FMain.form:1524
+msgid "System check"
+msgstr "Проверка системы"
+
+#: FMain.form:1530
+msgid "Dettaglio servizi"
+msgstr "Детали услуг"
+
+#: FMain.form:1537
+msgid "Pulisci servizi"
+msgstr "Чистые услуги"
+
+#: FMain.form:1560
+msgid "In attesa di analisi"
+msgstr "Жду анализа"
+
+#: FMain.form:1605
+msgid "Gestione dei processi attivi. Controlla quali programmi stanno consumando le risorse del tuo sistema e interrompi istantaneamente le applicazioni che non rispondono."
+msgstr "Управление активными процессами. Проверьте, какие программы потребляют ресурсы вашей системы, и мгновенно остановите не отвечающие приложения."
+
+#: FMain.form:1611
+msgid "About"
+msgstr "О"
+
+#: FMain.form:1643
+msgid "www.andrealinux.it"
+msgstr "www.andrealinux.it"
+
+#: FMain.form:1663
+msgid "Pulizia sistema"
+msgstr "Очистка системы"
+
+#: FMain.form:1670
+msgid "Stato sistema"
+msgstr "Статус системы"
+
+#: FMain.form:1720
+msgid "Analisi disco"
+msgstr "Анализ диска"
+
+#: FMain.form:1734
+msgid "Identifica disco"
+msgstr "Определить диск"
+
+#: FMain.form:1746
+msgid "Analisi profonda dello stato operativo del dispositivo. Il sistema esegue un test automatico per rilevare anomalie meccaniche o elettroniche, garantendo che i tuoi file siano al sicuro e che il supporto di memoria sia integro."
+msgstr "Глубокий анализ рабочего состояния устройства. Система запускает автоматический тест для обнаружения механических или электронных аномалий, гарантируя безопасность ваших файлов и целостность носителя."
+
+#: FMain.form:1768
+msgid "Test rapido"
+msgstr "Быстрый тест"
+
+#: FMain.form:1776
+msgid "Test esteso"
+msgstr "Расширенный тест"
+
+#: FMain.form:1784
+msgid "Log errori"
+msgstr "Журнал ошибок"
+
+#: FMain.form:1787
+msgid "Gestione File e Spazio"
+msgstr "Управление файлами и пространством"
+
+#: FMain.form:1800
+msgid "Aggiungi"
+msgstr "Добавлять"
+
+#: FMain.form:1807
+msgid "Dimensione minima (MB):"
+msgstr "Минимальный размер (МБ):"
+
+#: FMain.form:1812
+msgid "100"
+msgstr "100"
+
+#: FMain.form:1817
+msgid "180"
+msgstr "180"
+
+#: FMain.form:1824
+msgid "Giorni di inutilizzo: "
+msgstr "Дни неиспользования:"
+
+#: FMain.form:1837
+msgid "Sposta nel cestino"
+msgstr "Переместить в корзину"
+
+#: FMain.form:1844
+msgid "Scansiona"
+msgstr "Сканировать"
+
+#: FMain.form:1851
+msgid "Individua ed elimina i file grandi e inutilizzati per recuperare spazio prezioso sul disco."
+msgstr "Найдите и удалите большие неиспользуемые файлы, чтобы освободить ценное дисковое пространство."
+
+#: FMain.form:1854
+msgid "Spazio disco"
+msgstr "Дисковое пространство"
+
+#: FMain.form:1881
+msgid "Fai doppio clic su una riga qualsiasi della tabella per calcolare immediatamente il peso reale della cartella."
+msgstr "Дважды щелкните любую строку таблицы, чтобы сразу рассчитать фактический вес папки."
+
+#: FMain.form:1888
+msgid "Spazio disco: Qui puoi vedere le cartelle principali e la loro dimensione. Fai doppio clic su una riga per calcolare all'istante il peso reale e dettagliato della cartella selezionata."
+msgstr "Дисковое пространство: Здесь вы можете увидеть основные папки и их размер. Дважды щелкните строку, чтобы мгновенно рассчитать реальный подробный вес выбранной папки."
+
+#: FMain.form:1894
+msgid "Stress test"
+msgstr "Стресс-тесты"
+
+#: FMain.form:1900
+msgid ""
+"Test di Stabilità e Diagnostica Hardware\n"
+"\n"
+"Questa sezione ti permette di mettere alla prova i componenti principali del tuo computer (processore e memoria RAM). I test servono a verificare che l'hardware funzioni correttamente sotto carico, aiutando a prevenire blocchi improvvisi, instabilità del sistema o a individuare eventuali componenti difettosi in modo sicuro."
+msgstr ""
+"Тест стабильности и аппаратная диагностика\n"
+"\n"
+"Этот раздел позволяет протестировать основные компоненты вашего компьютера (процессор и оперативную память). Тесты используются для проверки правильности работы оборудования под нагрузкой, помогая предотвратить неожиданные зависания, нестабильность системы или безопасно идентифицировать любые неисправные компоненты."
+
+#: FMain.form:1910
+msgid "Stress Test CPU"
+msgstr "Стресс-тест процессора"
+
+#: FMain.form:1917
+msgid "Test Memoria RAM"
+msgstr "Тест оперативной памяти"
+
+#: FMain.form:1931
+msgid "Interrompi test"
+msgstr "Остановить тест"
+
+#: FMain.form:1948
+msgid "Zram"
+msgstr "Зрам"
+
+#: FMain.form:1969
+msgid "Attiva zRAM"
+msgstr "Включить zRAM"
+
+#: FMain.form:1987
+msgid "256"
+msgstr "256"
+
+#: FMain.form:2002
+msgid "Ottimizza ram"
+msgstr "Оптимизация оперативной памяти"
+
+#: FMain.form:2017
+msgid ""
+"Il modulo zRAM non è installato sul tuo sistema.\n"
+"Per usarlo, installalo con: sudo apt install zramzram-tools"
+msgstr ""
+"Модуль zRAM не установлен в вашей системе.\n"
+"Чтобы использовать его, установите его с помощью: sudo apt install zramzram-tools"
+
+#: FMain.form:2024
+msgid "La zRAM crea una memoria compressa virtuale nella RAM fisica per migliorare le prestazioni del sistema e prevenire blocchi quando la memoria scarseggia. Usa il cursore per scegliere la dimensione e clicca su \"Ottimizza RAM\" per attivarla."
+msgstr "ZRAM создает виртуальную сжатую память в физической оперативной памяти для повышения производительности системы и предотвращения зависаний при нехватке памяти. Используйте ползунок, чтобы выбрать размер, и нажмите «Оптимизировать оперативную память», чтобы активировать его."
+
+#: FMain.form:2030
+msgid "Kernel manager"
+msgstr "Менеджер ядра"
+
+#: FMain.form:2059
+msgid "Rimuovi kernel"
+msgstr "Удалить ядро"
+
+#: FMain.form:2066
+msgid "Gestione Kernel: Rimuovi le versioni obsolete per liberare spazio in sicurezza. Il sistema protegge automaticamente il kernel attualmente in uso."
+msgstr "Управление ядром: удалите устаревшие версии, чтобы безопасно освободить место. Система автоматически защищает используемое в данный момент ядро."
+
+#: FMain.form:2082
+msgid "Dettagli"
+msgstr "Подробности"
+
+#: FMain.form:2089
+msgid "Predefinito"
+msgstr "По умолчанию"
+
+#: FMain.form:2092
+msgid "Kernel e prestazioni"
+msgstr "Ядро и производительность"
+
+#: FMain.form:2104
+msgid "Governor CPU"
+msgstr "Губернатор ЦП"
+
+#: FMain.form:2114
+msgid "Seleziona la modalità di prestazioni del processore."
+msgstr "Выберите режим производительности процессора."
+
+#: FMain.form:2119
+msgid "Regola la velocità e i consumi del processore"
+msgstr "Отрегулируйте скорость процессора и энергопотребление"
+
+#: FMain.form:2124
+msgid "Modalità attiva :"
+msgstr "Активный режим:"
+
+#: FMain.form:2149
+msgid "Uso della Memoria Virtuale (Swap)"
+msgstr "Использование виртуальной памяти (своп)"
+
+#: FMain.form:2154
+msgid "Valore basso = usa meno possibile il disco. Valore alto = libera prima la RAM."
+msgstr "Низкое значение = использует диск как можно меньше. Высокое значение = сначала освобождается ОЗУ."
+
+#: FMain.form:2159
+msgid "0"
+msgstr ""
+"0\n"
+"it:ru"
+
+#: FMain.form:2178
+msgid "alva e applica immediatamente le modifiche al sistema"
+msgstr "alve и немедленно применить изменения в системе"
+
+#: FMain.form:2179
+msgid "Applica impostazioni"
+msgstr "Применить настройки"
+
+#: FMain.form:2186
+msgid "Come procedere: Seleziona il governor desiderato o sposta il cursore della memoria virtuale, quindi clicca su \"Applica impostazioni\" per renderle attive."
+msgstr "Как действовать: выберите нужный регулятор или переместите ползунок виртуальной памяти, затем нажмите «Применить настройки», чтобы сделать их активными."
+
+#: FMain.form:2197
+msgid "Ripristina consigliati"
+msgstr "Рекомендуется выполнить сброс"
+
+#: FMain.form:2201
+msgid "Grub"
+msgstr "Личинки"
+
+#: FMain.form:2206
+msgid "Riavvia i servizi audio per risolvere i problemi di blocco."
+msgstr "Перезапустите аудиослужбы, чтобы устранить проблемы с зависанием."
+
+#: FMain.form:2219
+msgid "Suggerimenti GRUB basati su Hardware"
+msgstr "Предложения по аппаратному обеспечению GRUB"
+
+#: FMain.form:2226
+msgid "Ricarica"
+msgstr "Перезагрузить"
+
+#: FMain.form:2233
+msgid "Salva e Aggiorna GRUB"
+msgstr "Сохраните и обновите GRUB"
+
+#: FMain.form:2240
+msgid "Ripristina backup"
+msgstr "Восстановить резервную копию"
+
+#: FMain.form:2247
+msgid "Guida rapida GRUB: Questa sezione gestisce i parametri di avvio del computer. Usa il pulsante \"Suggerimenti GRUB\" per rilevare automaticamente le ottimizzazioni per la tua CPU, oppure modifica i campi con cautela prima di cliccare su \"Salva e Aggiorna GRUB\"."
+msgstr "Краткое руководство по запуску GRUB: этот раздел управляет параметрами запуска вашего компьютера. Используйте кнопку «Советы GRUB», чтобы автоматически определить оптимизацию для вашего процессора, или внимательно измените поля, прежде чем нажимать «Сохранить и обновить GRUB»."
+
+#: FMain.form:2257
+msgid "Anteprima"
+msgstr "Предварительный просмотр"
+
+#: FMain.form:2264
+msgid "Test"
+msgstr "Тест"
+
+#: FMain.form:2267
+msgid "Recovery"
+msgstr "Восстановление"
+
+#: FMain.form:2272
+msgid "Riavvia i servizi di rete per ripristinare la connessione."
+msgstr "Перезапустите сетевые службы, чтобы восстановить соединение."
+
+#: FMain.form:2285
+msgid "Ricostruisci il Grub, aggiorna il bootloader e crea un backup automatico."
+msgstr "Пересоберите Grub, обновите загрузчик и создайте автоматическую резервную копию."
+
+#: FMain.form:2292
+msgid "Esegui"
+msgstr "Бегать"
+
+#: FMain.form:2298
+msgid "Aggiunge o ripristina il repository Flathub per Flatpak"
+msgstr "Добавляет или восстанавливает репозиторий Flathub для Flatpak."
+
+#: FMain.form:2314
+msgid "  Attenzione: Usa questi strumenti di recovery solo in caso di effettivo bisogno."
+msgstr "Предупреждение. Используйте эти инструменты восстановления только в случае крайней необходимости."
+
+#: FMain.form:2321
+msgid "Riavvia"
+msgstr "Перезапуск"
+
+#: FMain.form:2332
+msgid "User & Group Manager"
+msgstr "Менеджер пользователей и групп"
+
+#: FMain.form:2338
+msgid ""
+"Qui puoi abilitare l'accesso del tuo utente a funzioni speciali (come USB, VirtualBox o Docker).\n"
+"\n"
+"⚠️ IMPORTANTE: Dopo aver salvato, devi fare Logout o Riavviare per rendere attive le modifiche."
+msgstr ""
+"Здесь вы можете разрешить пользователю доступ к специальным функциям (таким как USB, VirtualBox или Docker).\n"
+"\n"
+"⚠️ВАЖНО: После сохранения необходимо выйти из системы или перезагрузить систему, чтобы изменения вступили в силу."
+
+#: FMain.form:2356
+msgid "Amministratore (Sudo)"
+msgstr "Администратор (Судо)"
+
+#: FMain.form:2362
+msgid "Porte Seriali (Arduino/USB)"
+msgstr "Последовательные порты (Arduino/USB)"
+
+#: FMain.form:2368
+msgid "VirtualBox (Accesso USB)"
+msgstr "VirtualBox (доступ через USB)"
+
+#: FMain.form:2374
+msgid "Docker (Gestione Container)"
+msgstr "Докер (Управление контейнерами)"
+
+#: FMain.form:2381
+msgid "Applica Modifiche"
+msgstr "Применить изменения"
+
+#: FMain.form:2390
+msgid "Gestisci e rimuovi i pacchetti di sistema APT e le applicazioni Flatpak installate nel sistema."
+msgstr "Управляйте и удаляйте системные пакеты APT и приложения Flatpak, установленные в системе."
+
+#: FMain.form:2410
+msgid "Ping: --- ms"
+msgstr "Пинг: --- мс"
+
+#: FMain.form:2417
+msgid "Download: --- Mbps"
+msgstr "Загрузка: --- Мбит/с"
+
+#: FMain.form:2424
+msgid "Upload: --- Mbps"
+msgstr "Загрузка: --- Мбит/с"
+
+#: FMain.form:2431
+msgid "Disinstalla"
+msgstr "Удалить"
+
+#: FMain.form:2447
+msgid "Pacchetti APT"
+msgstr "APT-пакеты"
+
+#: FMain.form:2463
+msgid "Cerca"
+msgstr "Около"
+
+#: FMain.form:2466
+msgid "Pacchetti Flatpak"
+msgstr "Флэтпак пакеты"
+
+#: FMain.form:2487
+msgid "Firewall"
+msgstr "Брандмауэры"
+
+#: FMain.form:2508
+msgid ""
+"Il Firewall (UFW) è il guardiano del tuo computer. Monitora il traffico internet e blocca i tentativi di accesso non autorizzati dall'esterno.\n"
+"\n"
+"Stato Attivo: Il tuo PC è invisibile ai malintenzionati sulla rete.\n"
+"\n"
+"Stato Disattivato: Il tuo sistema è esposto a scansioni di porte e potenziali intrusioni."
+msgstr ""
+"Брандмауэр (UFW) — защитник вашего компьютера. Контролируйте интернет-трафик и блокируйте попытки несанкционированного доступа извне.\n"
+"\n"
+"Активный статус: ваш компьютер невидим для злоумышленников в сети.\n"
+"\n"
+"Статус «Отключено»: ваша система подвержена сканированию портов и потенциальным вторжениям."
+
+#: FMain.form:2522
+msgid "Verifica stato"
+msgstr "Проверить статус"
+
+#: FMain.form:2536
+msgid "Attiva protezione"
+msgstr "Включить защиту"
+
+#: FMain.form:2543
+msgid "Disattiva"
+msgstr "Деактивировать"
+
+#: FMain.form:2546
+msgid "Sicurezza avanzata"
+msgstr "Расширенная безопасность"
+
+#: FMain.form:2558
+msgid "Scansione porte"
+msgstr "Сканирование портов"
+
+#: FMain.form:2565
+msgid "Questa lista mostra i servizi del tuo computer pronti a comunicare con la rete. Se vedi programmi noti (come il tuo browser), è del tutto normale."
+msgstr "В этом списке показаны службы на вашем компьютере, готовые к обмену данными с сетью. Если вы видите знакомые программы (например, свой браузер), это совершенно нормально."
+
+#: FMain.form:2575
+msgid "Gestisci Protezione"
+msgstr "Управление защитой"
+
+#: FMain.form:2588
+msgid "Mostra log"
+msgstr "Показать журналы"
+
+#: FMain.form:2595
+msgid "Disattiva protezione"
+msgstr "Отключить защиту"
+
+#: FMain.form:2600
+msgid "Backup"
+msgstr "Резервные копии"
+
+#: FMain.form:2607
+msgid "File e cartelle"
+msgstr "Файлы и папки"
+
+#: FMain.form:2613
+msgid ""
+"Strumento per la salvaguardia dei dati personali e di sistema. Permette di creare copie di sicurezza di file e cartelle selezionando una sorgente e una destinazione specifica. Ideale per prevenire la perdita di dati in caso di guasti hardware o errori software.\n"
+"Assicurarsi che l'unità di destinazione abbia spazio sufficiente prima di avviare."
+msgstr ""
+"Инструмент для защиты личных и системных данных. Он позволяет создавать резервные копии файлов и папок, выбирая определенный источник и место назначения. Идеально подходит для предотвращения потери данных в случае сбоя оборудования или ошибок программного обеспечения.\n"
+"Перед загрузкой убедитесь, что на целевом диске достаточно места."
+
+#: FMain.form:2623
+msgid "Sorgente"
+msgstr "Источник"
+
+#: FMain.form:2630
+msgid "Destinazione"
+msgstr "Место назначения"
+
+#: FMain.form:2642
+msgid "Avvia backup"
+msgstr "Начать резервное копирование"
+
+#: FMain.form:2650
+msgid "Pacchetti di sistema"
+msgstr "Системные пакеты"
+
+#: FMain.form:2656
+msgid "Salva Elenco Pacchetti (Backup)"
+msgstr "Сохранить список пакетов (резервная копия)"
+
+#: FMain.form:2663
+msgid "Ripristina Pacchetti da File"
+msgstr "Восстановить пакеты из файла"
+
+#: FMain.form:2670
+msgid "Salva l'elenco dei pacchetti installati sul sistema o ripristinali dopo una nuova installazione."
+msgstr "Сохраните список пакетов, установленных в вашей системе, или восстановите их после новой установки."
+
+#: FMain.form:2680
+msgid "Nessun file selezionato"
+msgstr "Файлы не выбраны"
+
+#: FMain.form:2689
+msgid "Salva backup repository"
+msgstr "Сохранить резервную копию репозитория"
+
+#: FMain.form:2696
+msgid "Ripristina backup repository"
+msgstr "Восстановить резервную копию репозитория"
+
+#: FMain.form:2699
+msgid "Punti di Ripristino"
+msgstr "Точки восстановления"
+
+#: FMain.form:2706
+msgid "Annulla"
+msgstr "Отмена"
+
+#: FMain.form:2713
+msgid "Crea un punto di salvataggio dell'intero sistema o ripristina una copia precedente in caso di problemi."
+msgstr "Создайте точку сохранения всей системы или восстановите предыдущую копию в случае возникновения проблем."
+
+#: FMain.form:2723
+msgid "Crea Punto di Ripristino"
+msgstr "Создать точку восстановления"
+
+#: FMain.form:2730
+msgid "Gestisci / Ripristina"
+msgstr "Управление/Восстановление"
+
+#: FMain.form:2744
+msgid "Energia"
+msgstr "Энергия"
+
+#: FMain.form:2752
+msgid "Gestione Risparmio Energetico CPU"
+msgstr "Управление энергосбережением процессора"
+
+#: FMain.form:2759
+msgid "Seleziona il profilo desiderato per ottimizzare le prestazioni o prolungare la durata della batteria:"
+msgstr "Выберите нужный профиль, чтобы оптимизировать производительность или продлить срок службы батареи:"
+
+#: FMain.form:2770
+msgid "Bilanciato Standard (Predefinito)"
+msgstr "Стандартный сбалансированный (по умолчанию)"
+
+#: FMain.form:2770
+msgid "Massime Prestazioni (Performance)"
+msgstr "Максимальная производительность (Производительность)"
+
+#: FMain.form:2770
+msgid "Predefinito (Origine)"
+msgstr "По умолчанию (Источник)"
+
+#: FMain.form:2770
+msgid "Risparmio Batteria (Powersave)"
+msgstr "Экономия заряда батареи (Powersave)"
+
+#: FMain.form:2777
+msgid "Applica Profilo Energetico"
+msgstr "Применить энергетический профиль"
+
+#: FMain.form:2803
+msgid "Gestione servizi"
+msgstr "Управление услугами"
+
+#: FMain.form:2815
+msgid "Avvia Servizio"
+msgstr "Запустить службу"
+
+#: FMain.form:2822
+msgid "Arresta Servizio"
+msgstr "Остановить службу"
+
+#: FMain.form:2829
+msgid "Verifica Stato"
+msgstr "Проверить статус"
+
+#: FMain.form:2836
+msgid "Configura Avvio"
+msgstr "Настроить запуск"
+
+#: FMain.form:2843
+msgid ""
+"I servizi (o \"demoni\") sono programmi che girano costantemente in background per gestire funzionalità chiave di Deblinux (come la rete, il server SSH, il Bluetooth o il Firewall).\n"
+"\n"
+"• Verifica Stato: Controlla se il servizio selezionato è attivo (running) o fermo (dead) senza apportare modifiche.\n"
+"• Avvia Servizio: Attiva immediatamente il servizio per la sessione corrente (richiede privilegi di root).\n"
+"• Arresta Servizio: Ferma il servizio in tempo reale per liberare memoria o interrompere una funzionalità (richiede privilegi di root).\n"
+"\n"
+"Attenzione: Arrestare servizi critici come networking o network-manager potrebbe disconnettere temporaneamente il PC da Internet."
+msgstr ""
+"Службы (или «демоны») — это программы, которые постоянно работают в фоновом режиме для управления ключевыми функциями Deblinux (такими как сеть, SSH-сервер, Bluetooth или брандмауэр).\n"
+"\n"
+"• Проверить статус: проверьте, активна ли выбранная служба (работает) или остановлена (неактивна), не внося никаких изменений.\n"
+"• Запустить службу: Немедленно активировать службу для текущего сеанса (требуются права root).\n"
+"• Остановить службу: остановка службы в режиме реального времени, чтобы освободить память или остановить функцию (требуются права root).\n"
+"\n"
+"Предупреждение. Остановка критически важных служб, таких как сеть или диспетчер сети, может временно отключить ваш компьютер от Интернета."
+
+#: FMain.form:2849
+msgid "Ottimizzazione performance"
+msgstr "Оптимизация производительности"
+
+#: FMain.form:2855
+msgid "Analizza avvio"
+msgstr "Анализ запуска"
+
+#: FMain.form:2862
+msgid "Gestione Swap"
+msgstr "Управление свопами"
+
+#: FMain.form:2869
+msgid "Manutenzione disco"
+msgstr "Обслуживание диска"
+
+#: FMain.form:2876
+msgid "Trova processi pesanti"
+msgstr "Найдите тяжелые процессы"
+
+#: FMain.form:2883
+msgid "Ottimizza tutto"
+msgstr "Оптимизируйте все"
+
+#: FMain.form:2899
+msgid ""
+"Questo modulo analizza i punti critici che possono rallentare il tuo sistema DebLinux. Utilizza i pulsanti sottostanti per diagnosticare e intervenire sulle prestazioni:\n"
+"\n"
+"- Analisi Avvio: Identifica i servizi di sistema che impiegano più tempo a caricarsi durante l'accensione.\n"
+"\n"
+"- Gestione Swap: Regola la 'swappiness' per ottimizzare l'uso della memoria RAM rispetto al disco.\n"
+"\n"
+"- Manutenzione Disco: Esegue il comando TRIM (per SSD) per mantenere alte le velocità di lettura/scrittura.\n"
+"\n"
+"- Trova processi pesanti: Identifica in tempo reale le applicazioni e i processi che consumano più risorse di sistema (CPU e RAM).\n"
+"\n"
+"- Ottimizza Tutto: Esegue una procedura automatizzata di manutenzione completa (TRIM, pulizia cache e tuning della memoria).\n"
+"\n"
+"Attenzione: alcune operazioni richiedono privilegi di amministratore."
+msgstr ""
+"Этот модуль анализирует критические точки, которые могут замедлить работу вашей системы DebLinux. Используйте кнопки ниже для диагностики и принятия мер по снижению производительности:\n"
+"\n"
+"- Анализ запуска: определение системных служб, загрузка которых во время запуска занимает больше всего времени.\n"
+"\n"
+"- Управление подкачкой: отрегулируйте «подкачку», чтобы оптимизировать использование оперативной памяти по сравнению с диском.\n"
+"\n"
+"- Обслуживание диска: запустите команду TRIM (для SSD), чтобы поддерживать высокую скорость чтения/записи.\n"
+"\n"
+"- Найдите тяжелые процессы: определите в режиме реального времени приложения и процессы, которые потребляют больше всего системных ресурсов (ЦП и ОЗУ).\n"
+"\n"
+"- Оптимизировать все: выполняет полную автоматизированную процедуру обслуживания (TRIM, очистка кэша и настройка памяти).\n"
+"\n"
+"Внимание: некоторые операции требуют прав администратора."
+
+#: FMain.form:2905
+msgid "Log di sistema"
+msgstr "Системные журналы"
+
+#: FMain.form:2918
+msgid "Aggiorna"
+msgstr "Обновлять"
+
+#: FMain.form:2925
+msgid "Esporta log"
+msgstr "Экспорт журналов"
+
+#: FMain.form:2932
+msgid "Visualizza gli ultimi eventi e messaggi di sistema registrati da journalctl. Utile per diagnosticare eventuali problemi."
+msgstr "Просмотрите последние системные события и сообщения, зарегистрированные журналомctl. Полезно для диагностики любых проблем."
+
+#: FMain.form:2940
+msgid "Distruggi documenti"
+msgstr "Уничтожать документы"
+
+#: FMain.form:2951
+msgid "Sfoglia"
+msgstr "Листать"
+
+#: FMain.form:2960
+msgid "Distruggi documento"
+msgstr "Уничтожить документ"
+
+#: FMain.form:2969
+msgid "Distruggi file sicuro"
+msgstr "Безопасно уничтожить файл"
+
+#: FMain.form:2976
+msgid ""
+"🔒 Distruzione Sicura dei File (File Shredder)\n"
+"Quando elimini un file normalmente o lo mandi nel cestino, i dati rimangono fisicamente sul disco fisso finché non vengono sovrascritti, e possono essere recuperati con appositi programmi.\n"
+"Questo strumento sovrascrive i dati del documento più volte con sequenze casuali e zeri, rendendolo totalmente irrecuperabile anche con software forensi avanzati."
+msgstr "🔒 Безопасное уничтожение файлов (File Shredder)\\nКогда вы удаляете файл обычным способом или помещаете его в корзину, данные физически остаются на жестком диске до тех пор, пока не будут перезаписаны, и могут быть восстановлены с помощью специальных программ.\\nЭтот инструмент перезаписывает данные документа несколько раз случайными последовательностями и нулями, делая его полностью невосстановимым даже с помощью продвинутого судебного ПО."
+
+#: FMain.form:2989
+msgid "Guida"
+msgstr "Руководство"
+
+#: FMain.form:3000
+msgid ""
+"==================================================\n"
+"       DEBLINUX TOOLKIT - GUIDA UTENTE\n"
+"==================================================\n"
+"\n"
+"1. MANUTENZIONE E PULIZIA\n"
+"--------------------------------------------------\n"
+"\n"
+"• Pulizia cache\n"
+"  Elimina file temporanei, cache di sistema, log obsoleti e pacchetti residui per liberare spazio prezioso su disco e mantenere il sistema snello.\n"
+"• Pulizia browser\n"
+"  Rimuove la cronologia, i cookie, la cache e i dati di navigazione accumulati dai browser installati per proteggere la privacy e recuperare spazio.\n"
+"• Pulizia pacchetti\n"
+"  Pulisce la cache del gestore pacchetti APT rimuovendo i pacchetti .deb scaricati e non più necessari o orfani.\n"
+"• Pulizia RAM\n"
+"  Svuota la cache della memoria RAM e i buffer temporanei per liberare risorse e ottimizzare le prestazioni immediate del sistema.\n"
+"• Pulizia log\n"
+"  Elimina i registri di sistema più vecchi e i file di log di debug accumulati nel tempo per liberare spazio di archiviazione.\n"
+"\n"
+"--------------------------------------------------\n"
+"\n"
+"2. SISTEMA E HARDWARE\n"
+"--------------------------------------------------\n"
+"\n"
+"• Info hardware\n"
+"  Fornisce un'analisi in tempo reale della configurazione hardware e software del computer. \n"
+"  - Scheda Info: Mostra i parametri di sistema (Nome Host, Kernel, Distribuzione, Architettura, Uptime, Scheda Madre), lo stato della RAM e dei dischi, la temperatura della CPU, lo stato di ZRAM e le informazioni di rete (Interfaccia, IP, Stato Online).\n"
+"  - Scheda Hardware network: Offre una panoramica completa dei componenti hardware installati (CPU, RAM, Modelli dei dischi sda/sdb/sdc, zram0) e lo stato dettagliato della connessione di rete con IP e Gateway.\n"
+"  - Scheda About: Presenta la descrizione di Deblinux Toolkit, i suoi obiettivi principali, la licenza Open Source e l'avviso di sicurezza sull'importanza del backup.\n"
+"\n"
+"• Disco\n"
+"  Esegue un'analisi approfondita dello stato operativo dei dispositivi di memorizzazione per prevenire guasti e rilevare anomalie meccaniche o elettroniche.\n"
+"  - Analisi disco: Permette di selezionare un disco e verificarne l'integrità tramite identificazione, test rapido, test esteso o lettura dei log di errore.\n"
+"  - Gestione File e Spazio: Individua ed elimina i file grandi e inutilizzati basandosi su una dimensione minima (MB) e giorni di inutilizzo specificati dall'utente.\n"
+"  - Spazio disco: Mostra le cartelle principali e la loro dimensione, consentendo di calcolare all'istante il peso reale e dettagliato tramite doppio clic sulla riga.\n"
+"  - Stress test: Mette alla prova i componenti principali del computer (processore e memoria RAM) con test di stabilità per prevenire blocchi o instabilità.\n"
+"\n"
+"• Sistema processi\n"
+"  Gestisce i processi attivi sul sistema. Permette di controllare l'utilizzo di CPU e Memoria (%CPU, %MEM, PID, Comando) da parte dei programmi in esecuzione e di interrompere istantaneamente quelli che non rispondono.\n"
+"\n"
+"• App installate\n"
+"  Consente di gestire e rimuovere i pacchetti presenti nel sistema.\n"
+"  - Pacchetti APT: Elenca e permette la disinstallazione dei pacchetti di sistema tradizionali di Debian.\n"
+"  - Pacchetti Flatpak: Gestisce e rimuove le applicazioni in formato containerizzato installate sul sistema (es. VokoscreenNG, SMPlayer, Audacity, ecc.).\n"
+"\n"
+"• Ottimizza RAM\n"
+"  Crea una memoria compressa virtuale (zRAM) nella RAM fisica per migliorare le prestazioni generali e prevenire blocchi quando la memoria scarseggia.\n"
+"  - Configurazione: Tramite un cursore intuitivo è possibile scegliere la dimensione desiderata (da un minimo di 256 MB fino al totale della memoria disponibile).\n"
+"  - Gestione: Mostra in tempo reale l'utilizzo attuale, la percentuale di occupazione e l'algoritmo di compressione utilizzato (es. zstd).\n"
+"  - Azioni: Consente di attivare/modificare la zRAM con il pulsante \"Ottimizza ram\" o di disattivarla all'occorrenza tramite l'apposito controllo.\n"
+"\n"
+"• Monitor temperature\n"
+"  Monitora in tempo reale le temperature dei componenti critici del computer (come CPU e GPU), permettendo di tenere sotto controllo il riscaldamento del sistema durante l'uso intensivo o sotto sforzo.\n"
+"\n"
+"• Rete\n"
+"  Verifica e ripristina lo stato della connettività di rete in modo rapido.\n"
+"  - Diagnosi in tempo reale: Mostra spie di stato immediate per il controllo del Gateway locale (Router), del servizio DNS e della connessione Internet globale.\n"
+"  - Test diagnostico: Esegue verifiche di connettività automatizzate tramite il pulsante dedicato.\n"
+"  - Ripristino Rete & Wi-Fi: Riavvia i servizi di rete di sistema (NetworkManager) per risolvere al volo problemi di connessione utilizzando la password di amministrazione salvata.\n"
+"\n"
+"--------------------------------------------------\n"
+"\n"
+"3. AMMINISTRATORE E MODIFICHE\n"
+"--------------------------------------------------\n"
+"\n"
+"• Kernel manager, grub, recovery\n"
+"  - Kernel manager: Consente di rimuovere i kernel obsoleti per liberare spazio in sicurezza, proteggendo automaticamente quello attualmente in uso.\n"
+"  - Kernel e prestazioni: Gestisce il Governor CPU per regolare velocità e consumo del processore (es. schedutil) e la Memoria Virtuale (Swap) tramite cursore interattivo.\n"
+"  - Grub: Gestisce i parametri di avvio del computer, offrendo suggerimenti basati sull'hardware e la possibilità di salvare o aggiornare la configurazione.\n"
+"  - Recovery: Offre strumenti di emergenza per riavviare i servizi audio o di rete, ricostruire il Grub o ripristinare il repository Flathub.\n"
+"\n"
+"• Gestione repository e driver\n"
+"  - App repository: Gestisce le sorgenti software ufficiali presenti in /etc/apt/sources.list e permette di aggiungere nuovi repository.\n"
+"  - Repository Manager: Visualizza e modifica le fonti software avanzate e consente di abilitare rapidamente i Debian Backports.\n"
+"  - Driver manager: Gestisce l'installazione automatica di firmware e driver per Debian.\n"
+"\n"
+"• Startup (Gestione avvio)\n"
+"  Permette di controllare i processi e i servizi avviati automaticamente all'accesso, consentendo di disabilitarli o ripristinarli per ridurre i tempi di avvio.\n"
+"\n"
+"• Fixer (Riparazione problemi)\n"
+"  Utility di diagnostica avanzata per risolvere errori comuni di sistema. Include funzioni per riparare il database APT, correggere dipendenze rotte, riconfigurare pacchetti, pulire pacchetti orfani, gestire le chiavi e verificare l'integrità.\n"
+"\n"
+"• Gestione permessi utente\n"
+"  Abilita o disabilita l'accesso del proprio utente a funzioni speciali (es. Amministratore Sudo, Porte Seriali Arduino/USB, VirtualBox, Docker). Richiede un Logout o Riavvio per rendere attive le modifiche.\n"
+"\n"
+"--------------------------------------------------\n"
+"\n"
+"4. SICUREZZA, BACKUP E LOG\n"
+"--------------------------------------------------\n"
+"\n"
+"• Sicurezza & firewall\n"
+"  - Firewall: Gestisce il Firewall UFW per monitorare il traffico internet e bloccare tentativi di accesso non autorizzati dall'esterno, rendendo il PC invisibile sulla rete. Permette di attivare o disattivare la protezione con un semplice clic.\n"
+"  - Sicurezza avanzata: Mostra la lista dei servizi pronti a comunicare con la rete e offre strumenti per la scansione delle porte, la gestione della protezione e la visualizzazione dei log dedicati.\n"
+"\n"
+"• Gestione backup\n"
+"  - File e cartelle: Strumento per la salvaguardia dei dati personali tramite la selezione di una sorgente e di una destinazione specifica, ideale per prevenire la perdita di dati.\n"
+"  - Pacchetti di sistema: Permette di salvare l'elenco dei pacchetti installati su file, ripristinarli dopo una nuova installazione e gestire il backup dei repository.\n"
+"  - Punti di Ripristino: Consente di creare un punto di salvataggio dell'intero sistema o di ripristinare una copia precedente in caso di problemi.\n"
+"\n"
+"• Log debug\n"
+"  Monitoraggio in tempo reale degli eventi di sistema. Registra le operazioni del Toolkit e gli errori tecnici, permettendo di analizzare il comportamento del software e risolvere malfunzionamenti tramite la lettura, la pulizia o la messa in pausa dei log.\n"
+"\n"
+"• Impostazioni\n"
+"  - Password amministratore: Memorizza la password di root per eseguire le operazioni di sistema in modo istantaneo, senza doverla reinserire ogni volta. Include opzioni per salvarla, rimuoverla o resettare la configurazione.\n"
+"  - Opzioni generali: Consente di abilitare la pulizia rapida della cache all'avvio.\n"
+"\n"
+"• Distruggi file sicuro (File Shredder)\n"
+"  Sovrascrive i file eliminati più volte con sequenze casuali e zeri, rendendoli totalmente irrecuperabili anche con software forensi avanzati per garantire la massima privacy.\n"
+"\n"
+"--------------------------------------------------\n"
+"Creato con Gambas per la community Linux."
+msgstr ""
+"==================================================\n"
+"DEBLINUX TOOLKIT — РУКОВОДСТВО ПОЛЬЗОВАТЕЛЯ\n"
+"ОБСЛУЖИВАНИЕ И ОЧИСТКА\n"
+"\n"
+"• Очистка кэша\n"
+"Удаляет временные файлы, системный кэш, устаревшие логи и остаточные пакеты для освобождения ценного дискового пространства и поддержания системы в порядке.\n"
+"• Очистка браузера\n"
+"Удаляет историю, файлы cookie, кэш и данные просмотров, накопленные установленными браузерами, для защиты конфиденциальности и освобождения места.\n"
+"• Очистка пакетов\n"
+"Очищает кэш менеджера пакетов APT, удаляя загруженные .deb-пакеты, которые больше не нужны или являются сиротами.\n"
+"• Очистка ОЗУ (RAM)\n"
+"Очищает кэш оперативной памяти и временные буферы для высвобождения ресурсов и оптимизации мгновенной производительности системы.\n"
+"• Очистка логов\n"
+"Удаляет старые системные журналы и файлы отладочных логов, накопившиеся за время работы, чтобы освободить место на накопителе.\n"
+"\n"
+"СИСТЕМА И ОБОРУДОВАНИЕ\n"
+"\n"
+"• Информация об оборудовании\n"
+"Предоставляет анализ аппаратной и программной конфигурации компьютера в реальном времени.\n"
+"\n"
+"Вкладка «Информация»: Отображает системные параметры (имя хоста, ядро, дистрибутив, архитектуру, время работы, материнскую плату), состояние ОЗУ и дисков, температуру ЦП, статус ZRAM и сетевую информацию (интерфейс, IP, статус в сети).\n"
+"\n"
+"Вкладка «Сетевое оборудование»: Представляет полный обзор установленных аппаратных компонентов (ЦП, ОЗУ, модели дисков sda/sdb/sdc, zram0) и подробный статус сетевого подключения с IP и шлюзом.\n"
+"\n"
+"Вкладка «О программе»: Содержит описание Deblinux Toolkit, его основные цели, лицензию Open Source и предупреждение безопасности о важности резервного копирования.\n"
+"\n"
+"• Диск\n"
+"Выполняет глубокий анализ рабочего состояния устройств хранения данных для предотвращения сбоев и выявления механических или электронных аномалий.\n"
+"\n"
+"Анализ диска: Позволяет выбрать диск и проверить его целостность с помощью идентификации, быстрого теста, расширенного теста или чтения журналов ошибок.\n"
+"\n"
+"Управление файлами и пространством: Находит и удаляет крупные и неиспользуемые файлы на основе заданных пользователем минимального размера (МБ) и дней бездействия.\n"
+"\n"
+"Дисковое пространство: Показывает основные папки и их размер, позволяя мгновенно рассчитать реальный и детальный объем при двойном клике на строку.\n"
+"\n"
+"Стресс-тест: Проверяет основные компоненты компьютера (процессор и оперативную память) с помощью тестов на стабильность для предотвращения зависаний или сбоев.\n"
+"\n"
+"• Системные процессы\n"
+"Управляет активными процессами в системе. Позволяет контролировать использование процессора и памяти (%CPU, %MEM, PID, команда) запущенными программами и мгновенно завершать зависшие.\n"
+"\n"
+"• Установленные приложения\n"
+"Позволяет управлять пакетами в системе и удалять их.\n"
+"\n"
+"Пакеты APT: Перечисляет традиционные системные пакеты Debian и позволяет их удалять.\n"
+"\n"
+"Пакеты Flatpak: Управляет контейнеризованными приложениями, установленными в системе (например, VokoscreenNG, SMPlayer, Audacity и др.), и удаляет их.\n"
+"\n"
+"• Оптимизация ОЗУ (RAM)\n"
+"Создает виртуальную сжатую память (zRAM) в физической оперативной памяти для повышения общей производительности и предотвращения зависаний при нехватке памяти.\n"
+"\n"
+"Конфигурация: С помощью интуитивного ползунка можно выбрать желаемый размер (от минимум 256 МБ до общего объема доступной памяти).\n"
+"\n"
+"Управление: В реальном времени отображает текущее использование, процент заполнения и используемый алгоритм сжатия (например, zstd).\n"
+"\n"
+"Действия: Позволяет включить/изменить zRAM кнопкой «Оптимизировать ОЗУ» или отключить ее при необходимости с помощью специального элемента управления.\n"
+"\n"
+"• Монитор температур\n"
+"Отслеживает в реальном времени температуры критически важных компонентов компьютера (таких как ЦП и ГП), помогая контролировать нагрев системы при интенсивном использовании или высокой нагрузке.\n"
+"\n"
+"• Сеть\n"
+"Быстро проверяет и восстанавливает состояние сетевого подключения.\n"
+"\n"
+"Диагностика в реальном времени: Показывает индикаторы состояния для проверки локального шлюза (роутера), службы DNS и общего подключения к Интернету.\n"
+"\n"
+"Диагностический тест: Запускает автоматическую проверку соединения с помощью специальной кнопки.\n"
+"\n"
+"Сброс сети и Wi-Fi: Перезапускает системные сетевые службы (NetworkManager) для мгновенного решения проблем с подключением с использованием сохраненного пароля администратора.\n"
+"\n"
+"АДМИНИСТРАТОР И МОДИФИКАЦИИ\n"
+"\n"
+"• Менеджер ядер, GRUB, восстановление\n"
+"\n"
+"Менеджер ядер: Позволяет безопасно удалять устаревшие ядра для освобождения места, автоматически защищая то, которое используется в данный момент.\n"
+"\n"
+"Ядро и производительность: Управляет регулятором ЦП (Governor) для настройки скорости и энергопотребления процессора (например, schedutil), а также виртуальной памятью (Swap) с помощью интерактивного ползунка.\n"
+"\n"
+"GRUB: Управляет параметрами загрузки компьютера, предлагая рекомендации на основе оборудования и возможность сохранить или обновить конфигурацию.\n"
+"\n"
+"Восстановление: Предоставляет аварийные инструменты для перезапуска служб аудио или сети, восстановления GRUB или репозитория Flathub.\n"
+"\n"
+"• Управление репозиториями и драйверами\n"
+"\n"
+"Репозиторий приложений: Управляет официальными источниками программного обеспечения в /etc/apt/sources.list и позволяет добавлять новые репозитории.\n"
+"\n"
+"Менеджер репозиториев: Просматривает и изменяет расширенные источники программного обеспечения, а также позволяет быстро включить Debian Backports.\n"
+"\n"
+"Менеджер драйверов: Управляет автоматической установкой прошивок и драйверов для Debian.\n"
+"\n"
+"• Автозагрузка (Управление загрузкой)\n"
+"Позволяет контролировать процессы и службы, запускаемые автоматически при входе в систему, давая возможность отключать их или восстанавливать для сокращения времени загрузки.\n"
+"\n"
+"• Исправление (Устранение проблем)\n"
+"Утилита расширенной диагностики для исправления распространенных системных ошибок. Включает функции восстановления базы данных APT, исправления поврежденных зависимостей, переконфигурации пакетов, очистки сиротских пакетов, управления ключами и проверки целостности.\n"
+"\n"
+"• Управление правами пользователя\n"
+"Включает или отключает доступ пользователя к специальным функциям (например, администратор Sudo, последовательные порты Arduino/USB, VirtualBox, Docker). Для применения изменений требуется выход из системы или перезагрузка.\n"
+"\n"
+"БЕЗОПАСНОСТЬ, РЕЗЕРВНОЕ КОПИРОВАНИЕ И ЛОГИ\n"
+"\n"
+"• Безопасность и брандмауэр\n"
+"\n"
+"Брандмауэр: Управляет брандмауэром UFW для мониторинга интернет-трафика и блокировки несанкционированных попыток внешнего доступа, делая ПК невидимым в сети. Позволяет включать или отключать защиту простым кликом.\n"
+"\n"
+"Расширенная безопасность: Отображает список служб, готовых к сетевому взаимодействию, и предлагает инструменты для сканирования портов, управления защитой и просмотра специализированных логов.\n"
+"\n"
+"• Управление резервным копированием\n"
+"\n"
+"Файлы и папки: Инструмент для защиты личных данных путем выбора определенного источника и назначения, идеальный для предотвращения потери данных.\n"
+"\n"
+"Системные пакеты: Позволяет сохранять список установленных пакетов в файл, восстанавливать их после новой установки и управлять резервным копированием репозиториев.\n"
+"\n"
+"Точки восстановления: Позволяет создать точку сохранения всей системы или восстановить предыдущую копию в случае возникновения проблем.\n"
+"\n"
+"• Отладочный лог\n"
+"Мониторинг системных событий в реальном времени. Записывает операции Toolkit и технические ошибки, позволяя анализировать поведение программного обеспечения и устранять сбои путем чтения, очистки или приостановки логов.\n"
+"\n"
+"• Настройки\n"
+"\n"
+"Пароль администратора: Сохраняет пароль root для мгновенного выполнения системных операций без необходимости вводить его каждый раз. Включает опции сохранения, удаления или сброса конфигурации.\n"
+"\n"
+"Общие параметры: Позволяет включить быструю очистку кэша при запуске.\n"
+"\n"
+"• Безопасное уничтожение файлов (File Shredder)\n"
+"Многократно перезаписывает удаленные файлы случайными последовательностями и нулями, делая их полностью невосстановимыми даже с помощью продвинутого криминалистического ПО для обеспечения максимальной конфиденциальности.\n"
+"\n"
+"Создано с помощью Gambas для сообщества Linux."
+
+#: FMain.form:3006
+msgid "Tab 22"
+msgstr "Вкладка 22"
+
+#: FMain.form:3022
+msgid ""
+"Descrizione:\n"
+"Un'utility di sistema open-source progettata per semplificare la gestione e la manutenzione di distribuzioni basate su Debian. L'interfaccia offre un accesso rapido a strumenti avanzati di pulizia, gestione processi, configurazione repository e diagnostica hardware.\n"
+"\n"
+"Obiettivi del progetto:\n"
+"\n"
+"Ottimizzare le performance di sistema tramite la pulizia intelligente dei file di cache.\n"
+"\n"
+"Facilitare la risoluzione di errori comuni tramite procedure di ripristino guidate.\n"
+"\n"
+"Monitorare le risorse hardware e i servizi di sistema in tempo reale.\n"
+"\n"
+"Sviluppato con: Gambas 3\n"
+"Licenza: Open Source\n"
+"\n"
+"Deblinux Toolkit non garantisce la protezione dei dati utente; si consiglia di eseguire un backup prima di operazioni critiche di manutenzione."
+msgstr "Описание:\\nСистемная утилита с открытым исходным кодом, предназначенная для упрощения управления и обслуживания дистрибутивов на основе Debian. Интерфейс предоставляет быстрый доступ к расширенным инструментам очистки, управления процессами, настройки репозиториев и диагностики оборудования.\\n\\nЦели проекта:\\n\\nОптимизировать производительность системы с помощью интеллектуальной очистки файлов кэша.\\n\\nОблегчить решение распространённых ошибок с помощью пошаговых процедур восстановления.\\n\\nМониторить аппаратные ресурсы и системные службы в режиме реального времени.\\n\\nРазработано с использованием: Gambas 3\\nЛицензия: Open Source\\n\\nDeblinux Toolkit не гарантирует защиту пользовательских данных; рекомендуется выполнить резервное копирование перед выполнением критических операций обслуживания."
+
+#: FMain.form:3035
+msgid "Monitor termico"
+msgstr "Тепловой монитор"
+
+#: FMain.form:3052
+msgid "Raffredda"
+msgstr "Остудить"
+
+#: FMain.form:3065
+msgid "Questo modulo legge in tempo reale la temperatura dei sensori di sistema. Se la temperatura supera i 75°C, viene attivato un avviso visivo. Puoi utilizzare il pulsante sottostante per forzare il profilo di risparmio energetico (powersave) e ridurre il carico termico."
+msgstr "Этот модуль в реальном времени считывает температуру системных датчиков. Если температура превышает 75°C, активируется визуальное предупреждение. Вы можете использовать кнопку ниже, чтобы принудительно включить профиль энергосбережения (powersave) и снизить тепловую нагрузку."
+
+#: FMain.form:3077
+msgid "Monitor temperatura CPU"
+msgstr "Монитор температуры ЦПУ"
+
+#: FMain.form:3084
+msgid "Temperatura CPU:"
+msgstr "Температура ЦП:"
+
+#: FMain.form:3087
+msgid "Rete"
+msgstr "Сеть"
+
+#: FMain.form:3102
+msgid "Ripristina Rete & Wi-Fi"
+msgstr "Восстановить сеть и Wi-Fi"
+
+#: FMain.form:3109
+msgid "Esegui test diagnostico"
+msgstr "Выполнить диагностический тест"
+
+#: FMain.form:3135
+msgid "Questo modulo verifica lo stato della connessione Internet, del DNS e del router locale (Gateway). In caso di problemi, puoi utilizzare il pulsante di ripristino per riavviare i servizi di rete di sistema."
+msgstr "Этот модуль проверяет состояние подключения к Интернету, DNS и локального маршрутизатора (шлюза). В случае проблем вы можете использовать кнопку сброса, чтобы перезапустить сетевые службы системы."
+
+#: FMain.form:3149
+msgid "Esporta Log"
+msgstr "Экспорт журнала"

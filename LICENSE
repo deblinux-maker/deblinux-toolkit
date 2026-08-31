@@ -1,13 +1,30 @@
 Copyright (c) 2026 Andrea linux
-
 Tutti i diritti riservati.
 
-È consentita esclusivamente la visualizzazione del codice sorgente
-ai fini di consultazione. Non è permesso copiare, modificare,
-redistribuire, decompilare, utilizzare o incorporare il codice in
-altri progetti, né in forma totale né parziale.
+È consentita esclusivamente la visualizzazione del codice sorgente ai fini di
+consultazione. Non è permesso copiare, modificare, redistribuire, decompilare,
+tradurre, disassemblare, effettuare reverse engineering, utilizzare o
+incorporare il codice in altri progetti, né in forma totale né parziale.
 
-Qualsiasi utilizzo non autorizzato del codice è espressamente vietato.
+È vietato utilizzare il codice per scopi commerciali, didattici, di ricerca,
+di analisi automatizzata o per la creazione di opere derivate. È vietato
+qualsiasi utilizzo del codice in sistemi cloud, container, infrastrutture
+virtualizzate o ambienti remoti non autorizzati dall’autore.
+
+È severamente vietato utilizzare il codice, in qualsiasi forma o porzione,
+per l’addestramento, la validazione, il fine‑tuning, l’analisi, la generazione
+di dataset o il miglioramento di modelli di intelligenza artificiale, reti
+neurali, sistemi di machine learning o strumenti automatizzati di analisi del
+codice. È vietata la memorizzazione del codice in dataset destinati a modelli
+AI, sia pubblici che privati.
+
+È vietato il mirroring, il fork non autorizzato, la clonazione automatica,
+lo scraping, l’indicizzazione, la scansione o l’archiviazione del codice da
+parte di servizi terzi, motori di ricerca, crawler, bot o piattaforme di
+versionamento.
+
+Qualsiasi utilizzo non autorizzato del codice è espressamente vietato e può
+comportare responsabilità civili e penali ai sensi delle normative vigenti.
 
 Il software è fornito “così com’è”, senza alcuna garanzia espressa o implicita.
-L’autore non è responsabile per eventuali danni derivanti dall’uso del software.
+L’autore non è responsabile per eventuali danni derivanti dall’uso del software

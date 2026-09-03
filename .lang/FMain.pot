@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: $(PACKAGE) $(VERSION)\n"
-"POT-Creation-Date: 2026-08-31 08:48 UTC\n"
+"POT-Creation-Date: 2026-09-03 10:08 UTC\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1050,515 +1050,507 @@ msgstr ""
 msgid "Esporta Log"
 msgstr ""
 
-#: FMain.class:51
+#: FMain.class:52
 msgid "Manutenzione e pulizia"
 msgstr ""
 
-#: FMain.class:55
+#: FMain.class:56
 msgid "Servizi di sistema"
 msgstr ""
 
-#: FMain.class:58
+#: FMain.class:59
 msgid "Sistema e Hardware"
 msgstr ""
 
-#: FMain.class:63
+#: FMain.class:64
 msgid "Ottimizza Ram"
 msgstr ""
 
-#: FMain.class:64
+#: FMain.class:65
 msgid "Monitor temperature"
 msgstr ""
 
-#: FMain.class:69
+#: FMain.class:70
 msgid "Amministratore e Modifiche"
 msgstr ""
 
-#: FMain.class:72
+#: FMain.class:73
 msgid "Startup (Gestione avvio)"
 msgstr ""
 
-#: FMain.class:73
+#: FMain.class:74
 msgid "Fixer (Riparazione problemi)"
 msgstr ""
 
-#: FMain.class:74
+#: FMain.class:75
 msgid "Gestione permessi utente"
 msgstr ""
 
-#: FMain.class:77
+#: FMain.class:78
 msgid "Sicurezza, Backup e Log"
 msgstr ""
 
-#: FMain.class:78
+#: FMain.class:79
 msgid "Sicurezza & firewall"
 msgstr ""
 
-#: FMain.class:87
+#: FMain.class:88
 msgid "Guida Utente"
 msgstr ""
 
-#: FMain.class:141
+#: FMain.class:142
 msgid "Nome Applicazione"
 msgstr ""
 
-#: FMain.class:142
+#: FMain.class:143
 msgid "Stato"
 msgstr ""
 
-#: FMain.class:162
+#: FMain.class:163
 msgid "Attivo"
 msgstr ""
 
-#: FMain.class:175
+#: FMain.class:176
 msgid "Disabilitato"
 msgstr ""
 
-#: FMain.class:283
+#: FMain.class:284
 msgid "Procedura di riparazione terminata!"
 msgstr ""
 
-#: FMain.class:288
+#: FMain.class:289
 msgid "Attenzione: Procedura di riparazione interrotta o fallita."
 msgstr ""
 
-#: FMain.class:339
+#: FMain.class:340
 msgid "Operazione completata. Chiavi aggiornate."
 msgstr ""
 
-#: FMain.class:340
+#: FMain.class:341
 msgid "Chiavi GPG aggiornate con successo!"
 msgstr ""
 
-#: FMain.class:342
+#: FMain.class:343
 msgid "[ERRORE] Manutenzione chiavi fallita o annullata."
 msgstr ""
 
-#: FMain.class:343
+#: FMain.class:344
 msgid "L'aggiornamento delle chiavi è stato interrotto."
 msgstr ""
 
-#: FMain.class:354
+#: FMain.class:356
 msgid "--- INFORMAZIONI DI SISTEMA ---"
 msgstr ""
 
-#: FMain.class:359
+#: FMain.class:361
 msgid "Kernel: "
 msgstr ""
 
-#: FMain.class:365
+#: FMain.class:367
 msgid "Memoria RAM:\n"
 msgstr ""
 
-#: FMain.class:416
+#: FMain.class:420
 msgid "[FIXER] Riconfigurazione completata con successo."
 msgstr ""
 
-#: FMain.class:417
+#: FMain.class:421
 msgid "Riconfigurazione terminata."
 msgstr ""
 
-#: FMain.class:419
+#: FMain.class:423
 msgid "[FIXER] Attenzione: La riconfigurazione è fallita o annullata."
 msgstr ""
 
-#: FMain.class:420
+#: FMain.class:424
 msgid "La riconfigurazione non è stata completata correttamente."
 msgstr ""
 
-#: FMain.class:472
+#: FMain.class:477
 msgid "[FIXER] Pulizia degli orfani completata."
 msgstr ""
 
-#: FMain.class:473
+#: FMain.class:478
 msgid "Rimozione pacchetti orfani terminata."
 msgstr ""
 
-#: FMain.class:476
+#: FMain.class:481
 msgid "[FIXER] Attenzione: La pulizia è fallita o annullata."
 msgstr ""
 
-#: FMain.class:477
+#: FMain.class:482
 msgid "Operazione interrotta."
 msgstr ""
 
-#: FMain.class:762
+#: FMain.class:767
 msgid "Interrogazione sistema in corso..."
 msgstr ""
 
-#: FMain.class:774
+#: FMain.class:779
 msgid "Errore: Accesso ai log negato dal sistema (Polkit/Group error)."
 msgstr ""
 
-#: FMain.class:786
+#: FMain.class:791
 msgid "--- Log puliti correttamente ---"
 msgstr ""
 
-#: FMain.class:795
+#: FMain.class:800
 msgid "Log in Pausa"
 msgstr ""
 
-#: FMain.class:799
+#: FMain.class:804
 msgid "Pausa Log"
 msgstr ""
 
-#: FMain.class:818
+#: FMain.class:823
 msgid "Nessun disco rilevato"
 msgstr ""
 
-#: FMain.class:824
+#: FMain.class:829
 msgid "Stato Rete:\n"
 msgstr ""
 
-#: FMain.class:826
+#: FMain.class:831
 msgid "Nessuna interfaccia attiva"
 msgstr ""
 
-#: FMain.class:829
+#: FMain.class:834
 msgid "Gateway non trovato"
 msgstr ""
 
-#: FMain.class:924
+#: FMain.class:931
 msgid "Nessun repository trovato o file inaccessibile."
 msgstr ""
 
-#: FMain.class:986
+#: FMain.class:995
 msgid "--- Processo terminato. ---"
 msgstr ""
 
-#: FMain.class:1144
+#: FMain.class:1155
 msgid "[CLEANER] Avvio pulizia sicura...\n"
 msgstr ""
 
-#: FMain.class:1610
+#: FMain.class:1622
 msgid "ATTENZIONE: Procedere con la riparazione profonda?"
 msgstr ""
 
-#: FMain.class:1610
+#: FMain.class:1622
 msgid "Sì"
 msgstr ""
 
-#: FMain.class:1617
+#: FMain.class:1629
 msgid "=== AVVIO RIPARAZIONE PROFONDA ==="
 msgstr ""
 
-#: FMain.class:1618
+#: FMain.class:1630
 msgid "Seguendo protocollo di sicurezza standard..."
 msgstr ""
 
-#: FMain.class:1626
+#: FMain.class:1638
 msgid "Errore critico nell'avvio della riparazione: "
 msgstr ""
 
-#: FMain.class:1645
+#: FMain.class:1657
 msgid "=== RIPARAZIONE COMPLETATA ==="
 msgstr ""
 
-#: FMain.class:1646
+#: FMain.class:1658
 msgid "Riparazione terminata con successo!"
 msgstr ""
 
-#: FMain.class:1648
+#: FMain.class:1660
 msgid "[ERRORE] Riparazione profonda fallita o annullata."
 msgstr ""
 
-#: FMain.class:1649
+#: FMain.class:1661
 msgid "L'operazione di riparazione non è stata completata."
 msgstr ""
 
-#: FMain.class:1928
-msgid "Vuoi chiudere Deblinux Toolkit?"
-msgstr ""
-
-#: FMain.class:1928
-msgid "No"
-msgstr ""
-
-#: FMain.class:2304
+#: FMain.class:2318
 msgid "Utilizzo: "
 msgstr ""
 
-#: FMain.class:2311
+#: FMain.class:2325
 msgid "Disattiva zRAM"
 msgstr ""
 
-#: FMain.class:2580
+#: FMain.class:2594
 msgid "Kernel in uso: "
 msgstr ""
 
-#: FMain.class:2634
+#: FMain.class:2648
 msgid "Il sistema"
 msgstr ""
 
-#: FMain.class:2891
+#: FMain.class:2905
 msgid "⚠️ MOTORE MANCANTE"
 msgstr ""
 
-#: FMain.class:2917
+#: FMain.class:2931
 msgid "✅ PROTEZIONE ATTIVA"
 msgstr ""
 
-#: FMain.class:2919
+#: FMain.class:2933
 msgid "Il Firewall è configurato correttamente e ti sta proteggendo."
 msgstr ""
 
-#: FMain.class:2923
+#: FMain.class:2937
 msgid "⚠️ PROTEZIONE DISATTIVATA"
 msgstr ""
 
-#: FMain.class:2925
+#: FMain.class:2939
 msgid "ATTENZIONE: Lo scudo è abbassato. Clicca su 'Attiva protezione'."
 msgstr ""
 
-#: FMain.class:3285
+#: FMain.class:3299
 msgid "Nessun servizio rilevato o errore nell'analisi."
 msgstr ""
 
-#: FMain.class:3287
+#: FMain.class:3301
 msgid "--- TOP 5 SERVIZI PIU' LENTI ---\n\n"
 msgstr ""
 
-#: FMain.class:3295
+#: FMain.class:3309
 msgid "Analisi processi in corso..."
 msgstr ""
 
-#: FMain.class:3299
+#: FMain.class:3313
 msgid "Processi più pesanti (PID, CPU%, RAM%, Nome):\n\n"
 msgstr ""
 
-#: FMain.class:3360
+#: FMain.class:3374
 msgid "Il sistema è già ottimizzato correttamente!"
 msgstr ""
 
-#: FMain.class:3360
+#: FMain.class:3374
 msgid "Il valore corrente è "
 msgstr ""
 
-#: FMain.class:3360
+#: FMain.class:3374
 msgid ", che è quello ideale per il tuo PC."
 msgstr ""
 
-#: FMain.class:3360
+#: FMain.class:3374
 msgid "Chiudi"
 msgstr ""
 
-#: FMain.class:3383
+#: FMain.class:3397
 msgid "Errore: Operazione fallita o permessi negati."
 msgstr ""
 
-#: FMain.class:3386
+#: FMain.class:3400
 msgid "Operazione annullata dall'utente."
 msgstr ""
 
-#: FMain.class:3935
+#: FMain.class:3950
 msgid "Nome Cartella"
 msgstr ""
 
-#: FMain.class:3937
+#: FMain.class:3952
 msgid "Dimensione Base"
 msgstr ""
 
-#: FMain.class:3939
+#: FMain.class:3954
 msgid "Ultima Modifica"
 msgstr ""
 
-#: FMain.class:4618
+#: FMain.class:4635
 msgid "Ottimizza"
 msgstr ""
 
-#: FMain.class:5109
+#: FMain.class:5129
 msgid "Spazio cache APT: "
 msgstr ""
 
-#: FMain.class:5110
+#: FMain.class:5130
 msgid "Spazio Cestino: "
 msgstr ""
 
-#: FMain.class:5145
+#: FMain.class:5165
 msgid "Uptime: "
 msgstr ""
 
-#: FMain.class:5214
+#: FMain.class:5235
 msgid "Database Pacchetti"
 msgstr ""
 
-#: FMain.class:5215
+#: FMain.class:5236
 msgid "✅ Integro"
 msgstr ""
 
-#: FMain.class:5217
+#: FMain.class:5238
 msgid "⚠️ Problemi trovati (Clicca per riparare)"
 msgstr ""
 
-#: FMain.class:5234
+#: FMain.class:5255
 msgid "Connessione Internet"
 msgstr ""
 
-#: FMain.class:5235
+#: FMain.class:5256
 msgid "✅ Attiva"
 msgstr ""
 
-#: FMain.class:5235
+#: FMain.class:5256
 msgid "❌ Offline"
 msgstr ""
 
-#: FMain.class:5240
+#: FMain.class:5261
 msgid "Stato Servizi"
 msgstr ""
 
-#: FMain.class:5262
+#: FMain.class:5283
 msgid "Uso Disco (Root)"
 msgstr ""
 
-#: FMain.class:5284
+#: FMain.class:5305
 msgid "Errori Kernel"
 msgstr ""
 
-#: FMain.class:5285
+#: FMain.class:5306
 msgid "✅ Nessuno"
 msgstr ""
 
-#: FMain.class:5285
+#: FMain.class:5306
 msgid " avvisi"
 msgstr ""
 
-#: FMain.class:5306
+#: FMain.class:5327
 msgid "● Sistema richiede attenzione"
 msgstr ""
 
-#: FMain.class:5309
+#: FMain.class:5330
 msgid "● Sistema in ottima salute"
 msgstr ""
 
-#: FMain.class:5394
+#: FMain.class:5415
 msgid "Salva il log di sistema"
 msgstr ""
 
-#: FMain.class:5410
+#: FMain.class:5431
 msgid "Salva elenco pacchetti"
 msgstr ""
 
-#: FMain.class:5411
+#: FMain.class:5432
 msgid "File di testo"
 msgstr ""
 
-#: FMain.class:5421
+#: FMain.class:5442
 msgid "[ERRORE] Impossibile salvare il file: "
 msgstr ""
 
-#: FMain.class:5423
+#: FMain.class:5444
 msgid "[SUCCESSO] Elenco pacchetti salvato in: "
 msgstr ""
 
-#: FMain.class:5433
+#: FMain.class:5454
 msgid "Seleziona il file di backup dei pacchetti"
 msgstr ""
 
-#: FMain.class:5442
+#: FMain.class:5463
 msgid "[AVVISO] Aggiornamento delle selezioni pacchetti in corso...\n"
 msgstr ""
 
-#: FMain.class:5458
+#: FMain.class:5479
 msgid "[ERRORE] Qualcosa è andato storto durante il ripristino: "
 msgstr ""
 
-#: FMain.class:5460
+#: FMain.class:5481
 msgid "[SUCCESSO] Ripristino pacchetti completato con successo!\n"
 msgstr ""
 
-#: FMain.class:5482
+#: FMain.class:5503
 msgid "[AVVISO] Avvio creazione backup per: "
 msgstr ""
 
-#: FMain.class:5501
+#: FMain.class:5522
 msgid "[SUCCESSO] Backup completato con successo in: "
 msgstr ""
 
-#: FMain.class:5504
+#: FMain.class:5525
 msgid "[ERRORE] Il file non è stato creato correttamente o operazione annullata.\n"
 msgstr ""
 
-#: FMain.class:5525
+#: FMain.class:5546
 msgid "Seleziona il file di backup dei repository"
 msgstr ""
 
-#: FMain.class:5534
+#: FMain.class:5555
 msgid "[AVVISO] In attesa dell'esecuzione e ripristino in corso...\n"
 msgstr ""
 
-#: FMain.class:5544
+#: FMain.class:5565
 msgid "[SUCCESSO] Ripristino dei repository e aggiornamento completati con successo!\n"
 msgstr ""
 
-#: FMain.class:5547
+#: FMain.class:5568
 msgid "[ERRORE] Il ripristino è fallito o è stato annullato.\n"
 msgstr ""
 
-#: FMain.class:5627
+#: FMain.class:5648
 msgid "Nome File"
 msgstr ""
 
-#: FMain.class:5628
+#: FMain.class:5649
 msgid "Percorso"
 msgstr ""
 
-#: FMain.class:5629
+#: FMain.class:5650
 msgid "Dimensione (MB)"
 msgstr ""
 
-#: FMain.class:5630
+#: FMain.class:5651
 msgid "Ultimo Accesso (Giorni)"
 msgstr ""
 
-#: FMain.class:5760
+#: FMain.class:5781
 msgid "📂 Nome Cartella"
 msgstr ""
 
-#: FMain.class:5761
+#: FMain.class:5782
 msgid "📊 Dimensione Base"
 msgstr ""
 
-#: FMain.class:5762
+#: FMain.class:5783
 msgid "📅 Ultima Modifica"
 msgstr ""
 
-#: FMain.class:5862
+#: FMain.class:5883
 msgid "Peso Reale Cartella"
 msgstr ""
 
-#: FMain.class:6096
+#: FMain.class:6126
 msgid "CPU"
 msgstr ""
 
-#: FMain.class:6184
+#: FMain.class:6214
 msgid "SWAP"
 msgstr ""
 
-#: FMain.class:6220
+#: FMain.class:6250
 msgid "DISCO"
 msgstr ""
 
-#: FMain.class:6256
+#: FMain.class:6286
 msgid "RAM"
 msgstr ""
 
-#: FMain.class:6316
+#: FMain.class:6346
 msgid "Valore attuale: "
 msgstr ""
 
-#: FMain.class:6370
+#: FMain.class:6400
 msgid "Valore attuale: 60 (Consigliato: 60)"
 msgstr ""
 
-#: FMain.class:7616
+#: FMain.class:7653
 msgid "Conferma Eliminazione"
 msgstr ""
 
-#: FMain.class:7633
+#: FMain.class:7670
 msgid "Seleziona la cartella da analizzare (solo all'interno della tua Home)"
 msgstr ""
 
-#: FMain.class:7655
+#: FMain.class:7692
 msgid "Percorso Elemento Vuoto"
 msgstr ""
 

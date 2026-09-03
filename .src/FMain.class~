@@ -1,5 +1,6 @@
 ' Gambas class file
 
+Private $iInEsecuzione As Integer = 0 ' 0 = Fermo, 1 = Operazione in corso
 Private iUltimoIndiceSelezionato As Integer = -1
 Private fPerc As Float
 Public aElementiTrovati As New String[]
@@ -347,6 +348,7 @@ Public Sub btnFixKeys_Click()
   panel2.Enabled = True
 End
 Public Sub btnInfo_Click()
+  $iInEsecuzione = 1
   Dim sOut As String
   
   panel2.Enabled = False
@@ -366,9 +368,11 @@ Public Sub btnInfo_Click()
   Endif
 
   panel2.Enabled = True
+  $iInEsecuzione = 0
 End
 
 Public Sub btnRiconfigura_Click()
+  $iInEsecuzione = 1
   Dim hProc As Process
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
   Dim sPassword As String
@@ -424,6 +428,7 @@ Public Sub btnRiconfigura_Click()
   panel2.Enabled = True
   ' Aggiorna lo stato del sistema al termine dell'operazione
   Me.BtnCheckStato_Click()
+  $iInEsecuzione = 0
 End
 Public Sub btnAutoremove_Click()
   Dim hProc As Process
@@ -834,6 +839,7 @@ End
 
 ' 1. IL LANCIO
 Public Sub btnUpdate_Click()
+  $iInEsecuzione = 1
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
   Dim sPassword As String
   
@@ -865,6 +871,7 @@ Public Sub btnUpdate_Click()
 
   ' 5. Attiviamo il timer di controllo sul processo
   TimerControllo.Enabled = True
+  $iInEsecuzione = 0
 End
 ' 2. LA LETTURA (più fluida e sicura)
 Public Sub AptUpdate_Read()
@@ -936,6 +943,7 @@ End
 ' Dichiariamo il processo globalmente
 
 Public Sub btnAggiorna_Click()
+  $iInEsecuzione = 1
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
   Dim sPassword As String
   
@@ -967,6 +975,7 @@ Public Sub btnAggiorna_Click()
   
   ' 5. Attiviamo il timer di controllo
   TimerControllo.Enabled = True
+  $iInEsecuzione = 0
 End
 Public Sub ProcAggiorna_Read()
   Dim sLine As String
@@ -989,6 +998,7 @@ Public Sub ProcAggiorna_Kill()
 End
 
 Public Sub btnSalvaModifiche_Click()
+  $iInEsecuzione = 1
   Dim sTempFile As String = Temp$()
   Dim sComando As String
   
@@ -1017,7 +1027,7 @@ Public Sub btnSalvaModifiche_Click()
   
   ' 5. Avviamo con il nostro motore asincrono globale
   hProc = Exec ["bash", "-c", sComando] For Read Write As "MyProcess"
-  
+  $iInEsecuzione = 0
 End
 Public Sub CaricaRepository()
   Dim sFile As String
@@ -1059,11 +1069,12 @@ Public Sub lstRepo_Click()
 End
 
 Public Sub btnAggiornaLista_Click()
-
+$iInEsecuzione = 1
   CaricaRepository()
-
+$iInEsecuzione = 0
 End
 Public Sub btnPulisci_Click()
+  $iInEsecuzione = 1
   Dim aComandiRoot As New String[]
   Dim aComandiUser As New String[]
   Dim sComandoRootUnito As String
@@ -1171,6 +1182,7 @@ Public Sub btnPulisci_Click()
     btnPulisci.Enabled = True
     Return
   Endif
+  $iInEsecuzione = 0
 End
 
 Public Sub ProcPulizia_Terminate()
@@ -1923,24 +1935,26 @@ Public Sub chkOrfani_Click()
 
 End
 
+
 Public Sub Form_Close()
-    ' 1. Chiedi SUBITO la conferma all'utente
-    If Message.Question(("Vuoi chiudere Deblinux Toolkit?"), ("Sì"), ("No")) = 2 Then
-        Stop Event 
-        Return
-    Endif
+  
+  ' Se c'è un'operazione in corso, blocchiamo tutto
+  If $iInEsecuzione = 1 Then
+    Message.Warning("C'è un'operazione di sistema in corso.\nAttendi che finisca o premi Annulla prima di chiudere il programma.")
+    Stop Event ' Blocca la chiusura della finestra
+    Return
+  Endif
 
-    ' 2. Pulizia risorse
-    If hProc And If hProc.State = Process.Running Then
-        hProc.Kill()
-    Endif
+  ' Se invece è a 0, il programma si chiude liberamente e pulisce il file di lock
+  Dim sDirConfig As String = User.Home &/ ".config/deblinux_toolkit"
+  Dim sLockFile As String = sDirConfig &/ "deblinux_toolkit.lock"
+  
+  If Exist(sDirConfig) And If Exist(sLockFile) Then
+    Try Kill sLockFile
+  Endif
 
-    ' 3. Cancella il file di lock nel percorso dedicato
-    Dim sLockFile As String = User.Home &/ ".config/deblinux_toolkit/deblinux_toolkit.lock"
-    If Exist(sLockFile) Then
-        Try Kill sLockFile
-    Endif
-End Sub
+End
+
 Public Sub Timer3_Timer()
 
   If tabpanel13.Index = 9 Then 
@@ -2036,7 +2050,7 @@ End
 ' --- FUNZIONE DI CONTROLLO (Da richiamare all'avvio) ---
 Public Sub ControllaAggiornamentiSito()
   Dim sVersioneRemota As String
-  Dim sVersioneLocale As String = "0.0.55"
+  Dim sVersioneLocale As String = "0.0.56"
   Dim sFileTemp As String = Temp() ' Usa Temp() per un percorso sicuro
 
   ' 1. Scarichiamo il file - CORRETTO LO SPAZIO E LE VIRGOLETTE
@@ -3663,9 +3677,10 @@ Public Sub ProcessoFlatpak_Kill()
 End
 
 Public Sub btnDisinstalla_Click()
+$iInEsecuzione = 1
 If tabpanel4.index = "0" Then DisinstallaApt()
 If tabpanel4.index = "1" Then DisinstallaFlatpak()
-
+$iInEsecuzione = 0
 End
 
 ' Funzione di supporto per la barra
@@ -4345,7 +4360,7 @@ Public Sub MyProcess_Kill()
 End
 
 Public Sub btnInstallaDriver_Click()
-
+$iInEsecuzione = 1
   Dim sComando As String = ""
   Dim sHardwareRilevato As String
   Dim sPacchettiTrovati As String = ""
@@ -4452,7 +4467,7 @@ Public Sub btnInstallaDriver_Click()
   Endif
 
   txtLog.Text &= "Installazione avviata in background...\n"
-
+$iInEsecuzione = 0
 End
 Public Sub Process_Read()
   Dim sLine As String
@@ -4503,7 +4518,7 @@ Public Function CalcolaThumbnails() As Float
 End Function
 Public Sub btnAnalizza_Click()
   Dim sOutput As String
-  
+  $iInEsecuzione = 1
   'txtRisultati.Clear
   txtLog.Clear 
   txtLog.Insert("--- Analisi Cleaner avviata il " & Now & " ---\n")
@@ -4549,6 +4564,7 @@ Public Sub btnAnalizza_Click()
   Me.Mouse = Mouse.Normal
   txtLog.Insert("[CLEANER] Analisi completata con successo.\n")
   btnAnalizza.Enabled = True
+  $iInEsecuzione = 0
 End
 Public Sub chkThumbnails_Click()
 
@@ -4557,6 +4573,7 @@ Public Sub chkThumbnails_Click()
 End
 
 Public Sub btnRipristinaServizi_Click()
+  $iInEsecuzione = 1
   Dim sComando As String
   Dim sTipoAzione As String
   Dim sRisultato As String
@@ -4604,7 +4621,7 @@ Public Sub btnRipristinaServizi_Click()
     ' Aggiorniamo lo stato del pulsante/interfaccia
     CheckBox1_Click()
   Endif
-
+$iInEsecuzione = 0
 End
 Public Sub AggiornaStatoServizi()
   Dim sOutput As String
@@ -4660,6 +4677,7 @@ Public Sub btnRicaricaGrub_Click()
 End
 
 Public Sub btnSalvaGrub_Click()
+  $iInEsecuzione = 1
   Dim sPercorso As String = "/etc/default/grub"
   Dim sTmpFile As String = "/tmp/deblinux_grub_edit.tmp"
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
@@ -4695,11 +4713,12 @@ Public Sub btnSalvaGrub_Click()
 
   ' 5. Ricarichiamo la configurazione aggiornata (o mostriamo il file reale)
   CaricaConfigGrub()
-  
+  $iInEsecuzione = 0
   Message.Info("Procedura di salvataggio e aggiornamento completata!")
 End
 ' --- Pulsante Ripristina Backup (opzionale ma consigliato) ---
 Public Sub btnRipristinaGrub_Click()
+  $iInEsecuzione = 1
   Dim hProc As Process
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
   Dim sPassword As String
@@ -4738,6 +4757,7 @@ Public Sub btnRipristinaGrub_Click()
   Else
     Message.Error("Nessun file di backup trovato o errore durante il ripristino.")
   Endif
+  $iInEsecuzione = 0
 End
 
 Public Sub btnSuggerimentiGrub_Click()
@@ -5190,6 +5210,7 @@ Catch
   LblSpazioApt.Text = "0 MB"
 End
 Public Sub btnAnalizza1_Click()
+   $iInEsecuzione = 1
    Dim sOutput As String
    Dim sStatoServizi As String
    Dim sPercentuale As String
@@ -5312,7 +5333,7 @@ Public Sub btnAnalizza1_Click()
    
    gvDiagnostica.Columns[0].Width = 240
    gvDiagnostica.Columns[1].Expand = True
-
+$iInEsecuzione = 0
 End
 
 Public Sub btnSalvaRepo_Click()
@@ -5377,9 +5398,9 @@ Public Sub btnDisattiva_Click()
 End Sub
 
 Public Sub Button2_Click()
-
+$iInEsecuzione = 1
   EseguiPuliziaSistema()
-
+$iInEsecuzione = 0
 End
 
 Public Sub btnEsportaLog2_Click()
@@ -5877,6 +5898,13 @@ End
 
 ' --- PULSANTE 1: CREA PUNTO DI RIPRISTINO ---
 Public Sub btnCreaSnapshot_Click()
+$iInEsecuzione = 1
+' 0. Controllo preliminare: impediamo l'esecuzione in modalità Live
+  If Exist("/run/live") Or Exist("/lib/live/mount") Then
+    Message.Warning("Questa funzione non è disponibile in modalità Live.\n\nInstalla Deblinux sul disco fisso per poter creare punti di ripristino.")
+    Return
+  Endif
+  
   Dim sScript As String
   Dim sDest As String = "/media/backup/deblinux_snapshots"
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
@@ -5930,6 +5958,7 @@ Public Sub btnCreaSnapshot_Click()
     btnAnnulla.Enabled = False
     Return
   Endif
+  $iInEsecuzione = 0
 End
 
 ' --- GESTIONE DELLA FINE DEL PROCESSO ---
@@ -5969,23 +5998,24 @@ Public Sub btnAnnulla_Click()
 
   If $hProc Then
     $bAnnullato = True 
-    $hProc.Kill()
     
-    ' Controlliamo se abbiamo la password salvata
+    ' 1. Controlliamo se abbiamo la password salvata per i comandi amministrativi
     If Exist(sConfFile) Then
       Try sPassword = FromBase64$(File.Load(sConfFile))
     Endif
 
+    ' 2. Prima fermiamo rsync per bloccare subito la scrittura su disco
     sComando = "killall rsync"
-
-    ' Esecuzione sfruttando la password salvata oppure pkexec come fallback
     If sPassword <> "" Then
       Shell "/bin/sh -c " & Shell("printf '%s\n' " & Shell(sPassword) & " | sudo -S -- " & sComando) Wait
     Else
       Shell "pkexec " & sComando Wait
     Endif
+
+    ' 3. Poi terminiamo il processo principale di Gambas che gestiva la shell
+    Try $hProc.Kill()
     
-    txtLog.Insert("\n--- Operazione annullata dall'utente. ---\n")
+    txtLog.Insert("\n--- Operazione annullata dall'utente. Pulizia completata. ---\n")
     btnCreaSnapshot.Enabled = True
     btnGestisciSnapshot.Enabled = True
     btnAnnulla.Enabled = False
@@ -6899,6 +6929,7 @@ Public Sub btnLogErrori_Click()
 End Sub
 
 Public Sub btnStressCPU_Click()
+  $iInEsecuzione = 1
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
   Dim sPassword As String
   Dim sComando As String
@@ -6931,6 +6962,7 @@ Public Sub btnStressCPU_Click()
   
   ' Avvia il timer per controllare la fine del processo
   TimerStress.Start
+  $iInEsecuzione = 0
 End Sub
 Public Sub btnStopStress_Click()
   ' Controlla se il processo esiste ed è attivo
@@ -6948,6 +6980,7 @@ Public Sub btnStopStress_Click()
 End Sub
 
 Public Sub btnStressRAM_Click()
+  $iInEsecuzione = 1
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
   Dim sPassword As String
   Dim sComando As String
@@ -6976,6 +7009,7 @@ Public Sub btnStressRAM_Click()
   hProcess = Shell "/bin/sh -c " & Shell(sComando)
   
   TimerStress.Start
+  $iInEsecuzione = 0
 End Sub
 
 ' L'evento di lettura (notare che legge direttamente hProcess)
@@ -7537,6 +7571,7 @@ Shell sShellCmd Wait
   txtLog.Text = "Bootloader aggiornato correttamente al kernel " & sVersionePulita & "."
 End
 Public Sub btnPulisciKernel_Click()
+  $iInEsecuzione = 1
   Dim sKernel As String
   Dim sConfFile As String = User.Home &/ ".config/deblinux_toolkit/config.conf"
   Dim sPassword As String
@@ -7605,9 +7640,11 @@ Public Sub btnPulisciKernel_Click()
   ' Aggiorna la lista dei kernel nel toolkit se hai la funzione
   ' CaricaKernel()
   CaricaKernelManager()
+  $iInEsecuzione = 0
 End
 
 Public Sub btnPulisci2_Click()
+  $iInEsecuzione = 1
   Dim sCartellaScelta As String
   Dim sRiga As String
   Dim iContatore As Integer = 0
@@ -7693,6 +7730,7 @@ Public Sub btnPulisci2_Click()
   Else
     Message.Info("Nessun file a 0 byte o cartella vuota trovati in questa cartella.")
   Endif
+  $iInEsecuzione = 0
 End
 
 ' EVENTO EXTRA: Attiva/disattiva la spunta con un clic

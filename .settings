@@ -13,7 +13,7 @@ Path="Deblinux_toolkit.gambas"
 [OpenFile]
 Count=7
 Active=1
-File[1]=".src/FMain.class:41.2038"
+File[1]=".src/FMain.class:41.2052"
 File[2]=".src/FMain.form"
 File[3]="icone/guida.png"
 File[4]="icone/about.png"
